@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nathan Bui — Photography, Sydney</title>
+  <meta name="description" content="Nathan Bui, a photographer in Sydney. Graduations, portraits, events and places. English or tiếng Việt.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Nathan Bui — Photography, Sydney">
+  <meta property="og:description" content="Graduations, portraits, events and places around Sydney. Book a shoot with Nathan.">
+  <meta property="og:url" content="https://heynathanbui.github.io/photo/">
+  <meta property="og:image" content="https://heynathanbui.github.io/photo/assets/img/sydney-4407.jpg">
+  <link rel="canonical" href="https://heynathanbui.github.io/photo/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#120607">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Be+Vietnam+Pro:wght@400;500;600&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css?v=20261026a">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="importmap">
+    { "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+
+  <!-- one WebGL canvas behind the dark sections: the lens, then the film roll -->
+  <canvas id="gl" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- viewfinder overlay: reads out the photo currently in frame -->
+  <div class="hud" aria-hidden="true">
+    <i class="hud__c hud__c--tl"></i><i class="hud__c hud__c--tr"></i><i class="hud__c hud__c--bl"></i><i class="hud__c hud__c--br"></i>
+    <div class="hud__top"><span class="hud__mode">A</span><span class="hud__batt"><i></i><i></i><i></i></span></div>
+    <div class="hud__level"><i></i></div>
+    <div class="hud__bottom">
+      <span data-hud="ss">1/250</span><span data-hud="f">F22</span><span data-hud="iso">ISO 320</span><span data-hud="mm">45mm</span>
+      <span class="hud__count"><b data-hud="n">000</b>/{{N_ALL}}</span>
+    </div>
+  </div>
+
+  <!-- autofocus reticle cursor -->
+  <div class="af" aria-hidden="true"><i></i><i></i><i></i><i></i><span class="af__label"></span></div>
+
+  <!-- focal-plane shutter for transitions -->
+  <div class="shutter" aria-hidden="true"><i></i><i></i></div>
+
+  <nav class="nav" aria-label="Main">
+    <div class="nav__pill">
+      <a class="nav__brand" href="#top" aria-label="Nathan Bui Photography, back to top">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M24 40 C17 32 17 20 24 8 C31 20 31 32 24 40Z"/>
+          <path d="M24 40 C14 37 9 28 10 17 C17 21 22 29 24 40Z"/>
+          <path d="M24 40 C34 37 39 28 38 17 C31 21 26 29 24 40Z"/>
+          <path d="M24 40 C12 41 5 35 3 27 C11 27 19 32 24 40Z"/>
+          <path d="M24 40 C36 41 43 35 45 27 C37 27 29 32 24 40Z"/>
+        </svg>
+        <span>Nathan Bui <i>Photography</i></span>
+      </a>
+      <a class="nav__link" href="#landscape">Landscape</a>
+      <a class="nav__link" href="#portrait">Portrait</a>
+      <a class="nav__link" href="#events">Events</a>
+      <a class="nav__link nav__cta" href="#book">Book a shoot</a>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero__pin">
+      <img class="hero__fallback" src="assets/img/sydney-4407.jpg" alt="" width="1800" height="1200">
+      <div class="wrap hero__copy">
+        <p class="eyebrow" data-intro>Graduation, portrait &amp; event photographer · Sydney</p>
+        <h1 class="hero__t"><span class="line" data-intro>Hi, I'm Nathan.</span><span class="line" data-intro><em>I take photos.</em></span></h1>
+        <p class="hero__lede" data-intro>Grads, portraits, events, and a lot of sunsets at the harbour. I'm based in Sydney and happy to shoot anywhere around the city.</p>
+        <div class="hero__cta" data-intro>
+          <a class="btn btn--solid" href="#book">Book a shoot</a>
+          <a class="btn btn--ghost" href="#landscape">See the work</a>
+        </div>
+      </div>
+      <div class="hero__scroll" data-intro><span>Scroll to focus</span><i></i></div>
+      <div class="hero__aperture" data-intro><small>Aperture</small><b data-aperture>f/22</b></div>
+    </div>
+  </header>
+
+  <section class="roll" id="roll" aria-label="A roll of favourite frames">
+    <div class="roll__pin">
+      <div class="wrap roll__ui">
+        <p class="roll__k">Roll 01 · 24 exposures</p>
+        <h2 class="roll__t">Developing<span class="roll__dots">…</span></h2>
+        <p class="roll__lede">Some of my favourites. They start as negatives and come up as you scroll.</p>
+      </div>
+      <div class="roll__meta">
+        <span class="roll__no" data-roll="no">01</span>
+        <span class="roll__cap" data-roll="cap"></span>
+        <span class="roll__exif" data-roll="exif"></span>
+      </div>
+      <div class="roll__bar"><i data-roll="bar"></i></div>
+      <a class="roll__skip" href="#landscape" data-skip>
+        <span class="roll__skip-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 5l9 7-9 7z"/><path d="M12 5l9 7-9 7z"/></svg></span>
+        <span class="roll__skip-text"><b>Skip the roll</b><small>Go straight to the photos</small></span>
+        <kbd aria-hidden="true">Esc</kbd>
+      </a>
+    </div>
+  </section>
+
+  <main class="paper">
+    <div class="recent" aria-label="Recent events">
+      <div class="recent__track">
+        <span class="recent__k">Recently shot</span>
+        <span>UAVS Sydney Go 2026</span><span>UAVS Sports Day 2026</span><span>Hackathon 2026</span><span>Đại hội 2026</span><span>USyd &amp; Macquarie graduations 2026</span><span>Cultural Day 2025</span><span>Serenade '24</span>
+      </div>
+    </div>
+    <div class="iris-break iris-break--scenery" style="--from:#0b0404;--to:#1d0e0b" aria-hidden="true">
+      <div class="iris-break__stick">
+        <div class="iris-break__label"><span>01</span><b>Landscape</b><small>Sydney · Vietnam · Shanghai</small></div>
+        <div class="iris"><div class="iris__blades"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i></div><div class="iris__ring"></div></div>
+      </div>
+    </div>
+    <section class="set set--scenery" id="landscape" data-fx="expose">
+      <svg class="motif motif--scenery" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+          <defs><radialGradient id="sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#e2c77a" stop-opacity=".9"/><stop offset=".45" stop-color="#c9a43f" stop-opacity=".35"/><stop offset="1" stop-color="#c9a43f" stop-opacity="0"/></radialGradient></defs>
+          <g class="m-sun"><circle cx="575" cy="300" r="150" fill="url(#sun)" opacity=".7"/><circle cx="575" cy="300" r="40" fill="#e2c77a" opacity=".5"/></g>
+          <path class="m-far" d="M0 300 C70 190 130 180 190 268 C230 150 320 128 372 252 C420 176 492 164 552 272 C612 128 712 116 772 262 C822 196 894 176 954 282 C1006 156 1098 146 1200 262 L1200 420 L0 420Z" fill="#c9a43f" opacity=".04"/>
+          <path class="m-mid" d="M0 340 C60 250 112 232 168 318 C212 214 286 196 334 312 C392 236 462 226 520 326 C584 204 666 190 724 316 C780 250 846 236 902 330 C962 222 1052 208 1120 318 C1150 286 1176 280 1200 300 L1200 420 L0 420Z" fill="#c9a43f" opacity=".06"/>
+          <path class="m-near" d="M0 390 C90 330 160 318 240 372 C320 312 420 306 500 366 C600 316 700 312 780 370 C880 320 980 318 1060 368 C1110 344 1160 340 1200 352 L1200 420 L0 420Z" fill="#1d0e0b"/>
+          <line x1="0" y1="392" x2="1200" y2="392" stroke="#c9a43f" stroke-opacity=".35" stroke-width="1"/>
+        </svg>
+      <div class="wrap">
+        <header class="set__head">
+          <span class="set__no">01 / Landscape</span>
+          <h2 class="set__t">The beauty <em>of scenery</em></h2>
+          <div class="set__side">
+            <p>Most of these came from casual walks with my camera, like an afternoon around the harbour or a day out on a trip to Hội An, Ninh Bình or Shanghai. No big plan, I just go out when the light looks good and see what I find.</p>
+            <p class="set__for"><b>Good for</b> cafés and venues, travel pages, website photos</p>
+          </div>
+        </header>
+        <div class="chips" role="group" aria-label="Filter landscapes">
+{{CHIPS_SCENERY}}
+        </div>
+        <div class="grid">
+{{SCENERY}}
+        </div>
+        <p class="set__cta">Need photos of your café, venue or space? <a href="#book">Get in touch →</a></p>
+      </div>
+    </section>
+
+    <div class="iris-break iris-break--people" style="--from:#1d0e0b;--to:#f6e3cb" aria-hidden="true">
+      <div class="iris-break__stick">
+        <div class="iris-break__label"><span>02</span><b>Portrait</b><small>Portraits · Graduation · Concepts</small></div>
+        <div class="iris"><div class="iris__blades"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i></div><div class="iris__ring"></div></div>
+      </div>
+    </div>
+    <section class="set set--people" id="portrait" data-fx="focus">
+      <div class="motif motif--people" aria-hidden="true"><i style="--x:8%;--y:20%;--s:140px;--d:0s;--c:#6b1f24"></i><i style="--x:22%;--y:70%;--s:80px;--d:2s;--c:#c9a43f"></i><i style="--x:38%;--y:15%;--s:60px;--d:4s;--c:#6b1f24"></i><i style="--x:55%;--y:55%;--s:180px;--d:1s;--c:#c9a43f"></i><i style="--x:68%;--y:10%;--s:90px;--d:3s;--c:#6b1f24"></i><i style="--x:80%;--y:62%;--s:120px;--d:5s;--c:#c9a43f"></i><i style="--x:92%;--y:25%;--s:70px;--d:2.5s;--c:#6b1f24"></i><i style="--x:46%;--y:85%;--s:100px;--d:3.5s;--c:#c9a43f"></i><i style="--x:14%;--y:50%;--s:50px;--d:1.5s;--c:#c9a43f"></i><i style="--x:74%;--y:38%;--s:46px;--d:4.5s;--c:#6b1f24"></i></div>
+      <div class="wrap">
+        <header class="set__head">
+          <span class="set__no">02 / Portrait</span>
+          <h2 class="set__t">Portraits, grads <em>and concepts</em></h2>
+          <div class="set__side">
+            <p>Grad days at USyd and Macquarie, close-up portraits, and a styled concept shoot under the jacarandas. Pick a filter to see just one kind. I'll find a spot with nice light and help with posing if you want it.</p>
+            <p class="set__for"><b>Good for</b> graduations, portraits, concept and styled shoots, LinkedIn photos</p>
+          </div>
+        </header>
+        <div class="chips" role="group" aria-label="Filter portraits">
+{{CHIPS_PEOPLE}}
+        </div>
+        <div class="grid">
+{{PEOPLE}}
+        </div>
+        <aside class="tips" aria-labelledby="tips-t">
+          <h3 id="tips-t">Booking a grad shoot? A few things that help</h3>
+          <ol>
+            <li><b>Book early.</b> Grad weeks fill up fast, and the nicest light is late in the afternoon.</li>
+            <li><b>Pick up your gown first.</b> That way we're not rushing straight after the ceremony.</li>
+            <li><b>Bring something personal.</b> Flowers, a bear, your family's áo dài. It makes the photos yours.</li>
+            <li><b>Tell me who's coming.</b> If family or friends are joining, we'll plan the group photos ahead.</li>
+          </ol>
+          <a class="btn btn--solid" href="#book">Book a grad or portrait shoot</a>
+        </aside>
+      </div>
+    </section>
+
+    <div class="iris-break iris-break--events" style="--from:#f6e3cb;--to:#6b1f24" aria-hidden="true">
+      <div class="iris-break__stick">
+        <div class="iris-break__label"><span>03</span><b>Events</b><small>Stage · Community · Conferences</small></div>
+        <div class="iris"><div class="iris__blades"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i></div><div class="iris__ring"></div></div>
+      </div>
+    </div>
+    <section class="set set--events" id="events" data-fx="flash">
+      <div class="motif motif--events" aria-hidden="true"><i class="spot spot--l"></i><i class="spot spot--r"></i><i class="spot spot--c"></i></div>
+      <div class="wrap">
+        <header class="set__head">
+          <span class="set__no">03 / Events</span>
+          <h2 class="set__t">Events, <em>start to finish</em></h2>
+          <div class="set__side">
+            <p>I shoot a lot for the Vietnamese student community in Sydney: Sydney Go, Sports Day, Cultural Day, a hackathon, a stage show and our delegates' congress. You'll get the group photo, the candids, and shots of your speakers and sponsors for the recap post.</p>
+            <p class="set__for"><b>Good for</b> student societies, launches, performances, sports days, community events</p>
+          </div>
+        </header>
+        <div class="chips" role="group" aria-label="Filter events">
+{{CHIPS_EVENTS}}
+        </div>
+        <div class="grid">
+{{EVENTS}}
+        </div>
+        <p class="set__cta">Running an event soon? <a href="#book">Let's talk →</a></p>
+      </div>
+    </section>
+
+    <section class="offer" aria-labelledby="offer-t">
+      <div class="wrap">
+        <p class="eyebrow">Work with me</p>
+        <h2 class="offer__t" id="offer-t">What I can <em>shoot for you</em></h2>
+        <div class="offer__grid">
+          <article class="card">
+            <span class="card__no">01</span>
+            <h3>Portraits &amp; graduation</h3>
+            <p>At your campus, the harbour, or anywhere else you like. We'll pick a place and a time together, usually late afternoon when the light is softer.</p>
+            <ul>
+              <li>A quick chat beforehand to plan it</li>
+              <li>Help with posing if you want it</li>
+              <li>Every photo edited by me</li>
+              <li>Delivered in an online gallery</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="card__no">02</span>
+            <h3>Events</h3>
+            <p>Society events, launches, performances, sports days and workshops.</p>
+            <ul>
+              <li>We go through a shot list first</li>
+              <li>Group photos, candids, speakers, sponsors</li>
+              <li>Crops sized for Instagram posts and stories</li>
+              <li>One gallery your whole team can download from</li>
+            </ul>
+          </article>
+          <article class="card">
+            <span class="card__no">03</span>
+            <h3>Places &amp; content</h3>
+            <p>Photos of your café, venue or space for your website, menu or socials.</p>
+            <ul>
+              <li>Inside and outside shots</li>
+              <li>Edited to suit your look</li>
+              <li>Sized for web and social</li>
+              <li>Want to use a photo from this site? Just ask</li>
+            </ul>
+          </article>
+        </div>
+        <p class="offer__rate">Prices depend on the shoot, so send me the details and I'll give you a quote.</p>
+
+        <h3 class="expect__t">What to expect</h3>
+        <ol class="steps">
+          <li><b>Before</b><span>You send me the date and what you need. We agree on a place, a time and a price. For events, we go through a shot list.</span></li>
+          <li><b>On the day</b><span>For portraits and grads, I'll tell you where to stand and help with posing. At events, I mostly stay out of the way and catch what happens.</span></li>
+          <li><b>After</b><span>I go through everything, edit the best shots, and send you a link to an online gallery to download them.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="about" aria-labelledby="about-t">
+      <div class="wrap about__grid">
+        <img class="about__img" src="assets/img/events-3155-sm.jpg" alt="Sydney Go 2026 participants gathered on the grass for a group photo" width="800" height="437" loading="lazy">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 class="about__t" id="about-t">A bit <em>about me</em></h2>
+          <p>I'm Thanh Nhật Bùi, but most people call me Nathan. I'm from Vietnam, I study marketing at Macquarie, and I shoot on a Fujifilm X-T30 II. I do grads, portraits and events, mostly for the Vietnamese student community here, and I bring my camera on every trip.</p>
+          <p>Because I study marketing, I always ask where the photos are going, whether that's an Instagram post, an event recap or a website, so I can shoot with that in mind.</p>
+          <p class="sig">— Nhật</p>
+          <p class="about__links"><a class="more" href="https://www.instagram.com/nath._.pogg/" target="_blank" rel="noopener">More on Instagram ↗</a><a class="more" href="https://heynathanbui.github.io/">My marketing portfolio →</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="book" id="book" aria-labelledby="book-t">
+      <div class="wrap">
+        <p class="eyebrow">Book a shoot</p>
+        <h2 class="book__t" id="book-t">Want to <em>book a shoot?</em></h2>
+        <p class="book__lede">The easiest way is to DM me on Instagram, or just call or text. Tell me the date, where, and what it's for, and I'll get back to you. English or tiếng Việt, both are fine.</p>
+        <div class="reach">
+          <a class="reach__card reach__card--ig" href="https://www.instagram.com/nath._.pogg/" target="_blank" rel="noopener">
+            <span class="reach__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg></span>
+            <span class="reach__text"><small>DM me on Instagram</small><b>@nath._.pogg</b></span>
+            <span class="reach__go" aria-hidden="true">↗</span>
+          </a>
+          <a class="reach__card" href="tel:+61490324875">
+            <span class="reach__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.5 4.2-2 1.3a12 12 0 0 0 5.9 5.9l1.3-2 4.2 1.5v3a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+            <span class="reach__text"><small>Call or text</small><b>0490 324 875</b></span>
+            <span class="reach__go" aria-hidden="true">→</span>
+          </a>
+        </div>
+        <p class="book__alt">Prefer email? <a href="mailto:buithanhnhatstudent3@gmail.com">buithanhnhatstudent3@gmail.com</a> · Based in Sydney, NSW</p>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="lb" aria-label="Photo viewer">
+    <button class="lb__x" aria-label="Close">×</button>
+    <button class="lb__nav lb__prev" aria-label="Previous photo">‹</button>
+    <figure class="lb__fig"><img alt=""><figcaption><b></b><span></span></figcaption></figure>
+    <button class="lb__nav lb__next" aria-label="Next photo">›</button>
+  </dialog>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>© <span data-year>2026</span> Thanh (Nathan) Nhật Bùi · Photography · <a href="https://www.instagram.com/nath._.pogg/" target="_blank" rel="noopener">Instagram</a></span>
+      <span>Landscape {{N_SCENERY}} · Portrait {{N_PEOPLE}} · Events {{N_EVENTS}} · Shot on Fujifilm X-T30 II</span>
+    </div>
+  </footer>
+
+  <script type="application/json" id="scene-data">{{SCENE_DATA}}</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="assets/js/site.js?v=20261026a"></script>
+  <script type="module" src="assets/js/scene.js?v=20261026a"></script>
+</body>
+</html>
