@@ -1,4 +1,4 @@
-# Nathan Bui — Photography
+# Ho Quoc Photography
 
 Client-facing photo portfolio (Scenery / People / Events). Plain HTML/CSS/JS, no build tools beyond Python.
 
