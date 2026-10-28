@@ -104,6 +104,7 @@
       from: { filter: 'blur(18px)', scale: 1.08, opacity: 0 },
       play: (img) => gsap.to(img, { filter: 'blur(0px)', scale: 1, opacity: 1, duration: 1.3, ease: 'power3.out', clearProps: 'filter,transform' }),
     },
+    polaroid: { from: {}, play: () => {} },   // handled in hq.js (flash, develop, wiggle)
     flash: {
       from: { opacity: 0 },
       play: (img, fig) => gsap.timeline()

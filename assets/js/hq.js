@@ -55,5 +55,47 @@
       .to([q('.tx__label'), q('.rec')], { opacity: 0, duration: .12 }, .88);
   });
 
+  // ---------- portraits: a polaroid wall ----------
+  // each print ejects with a flash, starts dark, then develops while it gets a shake
+  const prints = gsap.utils.toArray('.set--ivory .ph');
+  prints.forEach((fig) => {
+    ['pol-tape', 'pol-chem', 'pol-flash'].forEach((c) => { const i = document.createElement('i'); i.className = c; fig.appendChild(i); });
+    gsap.set(fig, { opacity: 0, y: 70 });
+  });
+  const tiltOf = (fig) => parseFloat(getComputedStyle(fig).getPropertyValue('--tilt')) || 0;
+  const develop = (fig, delay) => {
+    const t = tiltOf(fig);
+    gsap.timeline({ delay })
+      .to(fig, { opacity: 1, y: 0, duration: .55, ease: 'back.out(1.6)' })
+      .fromTo(fig.querySelector('.pol-flash'), { opacity: 0, scale: .4 }, { opacity: 1, scale: 1.1, duration: .08, ease: 'none' }, .05)
+      .to(fig.querySelector('.pol-flash'), { opacity: 0, scale: 1.4, duration: .5, ease: 'power2.out' }, .13)
+      // the shake: a decaying wiggle around its resting tilt
+      .to(fig, { keyframes: [{ rotate: t + 6 }, { rotate: t - 5 }, { rotate: t + 3.5 }, { rotate: t - 2 }, { rotate: t + 1 }, { rotate: t }], duration: 1.1, ease: 'sine.inOut' }, .35)
+      // the chemistry clears while it's being shaken
+      .to(fig.querySelector('.pol-chem'), { opacity: 0, duration: 2.2, ease: 'power1.inOut' }, .4)
+      .set(fig, { clearProps: 'transform' });
+  };
+  ScrollTrigger.batch(prints, {
+    start: 'top 90%', once: true,
+    onEnter: (batch) => batch.forEach((fig, i) => develop(fig, i * .14)),
+  });
+  // filter chips: newly shown prints are already developed
+  document.querySelectorAll('.set--ivory .chip').forEach((c) => c.addEventListener('click', () => {
+    setTimeout(() => prints.forEach((f) => { if (!f.hidden) { gsap.set(f, { opacity: 1, y: 0 }); gsap.set(f.querySelector('.pol-chem'), { opacity: 0 }); } }), 260);
+  }));
+
+  // the instant camera in the header flashes and prints one photo
+  const cam = document.querySelector('.polcam');
+  if (cam) {
+    const print = cam.querySelector('.polcam__print');
+    gsap.timeline({ scrollTrigger: { trigger: '.set--ivory', start: 'top 70%', once: true } })
+      .fromTo(cam.querySelector('.polcam__burst'), { opacity: 0, scale: .3 }, { opacity: 1, scale: 1, duration: .1 })
+      .to(cam.querySelector('.polcam__burst'), { opacity: 0, scale: 1.5, duration: .6, ease: 'power2.out' })
+      .to(cam, { keyframes: [{ y: -4 }, { y: 2 }, { y: 0 }], duration: .25 }, 0)
+      .to(print, { y: '72%', duration: 1.4, ease: 'power2.out' }, .3)
+      .to(print, { rotate: -6, duration: .8, ease: 'sine.inOut' }, 1.2)
+      .to(print.querySelector('i'), { background: 'linear-gradient(150deg, #f6dcd6, #ecd0b2 45%, #bfd3df)', duration: 2.4 }, .6);
+  }
+
   ScrollTrigger.refresh();
 })();
