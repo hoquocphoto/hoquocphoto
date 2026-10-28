@@ -37,7 +37,7 @@ FILTERS = {
 
 # ---------- contact (fill these in; empty ones are hidden) ----------
 CONTACT = {
-    "instagram": "",   # handle without @, e.g. "hoquocphoto"
+    "instagram": "hoquocphoto",   # handle without @
     "phone": "",       # e.g. "0412 345 678"
     "email": "",
 }
