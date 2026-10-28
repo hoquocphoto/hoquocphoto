@@ -3,7 +3,7 @@
 // Scene 2 (roll): a spiral of film under a darkroom safelight; frames develop from negative as they reach you.
 import * as THREE from 'three';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
-import { buildBody } from './camera-body.js?v=20261024a';
+import { buildBody } from './camera-body.js?v=20261028a';
 
 const NB = window.NB || (window.NB = {});
 const root = document.documentElement;
@@ -71,7 +71,7 @@ function start() {
   const frontTex = canvasTex(1024, 1024, (g, w) => {
     g.fillStyle = '#0b0a0a'; g.fillRect(0, 0, w, w);
     g.translate(w / 2, w / 2);
-    const text = 'NATHAN BUI · PHOTOGRAPHY · SYDNEY · FUJINON XC 15–45mm 1:3.5–5.6 OIS · Ø52 · ';
+    const text = 'HO QUOC · PHOTO & FILM · SYDNEY · VIETNAM · 1:1.4 · Ø52 · HO QUOC · PHOTO & FILM · ';
     g.font = '500 30px "JetBrains Mono", ui-monospace, monospace';
     g.fillStyle = '#efe2cf';
     const r = w * 0.43, step = (Math.PI * 2) / text.length;
@@ -226,7 +226,8 @@ function start() {
   // hero slideshow behind the iris
   const heroFrames = data.hero;
   let slide = 0, slideT = 0, heroReady = false;
-  Promise.all(heroFrames.slice(0, 2).map((f) => tex(f.src))).then(([a, b]) => {
+  if (heroFrames.length < 2) NB.ready && NB.ready();   // no photos behind the lens yet
+  else Promise.all(heroFrames.slice(0, 2).map((f) => tex(f.src))).then(([a, b]) => {
     iris.uniforms.tA.value = a; iris.uniforms.aspA.value = heroFrames[0].w / heroFrames[0].h;
     iris.uniforms.tB.value = b; iris.uniforms.aspB.value = heroFrames[1].w / heroFrames[1].h;
     heroReady = true; NB.ready && NB.ready();
@@ -288,7 +289,7 @@ function start() {
     g.fillText('NB 400', 20, 58); g.fillText('▸ 24', 170, 58);
   });
   sprocket.wrapS = THREE.RepeatWrapping;
-  {
+  if (layout.length) {
     const a0 = layout[0].a - 1.2, a1 = layout[layout.length - 1].a + 1.2, seg = 900;
     const pos = [], uv = [], idx = [];
     for (let i = 0; i <= seg; i++) {
@@ -340,9 +341,10 @@ function start() {
   const pointer = { x: 0, y: 0, sx: 0, sy: 0 };
   addEventListener('pointermove', (e) => { pointer.x = e.clientX / innerWidth * 2 - 1; pointer.y = e.clientY / innerHeight * 2 - 1; }, { passive: true });
 
-  const heroEl = document.querySelector('.hero'), rollEl = document.querySelector('.roll');
+  const heroEl = document.querySelector('.hero'), rollEl = document.querySelector('.roll') || document.createElement('div');
   const apEl = document.querySelector('[data-aperture]');
   const ui = { no: rollEl.querySelector('[data-roll="no"]'), cap: rollEl.querySelector('[data-roll="cap"]'), exif: rollEl.querySelector('[data-roll="exif"]'), bar: rollEl.querySelector('[data-roll="bar"]') };
+  const hasRoll = layout.length > 0 && rollEl.isConnected;
   const intro = { t: 0 };
   let introPlayed = false;
   NB.playIntro = () => { if (introPlayed) return; introPlayed = true; gsap.to(intro, { t: 1, duration: 2.6, ease: 'power3.inOut' }); };
@@ -385,7 +387,7 @@ function start() {
     const rollTop = rollEl.getBoundingClientRect().top, heroBottom = heroEl.getBoundingClientRect().bottom;
     const rollVisible = rollTop < innerHeight && rollEl.getBoundingClientRect().bottom > 0;
     const heroVisible = heroBottom > 0;
-    active = rollVisible && rollTop < innerHeight * .5 ? 'roll' : heroVisible ? 'hero' : null;
+    active = hasRoll && rollVisible && rollTop < innerHeight * .5 ? 'roll' : heroVisible ? 'hero' : null;
     root.classList.toggle('gl-off', !active);
     let veil = 0;
 

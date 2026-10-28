@@ -43,6 +43,7 @@
     copy.to('.hero__copy', { autoAlpha: 0, y: -60, ease: 'none', duration: .3 }, 0)
       .to('.hero__scroll', { autoAlpha: 0, duration: .1 }, 0)
       .to('.hero__aperture', { autoAlpha: 0, duration: .12 }, .7);
+    if (document.querySelector('.roll')) {
     ScrollTrigger.create({ trigger: '.roll', pin: '.roll__pin', start: 'top top', end: '+=520%', onUpdate: (s) => { NB.rollP = s.progress; } });
     gsap.from('.roll__ui > *', { autoAlpha: 0, y: 30, stagger: .1, scrollTrigger: { trigger: '.roll', start: 'top 40%', toggleActions: 'play none none reverse' } });
     gsap.to('.roll__ui', { autoAlpha: 0, scrollTrigger: { trigger: '.roll', start: 'top -60%', end: 'top -110%', scrub: true } });
@@ -53,6 +54,7 @@
       const r = document.querySelector('.roll').getBoundingClientRect();
       if (r.top < innerHeight * .5 && r.bottom > innerHeight * .5) document.querySelector('.roll__skip').click();
     });
+    }
   }
 
   // ---------- intro: shutter opens once the lens has its first photos ----------
@@ -111,10 +113,10 @@
     },
   };
   const fxOf = (fig) => FX[fig.closest('.set').dataset.fx] || FX.focus;
-  document.querySelectorAll('.set--events .ph').forEach((fig) => { const f = document.createElement('i'); f.className = 'flash'; fig.appendChild(f); });
+  document.querySelectorAll('.set--events .ph:not(.ph--empty)').forEach((fig) => { const f = document.createElement('i'); f.className = 'flash'; fig.appendChild(f); });
   if (!reduce) {
-    document.querySelectorAll('.ph').forEach((fig) => gsap.set(fig.querySelector('img'), fxOf(fig).from));
-    ScrollTrigger.batch('.ph', {
+    document.querySelectorAll('.ph:not(.ph--empty)').forEach((fig) => gsap.set(fig.querySelector('img'), fxOf(fig).from));
+    ScrollTrigger.batch('.ph:not(.ph--empty)', {
       start: 'top 92%', once: true,
       onEnter: (batch) => batch.forEach((fig, i) => gsap.delayedCall(i * .09, () => fxOf(fig).play(fig.querySelector('img'), fig))),
     });
@@ -136,7 +138,7 @@
       const figs = [...grid.children];
       gsap.to(grid, { autoAlpha: 0, duration: .2, onComplete: () => {
         figs.forEach((f) => { f.hidden = !(v === 'all' || f.dataset.tag === v); });
-        figs.filter((f) => !f.hidden).forEach((f) => { gsap.set(f.querySelector('img'), { clearProps: 'all' }); });
+        figs.filter((f) => !f.hidden && f.querySelector('img')).forEach((f) => { gsap.set(f.querySelector('img'), { clearProps: 'all' }); });
         gsap.to(grid, { autoAlpha: 1, duration: .35 });
         ScrollTrigger.refresh();
       } });
@@ -148,7 +150,7 @@
   function q(s) { return document.querySelector(s); }
   const visible = new Set();
   const io = new IntersectionObserver((es) => es.forEach((e) => e.isIntersecting ? visible.add(e.target) : visible.delete(e.target)), { rootMargin: '-30% 0px -30% 0px' });
-  document.querySelectorAll('.ph').forEach((f) => io.observe(f));
+  document.querySelectorAll('.ph:not(.ph--empty)').forEach((f) => io.observe(f));
   let last = '';
   const setHud = (o) => {
     const key = o.f + o.ss + o.iso + o.mm + o.n; if (key === last) return; last = key;
