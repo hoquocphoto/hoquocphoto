@@ -403,3 +403,12 @@ html:not(.js) .iris, .no-motion .iris { --r: 120vmax; }
   .grain, .hero__scroll i, .shutter.is-loading::after, .roll__skip, .recent__track, .motif--people i, .spot { animation: none; }
   .ph img { transition: none; }
 }
+
+/* ---------- placeholders until photos are added ---------- */
+.ph--empty { aspect-ratio: 4 / 5; display: grid; place-items: center; background: color-mix(in srgb, var(--s-fg) 6%, transparent); border: 1px dashed color-mix(in srgb, var(--s-fg) 28%, transparent); }
+.ph--empty:nth-child(3n+2) { aspect-ratio: 3 / 2; }
+.ph__soon { display: grid; gap: 8px; justify-items: center; text-align: center; padding: 24px; color: var(--s-fg); }
+.ph__soon span { font: 400 clamp(20px, 2vw, 26px)/1.15 var(--serif); }
+.ph__soon small { font: 500 11px/1 var(--mono); letter-spacing: .16em; text-transform: uppercase; opacity: .6; }
+.about__grid--solo { grid-template-columns: minmax(0, 46em); justify-content: center; }
+.reach__card--soon { grid-column: 1 / -1; }
