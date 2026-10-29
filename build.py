@@ -44,6 +44,7 @@ CONTACT = {
 
 ROLL = []   # up to 24 names for the 3D film roll; the roll is hidden while empty
 HERO = []   # a few names to cycle behind the lens aperture
+FEATURE = []   # portrait names the 3D instant camera prints, in order (placeholders while empty)
 
 
 def jpeg_size(path):
@@ -133,6 +134,7 @@ if not ROLL:   # no film roll until there are photos for it
     out = re.sub(r"\s*<!--ROLL-->.*?<!--/ROLL-->", "", out, flags=re.S)
 data = json.dumps({"roll": frames(ROLL), "hero": frames(HERO)}, ensure_ascii=False)
 out = out.replace("{{SCENE_DATA}}", data.replace("</", "<\\/"))
+out = out.replace("{{FEATURE_DATA}}", json.dumps(frames(FEATURE), ensure_ascii=False).replace("</", "<\\/"))
 assert not re.search(r"\{\{\w+\}\}", out), "unfilled placeholder"
 (ROOT / "index.html").write_text(out)
 print("index.html built:", {k: len(v) for k, v in SECTIONS.items()}, "| roll:", len(ROLL), "| hero:", len(HERO))
