@@ -189,3 +189,26 @@ html:not(.js) .tx__label, .no-motion .tx__label { opacity: 1; }
 @media (prefers-reduced-motion: reduce) {
   .motif--petals i, .motif--sparkle i, .cine-rec i, .rec i { animation: none; }
 }
+
+/* ---------- featured: the 3D instant camera printing the main portrait ---------- */
+.feature { position: relative; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); align-items: center; gap: clamp(20px, 4vw, 56px); margin: 6px 0 clamp(36px, 5vw, 64px); }
+.feature__gl { display: block; width: 100%; height: clamp(420px, 44vw, 620px); }
+.feature__copy { position: relative; z-index: 1; }
+.feature__k { margin: 0 0 6px; font: 600 26px/1 var(--hand); color: var(--hq-red); }
+.feature__t { margin: 0 0 16px; font: 400 clamp(34px, 3.6vw, 54px)/1 var(--serif); color: var(--hq-ink); }
+.feature__t em { color: var(--hq-red); }
+.feature__copy p:not(.feature__k) { margin: 0 0 22px; max-width: 26em; color: var(--hq-ink-2); }
+.feature__again { border-color: var(--hq-ink); color: var(--hq-ink); }
+.feature__again:hover { background: var(--hq-ink); color: var(--ivory); }
+.feature.is-printing .feature__again { opacity: .45; pointer-events: none; }
+.feature::after { content: ""; position: absolute; inset: -10% 30% -10% -10%; background: radial-gradient(circle at 40% 45%, rgba(255, 255, 255, .95), rgba(255, 255, 255, 0) 60%); opacity: 0; pointer-events: none; transition: opacity .5s; }
+.feature.is-flash::after { opacity: 1; transition: opacity .04s; }
+.feature__fallback { display: none; }
+.feature--static .feature__gl { display: none; }
+.feature--static .feature__fallback { display: block; width: min(320px, 80%); justify-self: center; padding: 12px 12px 54px; background: #fffdf9; box-shadow: 0 18px 30px -18px rgba(42, 37, 34, .5); transform: rotate(-3deg); position: relative; }
+.feature__fallback i { display: block; aspect-ratio: 1; background: linear-gradient(150deg, #f6dcd6, #ecd0b2 45%, #bfd3df); }
+.feature__fallback span { position: absolute; left: 14px; bottom: 14px; font: 600 26px/1 var(--hand); color: var(--hq-ink); }
+@media (max-width: 860px) {
+  .feature { grid-template-columns: 1fr; }
+  .feature__gl { height: 440px; }
+}
