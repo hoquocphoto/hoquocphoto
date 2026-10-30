@@ -104,6 +104,11 @@
       from: { filter: 'blur(18px)', scale: 1.08, opacity: 0 },
       play: (img) => gsap.to(img, { filter: 'blur(0px)', scale: 1, opacity: 1, duration: 1.3, ease: 'power3.out', clearProps: 'filter,transform' }),
     },
+    // weddings: frames on the strip start as colour negatives and develop into the photo
+    develop: {
+      from: { filter: 'invert(1) sepia(.6) saturate(1.6) brightness(.85)', opacity: .9 },
+      play: (img) => gsap.to(img, { filter: 'invert(0) sepia(0) saturate(1) brightness(1)', opacity: 1, duration: 1.8, ease: 'power2.inOut', clearProps: 'filter,opacity' }),
+    },
     polaroid: { from: {}, play: () => {} },   // handled in hq.js (flash, develop, wiggle)
     flash: {
       from: { opacity: 0 },
@@ -114,7 +119,7 @@
     },
   };
   const fxOf = (fig) => FX[fig.closest('.set').dataset.fx] || FX.focus;
-  document.querySelectorAll('.set--events .ph:not(.ph--empty)').forEach((fig) => { const f = document.createElement('i'); f.className = 'flash'; fig.appendChild(f); });
+  document.querySelectorAll('[data-fx="flash"] .ph:not(.ph--empty)').forEach((fig) => { const f = document.createElement('i'); f.className = 'flash'; fig.appendChild(f); });
   if (!reduce) {
     document.querySelectorAll('.ph:not(.ph--empty)').forEach((fig) => gsap.set(fig.querySelector('img'), fxOf(fig).from));
     ScrollTrigger.batch('.ph:not(.ph--empty)', {
@@ -125,7 +130,7 @@
   // recent-events ticker: duplicate the items so the loop is seamless
   const track = document.querySelector('.recent__track');
   if (track) [...track.children].forEach((n) => { const c = n.cloneNode(true); c.setAttribute('aria-hidden', 'true'); track.appendChild(c); });
-  gsap.utils.toArray('.set__head, .tips, .set__cta, .offer__grid .card, .steps li, .about__grid > *, .reach__card').forEach((el) => {
+  gsap.utils.toArray('.set__head, .tips, .set__cta, .offer__grid .card, .expect__step, .about__grid > *, .reach__card').forEach((el) => {
     gsap.from(el, { autoAlpha: 0, y: 40, duration: 1, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 88%' } });
   });
 
@@ -166,7 +171,7 @@
       visible.forEach((f) => { const r = f.getBoundingClientRect(), d = Math.abs(r.top + r.height / 2 - innerHeight / 2); if (d < bd && !f.hidden) { bd = d; best = f; } });
       if (best) {
         const [fs, ss, iso, mm] = best.querySelector('a').dataset.exif.split(' · ');
-        setHud({ f: fs.replace('f/', 'F'), ss, iso, mm, n: best.dataset.n });
+        if (mm) setHud({ f: fs.replace('f/', 'F'), ss, iso, mm, n: best.dataset.n });   // video credits have no exposure to show
       }
     }
     const v = lenis ? lenis.velocity : 0;

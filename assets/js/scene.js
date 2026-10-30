@@ -286,7 +286,7 @@ function start() {
     for (let i = 0; i < 4; i++) { hole(10 + i * 64, 8); hole(10 + i * 64, h - 34); }
     g.globalCompositeOperation = 'source-over';
     g.fillStyle = 'rgba(226,150,70,.75)'; g.font = '600 15px "JetBrains Mono", monospace';
-    g.fillText('NB 400', 20, 58); g.fillText('▸ 24', 170, 58);
+    g.fillText('HQ 400', 20, 58); g.fillText('▸ 24', 170, 58);
   });
   sprocket.wrapS = THREE.RepeatWrapping;
   if (layout.length) {
@@ -304,6 +304,21 @@ function start() {
     g.setIndex(idx);
     film.add(new THREE.Mesh(g, new THREE.MeshBasicMaterial({ map: sprocket, transparent: true, alphaTest: .5, side: THREE.DoubleSide, toneMapped: false })));
   }
+
+  // a blank frame for the roll until the real photos are in: soft colour from his palette and a label
+  const SOON = [['#f6dcd6', '#e9b8b0'], ['#faf3e6', '#ecd0b2'], ['#dbe7ef', '#a9c2d3'], ['#efe2cf', '#d9b58a']];
+  const soonTex = (f, i) => (document.fonts ? document.fonts.ready : Promise.resolve()).then(() => {
+    const W = f.w > f.h ? 1200 : 800, Hh = f.w > f.h ? 800 : 1200;
+    const t = canvasTex(W, Hh, (g, w, h) => {
+      const [a, b] = SOON[i % SOON.length], gr = g.createLinearGradient(0, 0, w, h);
+      gr.addColorStop(0, a); gr.addColorStop(1, b); g.fillStyle = gr; g.fillRect(0, 0, w, h);
+      g.textAlign = 'center'; g.fillStyle = 'rgba(42,37,34,.85)';
+      g.font = '400 110px "Instrument Serif", Georgia, serif'; g.fillText(f.cap, w / 2, h / 2);
+      g.font = '500 30px "JetBrains Mono", monospace'; g.fillStyle = 'rgba(42,37,34,.55)'; g.fillText('PHOTO COMING SOON', w / 2, h / 2 + 70);
+    });
+    t.colorSpace = THREE.NoColorSpace;
+    return t;
+  });
 
   const frameVert = `varying vec2 vUv; void main(){ vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.); }`;
   const frameFrag = `
@@ -331,7 +346,7 @@ function start() {
     mesh.rotation.set(0, f.a, -slope, 'YXZ');
     mesh.userData = { i, f };
     film.add(mesh);
-    tex(f.src).then((t) => { m.uniforms.t.value = t; gsap.to(m.uniforms.loaded, { value: 1, duration: .8 }); });
+    (f.src ? tex(f.src) : soonTex(f, i)).then((t) => { m.uniforms.t.value = t; gsap.to(m.uniforms.loaded, { value: 1, duration: .8 }); });
     return mesh;
   });
 
@@ -374,7 +389,7 @@ function start() {
   }, { passive: true });
   addEventListener('click', (e) => {
     if (active !== 'roll' || !hovered || e.target.closest('a,button,nav')) return;
-    const f = hovered.userData.f; NB.openSingle && NB.openSingle(f.full, f.cap, f.exif);
+    const f = hovered.userData.f; if (f.full) NB.openSingle && NB.openSingle(f.full, f.cap, f.exif);
   });
 
   const clock = new THREE.Clock();
@@ -441,10 +456,10 @@ function start() {
       const idx = Math.round(c);
       if (idx !== current) {
         current = idx; const f = layout[idx];
-        ui.no.textContent = String(idx + 1).padStart(2, '0'); ui.cap.textContent = f.cap; ui.exif.textContent = f.exif;
+        ui.no.textContent = String(idx + 1).padStart(2, '0'); ui.cap.textContent = f.cap; ui.exif.textContent = f.exif || 'Photo coming soon';
       }
       ui.bar.style.transform = `scaleX(${clamp(rp)})`;
-      const x = parseExif(layout[idx].exif);
+      const x = layout[idx].exif ? parseExif(layout[idx].exif) : { f: 'F2.8', ss: '1/250', iso: 'ISO 400', mm: '35mm' };
       NB.hudOverride = { ...x, n: String(idx + 1).padStart(3, '0') };
       renderer.render(roll, cam2);
     } else {
