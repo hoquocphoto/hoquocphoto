@@ -16,8 +16,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Be+Vietnam+Pro:wght@400;500;600&family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..600,0..100;1,9..144,300..600,0..100&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Caveat:wght@500;600&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/site.css?v=20261030a">
-  <link rel="stylesheet" href="assets/css/hq.css?v=20261030a">
+  <link rel="stylesheet" href="assets/css/site.css?v=20261030d">
+  <link rel="stylesheet" href="assets/css/hq.css?v=20261030e">
   <script>document.documentElement.classList.add('js');</script>
   <script type="importmap">
     { "imports": {
@@ -81,7 +81,51 @@
       <div class="hero__aperture" data-intro><small>Aperture</small><b data-aperture>f/22</b></div>
     </div>
   </header>
+
+<!--ROLL-->
+  <section class="roll" id="roll" aria-label="A roll of favourite frames">
+    <div class="roll__pin">
+      <div class="wrap roll__ui">
+        <p class="roll__k">Roll 01 · 10 exposures</p>
+        <h2 class="roll__t">Developing<span class="roll__dots">…</span></h2>
+        <p class="roll__lede">Some of my favourites. They start as negatives and come up as you scroll.</p>
+      </div>
+      <div class="roll__meta">
+        <span class="roll__no" data-roll="no">01</span>
+        <span class="roll__cap" data-roll="cap"></span>
+        <span class="roll__exif" data-roll="exif"></span>
+      </div>
+      <div class="roll__bar"><i data-roll="bar"></i></div>
+      <a class="roll__skip" href="#weddings" data-skip>
+        <span class="roll__skip-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 5l9 7-9 7z"/><path d="M12 5l9 7-9 7z"/></svg></span>
+        <span class="roll__skip-text"><b>Skip the roll</b><small>Go straight to the photos</small></span>
+        <kbd aria-hidden="true">Esc</kbd>
+      </a>
+    </div>
+  </section>
+
+<!--/ROLL-->
   <main class="paper">
+    <section class="about" id="about" aria-labelledby="about-t">
+      <div class="wrap about__grid">
+        <figure class="about__photo"><div class="about__soon"><span>photo of me<br>coming soon</span></div><figcaption>Quốc, Sydney</figcaption></figure>
+        <div class="about__body">
+          <p class="eyebrow">About</p>
+          <h2 class="about__t" id="about-t">A bit <em>about me</em></h2>
+          <p>I'm Anh Quoc Ho, a photographer and videographer from Vinh City, Vietnam. I started out back home shooting yearbooks, dance shows and weddings. Since moving to Sydney I've worked with Fujifilm House of Photography, Porsche Centre Willoughby, G Class Hire and Shein Australia.</p>
+          <p>I'm also studying a Bachelor of Communication and Media (Honours), majoring in Screen Media Production. The rest of the time I freelance, shooting weddings, portraits, events and brand video.</p>
+          <dl class="about__facts">
+            <div><dt>Based in</dt><dd>Sydney &amp; Wollongong</dd></div>
+            <div><dt>From</dt><dd>Vinh City, Vietnam</dd></div>
+            <div><dt>Shoots on</dt><dd>Fujifilm, and film</dd></div>
+            <div><dt>Speaks</dt><dd>English &amp; tiếng Việt</dd></div>
+          </dl>
+          <p class="sig sig--hq">Quốc</p>
+          <p class="about__links"><a class="more" href="https://www.instagram.com/hoquocphoto/" target="_blank" rel="noopener">More on Instagram ↗</a></p>
+        </div>
+      </div>
+    </section>
+
     <div class="recent recent--hq" aria-label="Places I've worked with">
       <div class="recent__track">
         <span class="recent__k">Worked with</span>
@@ -91,18 +135,22 @@
     <div class="tx tx--leak" style="--from:#0b0404;--to:#f8e8e4" aria-hidden="true">
       <div class="tx__stick">
         <i class="tx__wash"></i><i class="leak leak--a"></i><i class="leak leak--b"></i><i class="leak leak--c"></i>
+        <div class="tx__petals"></div>
+        <svg class="rings" viewBox="0 0 240 150"><g class="ring-a"><circle cx="92" cy="86" r="52"/><path class="ring-gem" d="M92 20l10 10-10 12-10-12z"/></g><g class="ring-b"><circle cx="148" cy="86" r="52"/></g></svg>
         <div class="tx__label"><span>01</span><b>Weddings</b><small>Ceremony · Pre-wedding</small></div>
       </div>
     </div>
-    <section class="set set--blush" id="weddings" data-fx="focus">
+    <section class="set set--blush" id="weddings" data-fx="develop">
       <div class="motif motif--petals" aria-hidden="true"><i style="--x:4%;--d:0s;--t:11s;--s:18px;--r:20deg"></i><i style="--x:12%;--d:3s;--t:13s;--s:14px;--r:-30deg"></i><i style="--x:21%;--d:6s;--t:10s;--s:22px;--r:60deg"></i><i style="--x:30%;--d:1.5s;--t:12s;--s:12px;--r:-10deg"></i><i style="--x:39%;--d:8s;--t:14s;--s:16px;--r:40deg"></i><i style="--x:47%;--d:4s;--t:11s;--s:20px;--r:-50deg"></i><i style="--x:56%;--d:2s;--t:13s;--s:14px;--r:15deg"></i><i style="--x:64%;--d:7s;--t:12s;--s:18px;--r:-25deg"></i><i style="--x:72%;--d:0.5s;--t:10s;--s:24px;--r:70deg"></i><i style="--x:81%;--d:5s;--t:14s;--s:13px;--r:-40deg"></i><i style="--x:89%;--d:2.5s;--t:11s;--s:19px;--r:30deg"></i><i style="--x:96%;--d:9s;--t:13s;--s:15px;--r:-60deg"></i></div>
+      <svg class="sprig sprig--tr" viewBox="0 0 200 260" aria-hidden="true"><defs><path id="leaf" d="M0 0C9-11 24-11 34 0C24 11 9 11 0 0Z"/></defs><path class="sprig__stem" d="M30 250C62 196 72 130 160 16"/><use href="#leaf" transform="translate(44 224) rotate(-150)"/><use href="#leaf" transform="translate(54 200) rotate(-20)"/><use href="#leaf" transform="translate(62 172) rotate(-160)"/><use href="#leaf" transform="translate(70 146) rotate(-35)"/><use href="#leaf" transform="translate(86 116) rotate(-170)"/><use href="#leaf" transform="translate(102 92) rotate(-45)"/><use href="#leaf" transform="translate(122 64) rotate(-175)"/><use href="#leaf" transform="translate(140 40) rotate(-60)"/><circle class="sprig__bud" cx="162" cy="14" r="9"/><circle class="sprig__bud" cx="146" cy="24" r="6"/></svg>
+      <svg class="sprig sprig--bl" viewBox="0 0 200 260" aria-hidden="true"><path class="sprig__stem" d="M30 250C62 196 72 130 160 16"/><use href="#leaf" transform="translate(44 224) rotate(-150)"/><use href="#leaf" transform="translate(54 200) rotate(-20)"/><use href="#leaf" transform="translate(62 172) rotate(-160)"/><use href="#leaf" transform="translate(70 146) rotate(-35)"/><use href="#leaf" transform="translate(86 116) rotate(-170)"/><use href="#leaf" transform="translate(102 92) rotate(-45)"/><use href="#leaf" transform="translate(122 64) rotate(-175)"/><circle class="sprig__bud" cx="162" cy="14" r="9"/></svg>
       <div class="wrap">
         <header class="set__head">
-          <span class="set__no">01 / Weddings</span>
+          <span class="set__no"><svg class="set__icon" viewBox="0 0 40 24" aria-hidden="true"><circle cx="14" cy="13" r="9"/><circle cx="26" cy="13" r="9"/></svg>01 / Weddings</span>
           <h2 class="set__t">Weddings <em>and pre-weddings</em></h2>
           <div class="set__side">
-            <p>I've filmed and photographed weddings in Sydney and Vietnam, from the getting-ready shots to the last dance. Pre-wedding shoots are where we can get a bit more creative with the location and the look.</p>
-            <p class="set__for"><b>Good for</b> wedding ceremonies, pre-wedding and engagement shoots, couples</p>
+            <p>I've photographed and filmed weddings in Sydney and in Vietnam, and I'm usually there from getting ready until the last dance. Pre-wedding shoots are more relaxed. We can pick a place you love and try a different look.</p>
+            <p class="set__for"><b>Good for</b> wedding days, pre-wedding and engagement shoots, couples</p>
           </div>
         </header>
         <div class="chips" role="group" aria-label="Filter weddings">
@@ -110,15 +158,21 @@
             <button class="chip" data-filter="ceremony" aria-pressed="false">Ceremony</button>
             <button class="chip" data-filter="prewedding" aria-pressed="false">Pre-wedding</button>
         </div>
-        <div class="grid">
-          <figure class="ph ph--empty" data-tag="ceremony">
-            <div class="ph__soon"><span>Ceremony</span><small>Photos coming soon</small></div>
+        <div class="negs">
+          <figure class="ph ph--empty ph--land" data-tag="ceremony" data-fr="01" style="--ar:3/2">
+            <div class="ph__soon"><span>Ceremony</span><small>Photos coming soon</small></div><span class="ph__edge" aria-hidden="true"><b>HO QUOC 400</b><i>01 ▸ 01A</i></span>
           </figure>
-          <figure class="ph ph--empty" data-tag="prewedding">
-            <div class="ph__soon"><span>Pre-wedding</span><small>Photos coming soon</small></div>
+          <figure class="ph ph--empty" data-tag="ceremony" data-fr="02" style="--ar:2/3">
+            <div class="ph__soon"></div><span class="ph__edge" aria-hidden="true"><b>HO QUOC 400</b><i>02 ▸ 02A</i></span>
+          </figure>
+          <figure class="ph ph--empty ph--land" data-tag="prewedding" data-fr="03" style="--ar:3/2">
+            <div class="ph__soon"><span>Pre-wedding</span><small>Photos coming soon</small></div><span class="ph__edge" aria-hidden="true"><b>HO QUOC 400</b><i>03 ▸ 03A</i></span>
+          </figure>
+          <figure class="ph ph--empty" data-tag="prewedding" data-fr="04" style="--ar:2/3">
+            <div class="ph__soon"></div><span class="ph__edge" aria-hidden="true"><b>HO QUOC 400</b><i>04 ▸ 04A</i></span>
           </figure>
         </div>
-        <p class="set__cta">Planning your wedding? <a href="#book">Let's talk →</a></p>
+        <p class="set__cta">Planning a wedding? <a href="#book">Tell me the date →</a></p>
       </div>
     </section>
     <div class="tx tx--instant" style="--from:#f8e8e4;--to:#faf6ef" aria-hidden="true">
@@ -133,16 +187,16 @@
           <span class="set__no">02 / Portraits</span>
           <h2 class="set__t">Portraits, grads <em>and concepts</em></h2>
           <div class="set__side">
-            <p>Graduations in Australia and Vietnam, everyday portraits, styled concept shoots and cosplay. Pick a filter to see one kind. I help with posing, so you don't need to know what to do in front of the camera.</p>
+            <p>Graduations in Australia and Vietnam, everyday portraits, styled concept shoots and cosplay. Use the filters to see each kind. I'll help you pose, so you don't need any experience in front of a camera.</p>
             <p class="set__for"><b>Good for</b> graduations, portraits, concept and cosplay shoots, profile photos</p>
           </div>
         </header>
         <div class="feature" aria-label="Featured portrait">
           <canvas class="feature__gl" aria-hidden="true"></canvas>
           <div class="feature__copy">
-            <p class="feature__k">fresh out of the camera</p>
+            <p class="feature__k">Fresh out of the camera</p>
             <h3 class="feature__t">One frame, <em>one take.</em></h3>
-            <p>Instant film doesn't give you a second go, and that's what I like about it. Shoot, wait for it to come up, keep the one that feels right.</p>
+            <p>I like instant film because you only get one go at each shot. You take the photo, wait for it to come up and keep the one you like.</p>
             <button class="btn feature__again" type="button">Take another <span aria-hidden="true">↻</span></button>
           </div>
           <div class="feature__fallback" aria-hidden="true"><i></i><span>portraits ♡</span></div>
@@ -179,19 +233,22 @@
       <div class="tx__stick">
         <i class="tx__wash"></i>
         <div class="af-lock"><i></i><i></i><i></i><i></i></div>
+        <div class="confetti"></div>
         <i class="tx__flash"></i>
         <div class="tx__label"><span>03</span><b>Events</b><small>Events · Tour guide</small></div>
       </div>
     </div>
     <section class="set set--harbour" id="events" data-fx="flash">
+      <svg class="lights" viewBox="0 0 1200 70" preserveAspectRatio="xMidYMin slice" aria-hidden="true"><path class="lights__wire" d="M0 12Q150 70 300 12T600 12T900 12T1200 12"/><g class="lights__bulbs"><circle cx="36" cy="31" r="6" style="--d:0.00s"/><circle cx="96" cy="44" r="6" style="--d:0.37s"/><circle cx="150" cy="48" r="6" style="--d:0.74s"/><circle cx="204" cy="44" r="6" style="--d:1.11s"/><circle cx="264" cy="31" r="6" style="--d:1.48s"/><circle cx="336" cy="31" r="6" style="--d:1.85s"/><circle cx="396" cy="44" r="6" style="--d:0.02s"/><circle cx="450" cy="48" r="6" style="--d:0.39s"/><circle cx="504" cy="44" r="6" style="--d:0.76s"/><circle cx="564" cy="31" r="6" style="--d:1.13s"/><circle cx="636" cy="31" r="6" style="--d:1.50s"/><circle cx="696" cy="44" r="6" style="--d:1.87s"/><circle cx="750" cy="48" r="6" style="--d:0.04s"/><circle cx="804" cy="44" r="6" style="--d:0.41s"/><circle cx="864" cy="31" r="6" style="--d:0.78s"/><circle cx="936" cy="31" r="6" style="--d:1.15s"/><circle cx="996" cy="44" r="6" style="--d:1.52s"/><circle cx="1050" cy="48" r="6" style="--d:1.89s"/><circle cx="1104" cy="44" r="6" style="--d:0.06s"/><circle cx="1164" cy="31" r="6" style="--d:0.43s"/></g></svg>
       <div class="motif motif--sparkle" aria-hidden="true"><i style="--x:8%;--y:80px;--d:0s;--s:22px"></i><i style="--x:18%;--y:300px;--d:1.2s;--s:14px"></i><i style="--x:33%;--y:140px;--d:2.4s;--s:18px"></i><i style="--x:52%;--y:40px;--d:0.6s;--s:26px"></i><i style="--x:61%;--y:260px;--d:1.8s;--s:12px"></i><i style="--x:74%;--y:120px;--d:3s;--s:20px"></i><i style="--x:86%;--y:320px;--d:0.9s;--s:16px"></i><i style="--x:93%;--y:60px;--d:2.1s;--s:24px"></i></div>
+      <div class="pass" aria-hidden="true"><i class="pass__strap"></i><div class="pass__card"><span class="pass__k">Media</span><b>Ho Quoc</b><small>Photo &amp; video</small><i class="pass__code"></i></div></div>
       <svg class="motif motif--waves" viewBox="0 0 1200 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40 C150 10 300 70 450 40 S750 10 900 40 S1100 70 1200 40" fill="none" stroke="#2b4c63" stroke-opacity=".25" stroke-width="1.5"/><path d="M0 58 C150 28 300 88 450 58 S750 28 900 58 S1100 88 1200 58" fill="none" stroke="#2b4c63" stroke-opacity=".15" stroke-width="1.5"/></svg>
       <div class="wrap">
         <header class="set__head">
-          <span class="set__no">03 / Events & travel</span>
+          <span class="set__no">03 / Events &amp; tours</span>
           <h2 class="set__t">Events <em>and tours</em></h2>
           <div class="set__side">
-            <p>Event coverage from start to finish, plus photos for tour groups who want to remember the trip. I keep it candid, and I make sure the group shots and the important moments are all there.</p>
+            <p>I cover events from start to finish, and I take photos for tour groups who want something to remember the trip by. Most of what I shoot is candid, but I make sure the group shots and the big moments are all there.</p>
             <p class="set__for"><b>Good for</b> events, launches, performances, tour groups, school and yearbook projects</p>
           </div>
         </header>
@@ -200,12 +257,18 @@
             <button class="chip" data-filter="event" aria-pressed="false">Events</button>
             <button class="chip" data-filter="tour" aria-pressed="false">Tour guide</button>
         </div>
-        <div class="grid">
-          <figure class="ph ph--empty" data-tag="event">
-            <div class="ph__soon"><span>Events</span><small>Photos coming soon</small></div>
+        <div class="slides">
+          <figure class="ph ph--empty ph--land" data-tag="event" data-fr="01" style="--ar:3/2">
+            <div class="ph__soon"><span>Events</span><small>Photos coming soon</small></div><span class="ph__mount" aria-hidden="true"><b>HO QUOC</b><i>Events · 01</i></span>
           </figure>
-          <figure class="ph ph--empty" data-tag="tour">
-            <div class="ph__soon"><span>Tour guide</span><small>Photos coming soon</small></div>
+          <figure class="ph ph--empty" data-tag="event" data-fr="02" style="--ar:2/3">
+            <div class="ph__soon"></div><span class="ph__mount" aria-hidden="true"><b>HO QUOC</b><i>Events · 02</i></span>
+          </figure>
+          <figure class="ph ph--empty ph--land" data-tag="tour" data-fr="03" style="--ar:3/2">
+            <div class="ph__soon"><span>Tour guide</span><small>Photos coming soon</small></div><span class="ph__mount" aria-hidden="true"><b>HO QUOC</b><i>Tour guide · 03</i></span>
+          </figure>
+          <figure class="ph ph--empty" data-tag="tour" data-fr="04" style="--ar:2/3">
+            <div class="ph__soon"></div><span class="ph__mount" aria-hidden="true"><b>HO QUOC</b><i>Tour guide · 04</i></span>
           </figure>
         </div>
         <p class="set__cta">Running an event or a tour? <a href="#book">Get in touch →</a></p>
@@ -214,13 +277,24 @@
     <div class="tx tx--cinema" style="--from:#dbe7ef;--to:#0e0f12" aria-hidden="true">
       <div class="tx__stick">
         <i class="tx__wash"></i>
+        <svg class="clap" viewBox="0 0 260 214">
+          <defs><pattern id="clapStripes" width="44" height="40" patternUnits="userSpaceOnUse" patternTransform="skewX(-35)"><rect width="22" height="40" fill="#f2efe9"/></pattern></defs>
+          <rect x="10" y="64" width="240" height="140" rx="6" fill="#16181d" stroke="#f2efe9" stroke-opacity=".25"/>
+          <rect x="10" y="64" width="240" height="30" fill="#0b0c0f"/><rect x="10" y="64" width="240" height="30" fill="url(#clapStripes)"/>
+          <g fill="#f2efe9" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="1.5"><text x="24" y="116" opacity=".55">SCENE</text><text x="104" y="116" opacity=".55">TAKE</text><text x="176" y="116" opacity=".55">ROLL</text><text x="24" y="140" font-size="20">04</text><text x="104" y="140" font-size="20">1</text><text x="176" y="140" font-size="20">A</text><text x="24" y="182" font-size="15" letter-spacing="3">HO QUOC · VIDEO</text></g>
+          <path d="M10 152H250M90 100V152M162 100V152" stroke="#f2efe9" stroke-opacity=".2"/>
+          <g class="clap__arm"><rect x="10" y="28" width="240" height="30" rx="2" fill="#0b0c0f"/><rect x="10" y="28" width="240" height="30" rx="2" fill="url(#clapStripes)"/><circle cx="20" cy="58" r="5" fill="#9a9ca3"/></g>
+        </svg>
         <div class="tx__label"><span>04</span><b>Video</b><small>TVC · Uni projects</small></div>
         <i class="bar bar--top"></i><i class="bar bar--bot"></i>
         <span class="rec"><i></i>REC <b data-tc>00:00:00:00</b></span>
       </div>
     </div>
     <section class="set set--cinema" id="video" data-fx="focus">
-      <div class="motif motif--cinema" aria-hidden="true"><i class="lb-bar lb-bar--t"></i><i class="lb-bar lb-bar--b"></i><span class="cine-rec"><i></i>REC</span><span class="cine-tc">TC 01:04:22:10 · 24 FPS · 4K</span></div>
+      <div class="motif motif--cinema" aria-hidden="true"><i class="lb-bar lb-bar--t"></i><i class="lb-bar lb-bar--b"></i><span class="cine-rec"><i></i>REC</span><span class="cine-tc">TC 01:04:22:10 · 24 FPS · 4K</span>
+        <svg class="cinecam" viewBox="0 0 150 96"><rect class="cinecam__screen" x="4" y="6" width="40" height="26" rx="3"/><path class="cinecam__arm" d="M24 32v8h10"/><path class="cinecam__handle" d="M40 34V24h50v10"/><rect class="cinecam__body" x="34" y="34" width="70" height="50" rx="6"/><rect class="cinecam__body" x="104" y="44" width="22" height="30" rx="3"/><rect class="cinecam__lens" x="126" y="40" width="18" height="38" rx="3"/><rect class="cinecam__card" x="44" y="62" width="16" height="12" rx="1.5"/><circle class="cinecam__rec" cx="94" cy="42" r="3.5"/></svg>
+        <span class="meters"><i></i><i></i><small>L R</small></span>
+      </div>
       <div class="wrap">
         <header class="set__head">
           <span class="set__no">04 / Video</span>
@@ -235,12 +309,18 @@
             <button class="chip" data-filter="tvc" aria-pressed="false">TVC projects</button>
             <button class="chip" data-filter="uni" aria-pressed="false">Uni projects</button>
         </div>
-        <div class="grid">
-          <figure class="ph ph--empty" data-tag="tvc">
-            <div class="ph__soon"><span>TVC projects</span><small>Photos coming soon</small></div>
+        <div class="monitors">
+          <figure class="ph ph--empty ph--land" data-tag="tvc" data-fr="01" style="--ar:16/9">
+            <div class="ph__soon"><span>TVC projects</span><small>Videos coming soon</small></div><span class="ph__hud" aria-hidden="true"><span class="ph__hud-top"><i class="ph__rec">REC</i><b>00:01:00:00</b><em>4K · 24P</em></span><span class="ph__hud-bot"><i>ISO 800</i><i>180°</i><i>5600K</i><i class="ph__batt"></i></span></span>
           </figure>
-          <figure class="ph ph--empty" data-tag="uni">
-            <div class="ph__soon"><span>Uni projects</span><small>Photos coming soon</small></div>
+          <figure class="ph ph--empty ph--land" data-tag="tvc" data-fr="02" style="--ar:16/9">
+            <div class="ph__soon"><small>Standby</small></div><span class="ph__hud" aria-hidden="true"><span class="ph__hud-top"><i class="ph__rec">REC</i><b>00:02:00:00</b><em>4K · 24P</em></span><span class="ph__hud-bot"><i>ISO 800</i><i>180°</i><i>5600K</i><i class="ph__batt"></i></span></span>
+          </figure>
+          <figure class="ph ph--empty ph--land" data-tag="uni" data-fr="03" style="--ar:16/9">
+            <div class="ph__soon"><span>Uni projects</span><small>Videos coming soon</small></div><span class="ph__hud" aria-hidden="true"><span class="ph__hud-top"><i class="ph__rec">REC</i><b>00:03:00:00</b><em>4K · 24P</em></span><span class="ph__hud-bot"><i>ISO 800</i><i>180°</i><i>5600K</i><i class="ph__batt"></i></span></span>
+          </figure>
+          <figure class="ph ph--empty ph--land" data-tag="uni" data-fr="04" style="--ar:16/9">
+            <div class="ph__soon"><small>Standby</small></div><span class="ph__hud" aria-hidden="true"><span class="ph__hud-top"><i class="ph__rec">REC</i><b>00:04:00:00</b><em>4K · 24P</em></span><span class="ph__hud-bot"><i>ISO 800</i><i>180°</i><i>5600K</i><i class="ph__batt"></i></span></span>
           </figure>
         </div>
         <p class="set__cta">Need a video made? <a href="#book">Let's talk →</a></p>
@@ -255,10 +335,10 @@
           <article class="card">
             <span class="card__no">01</span>
             <h3>Weddings &amp; pre-weddings</h3>
-            <p>Photo, video or both, for the ceremony, the reception or a pre-wedding shoot somewhere special.</p>
+            <p>Photos, video or both, for the ceremony, the reception or a pre-wedding shoot.</p>
             <ul>
               <li>We plan the day and the shot list together</li>
-              <li>Natural candids plus the posed family photos</li>
+              <li>Candid moments as well as the posed family photos</li>
               <li>Edited photos and a highlight film</li>
             </ul>
           </article>
@@ -267,9 +347,8 @@
             <h3>Portraits &amp; graduation</h3>
             <p>Grad shoots, everyday portraits, concept and cosplay shoots, in Sydney or Vietnam.</p>
             <ul>
-              <li>Help with posing and locations</li>
-              <li>Every photo edited by me</li>
-              <li>Delivered in an online gallery</li>
+              <li>Help with posing and finding a location</li>
+              <li>I edit every photo and send them in an online gallery</li>
             </ul>
           </article>
           <article class="card">
@@ -278,32 +357,46 @@
             <p>Event coverage, tour group photos, brand videos and TVCs.</p>
             <ul>
               <li>Photo and video from one person</li>
-              <li>Crops sized for Instagram and TikTok</li>
+              <li>Vertical crops for Instagram and TikTok</li>
               <li>Footage edited to your brief</li>
             </ul>
           </article>
         </div>
-        <p class="offer__rate">Prices depend on the shoot, so send me the details and I'll give you a quote.</p>
-
-        <h3 class="expect__t">What to expect</h3>
-        <ol class="steps">
-          <li><b>Before</b><span>You send me the date and what you need. We agree on a place, a time and a price.</span></li>
-          <li><b>On the day</b><span>I'll guide you through poses, or stay out of the way and catch what happens, depending on the shoot.</span></li>
-          <li><b>After</b><span>I edit everything and send you a link to download your photos or video.</span></li>
-        </ol>
+        <p class="offer__rate">Every shoot is different, so I quote each one. Send me the details and I'll come back with a price.</p>
       </div>
     </section>
 
-    <section class="about" aria-labelledby="about-t">
-      <div class="wrap about__grid about__grid--solo">
-        <div>
-          <p class="eyebrow">About</p>
-          <h2 class="about__t" id="about-t">A bit <em>about me</em></h2>
-          <p>I'm Anh Quoc Ho, a photographer and videographer from Vinh City, Vietnam, now based in Sydney. I started shooting yearbooks, dance shows and weddings back home, and since moving here I've worked with Fujifilm House of Photography, Porsche Centre Willoughby, G Class Hire and Shein Australia.</p>
-          <p>I'm also studying a Bachelor of Communication and Media (Honours), majoring in Screen Media Production. Right now I freelance, shooting weddings, portraits, events and brand video.</p>
-          <p class="sig sig--hq">— Quốc</p>
-          <p class="about__links"><a class="more" href="https://www.instagram.com/hoquocphoto/" target="_blank" rel="noopener">More on Instagram ↗</a></p>
-        </div>
+    <section class="expect" aria-labelledby="expect-t">
+      <div class="wrap">
+        <p class="eyebrow">How it works</p>
+        <h2 class="expect__t" id="expect-t">What to <em>expect</em></h2>
+        <ol class="expect__steps">
+          <li class="expect__step">
+            <span class="expect__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg></span>
+            <span class="expect__no">01</span>
+            <h3>Send me a message</h3>
+            <p>DM me on Instagram or send a text. Tell me the date, the place and what the shoot is for.</p>
+          </li>
+          <li class="expect__step">
+            <span class="expect__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg></span>
+            <span class="expect__no">02</span>
+            <h3>We plan it</h3>
+            <p>I send you a price. Then we sort out the location, the time and any shots you really want.</p>
+          </li>
+          <li class="expect__step">
+            <span class="expect__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h4l2-3h6l2 3h4v11H3z"/><circle cx="12" cy="13" r="3.5"/></svg></span>
+            <span class="expect__no">03</span>
+            <h3>The shoot</h3>
+            <p>For portraits I'll show you where to stand and how to pose. At weddings and events I mostly stay out of the way and catch what happens.</p>
+          </li>
+          <li class="expect__step">
+            <span class="expect__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 16l5-5 4 4 3-3 6 6"/><circle cx="16" cy="9" r="1.6"/></svg></span>
+            <span class="expect__no">04</span>
+            <h3>Your photos</h3>
+            <p>I edit everything myself and send you a link to download your photos or video.</p>
+          </li>
+        </ol>
+        <p class="expect__note">Not sure what you need yet? Message me anyway and we'll work it out.</p>
       </div>
     </section>
 
@@ -311,13 +404,18 @@
       <div class="wrap">
         <p class="eyebrow">Book a shoot</p>
         <h2 class="book__t" id="book-t">Want to <em>book a shoot?</em></h2>
-        <p class="book__lede">The easiest way is to DM me on Instagram. Tell me the date, where, and what it's for, and I'll get back to you. English or tiếng Việt, both are fine.</p>
+        <p class="book__lede">The quickest way is a DM on Instagram. Tell me the date, the place and what it's for, and I'll get back to you. English or tiếng Việt is fine. Or call or text me on <a href="tel:+61449516023">0449 516 023</a>.</p>
         <div class="reach">
           <a class="reach__card reach__card--ig" href="https://www.instagram.com/hoquocphoto/" target="_blank" rel="noopener">
             <span class="reach__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></svg></span>
             <span class="reach__text"><small>DM me on Instagram</small><b>@hoquocphoto</b></span>
             <span class="reach__go" aria-hidden="true">↗</span>
           </a>
+          <div class="reach__card reach__card--phone">
+            <span class="reach__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.5 4.2-2 1.3a12 12 0 0 0 5.9 5.9l1.3-2 4.2 1.5v3a2 2 0 0 1-2.2 2A17.5 17.5 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg></span>
+            <span class="reach__text"><small>Call or text</small><a href="tel:+61449516023"><b>0449 516 023</b></a></span>
+            <span class="reach__acts"><a href="tel:+61449516023">Call</a><a href="sms:+61449516023">Text</a></span>
+          </div>
         </div>
       </div>
     </section>
@@ -332,19 +430,19 @@
 
   <footer class="footer">
     <div class="wrap">
-      <span>© <span data-year>2026</span> Anh Quoc Ho · Photography &amp; Video · <a href="https://www.instagram.com/hoquocphoto/" target="_blank" rel="noopener">Instagram</a></span>
+      <span>© <span data-year>2026</span> Anh Quoc Ho · Photography &amp; Video · <a href="https://www.instagram.com/hoquocphoto/" target="_blank" rel="noopener">Instagram</a> · <a href="tel:+61449516023">0449 516 023</a></span>
       <span>Site by <a href="https://heynathanbui.github.io/photo/" target="_blank" rel="noopener">Nathan Bui</a></span>
     </div>
   </footer>
 
-  <script type="application/json" id="scene-data">{"roll": [], "hero": []}</script>
+  <script type="application/json" id="scene-data">{"roll": [{"cap": "Weddings", "w": 3, "h": 2}, {"cap": "Pre-wedding", "w": 2, "h": 3}, {"cap": "Graduation", "w": 3, "h": 2}, {"cap": "Daily portraits", "w": 3, "h": 2}, {"cap": "Concept", "w": 2, "h": 3}, {"cap": "Cosplay", "w": 3, "h": 2}, {"cap": "Events", "w": 3, "h": 2}, {"cap": "Tour groups", "w": 2, "h": 3}, {"cap": "Brand video", "w": 3, "h": 2}, {"cap": "Uni projects", "w": 3, "h": 2}], "hero": []}</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
-  <script src="assets/js/site.js?v=20261030a"></script>
-  <script src="assets/js/hq.js?v=20261030a"></script>
+  <script src="assets/js/site.js?v=20261030d"></script>
+  <script src="assets/js/hq.js?v=20261030d"></script>
   <script type="application/json" id="feature-data">[]</script>
-  <script type="module" src="assets/js/scene.js?v=20261030a"></script>
+  <script type="module" src="assets/js/scene.js?v=20261030e"></script>
   <script type="module" src="assets/js/polcam3d.js?v=20261030c"></script>
 </body>
 </html>
