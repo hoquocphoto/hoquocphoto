@@ -439,3 +439,49 @@ html:not(.js) .tx__label, .no-motion .tx__label { opacity: 1; }
 @media (max-width: 480px) { .reach__acts { width: 100%; } .reach__acts a { flex: 1; text-align: center; } }
 .no-motion .rings g, html:not(.js) .rings g { opacity: 1; }
 .slides .ph::before { display: none; }
+
+/* ==========================================================
+   Weddings: the 3D film camera, its strip running across the section
+   ========================================================== */
+.feature--film { grid-template-columns: 1fr; gap: clamp(10px, 2vw, 22px); margin-bottom: clamp(32px, 4vw, 52px); }
+.feature--film .feature__gl { height: clamp(340px, 38vw, 520px); }
+.feature--film .feature__copy { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); column-gap: clamp(32px, 5vw, 72px); align-items: start; }
+.feature--film .feature__k { grid-column: 1; }
+.feature--film .feature__t { grid-column: 1; margin-bottom: 0; }
+.feature--film .feature__t em, .feature--film .feature__k { color: #b4566a; }
+.feature--film .feature__copy p:not(.feature__k) { grid-column: 2; grid-row: 1 / span 2; max-width: none; margin-bottom: 14px; }
+.feature--film .feature__again { grid-column: 2; grid-row: 3; justify-self: start; }
+.feature--film::after { inset: -6% 40% -6% -6%; }
+.feature--film.feature--static .feature__fallback { padding: 26px 8px; background: #241410; transform: rotate(-1.5deg); width: min(420px, 90%); }
+.feature--film .feature__fallback i { aspect-ratio: 3 / 2; background: linear-gradient(150deg, #f6dcd6, #e9b8b0); }
+.feature--film .feature__fallback span { display: none; }
+@media (max-width: 860px) {
+  .feature--film .feature__gl { height: 460px; }
+  .feature--film .feature__copy { grid-template-columns: 1fr; }
+  .feature--film .feature__copy p:not(.feature__k), .feature--film .feature__again { grid-column: 1; grid-row: auto; }
+  .feature--film .feature__t { margin-bottom: 14px; }
+}
+
+/* ==========================================================
+   Portraits: Sydney. Jacaranda in bloom, the Opera House, the bridge
+   ========================================================== */
+.set--ivory { --s-em: #5f4cab; --s-accent: #5f4cab; padding-bottom: calc(clamp(72px, 9vw, 130px) + clamp(130px, 19vw, 280px)); }
+.set--ivory .feature__t em, .set--ivory .feature__k { color: #5f4cab; }
+.motif--jac { inset: 0; height: auto; overflow: hidden; }
+.motif--jac i { position: absolute; left: var(--x); top: var(--y); width: var(--s); height: calc(var(--s) * .72); border-radius: 0 100% 0 100%; background: linear-gradient(135deg, #cfc4f5 0%, #9d8ce2 60%, #7a68c9 100%); opacity: 0; animation: jacFall var(--t) linear var(--d) infinite; }
+@keyframes jacFall { 0% { transform: translate(0, -20px) rotate(var(--r)); opacity: 0; } 12% { opacity: .75; } 100% { transform: translate(80px, 620px) rotate(calc(var(--r) + 280deg)); opacity: 0; } }
+.jac__wood path { fill: none; stroke: #5b4638; stroke-linecap: round; }
+.jac-branch { position: absolute; z-index: 0; top: 0; right: 0; width: clamp(130px, 19vw, 280px); height: auto; overflow: visible; pointer-events: none; }
+.sydney { position: absolute; z-index: 0; left: 0; right: 0; bottom: 0; width: 100%; height: clamp(130px, 19vw, 280px); pointer-events: none; }
+.opera__sails path { fill: #fffdf9; stroke: #6d6a72; stroke-width: 1.6; stroke-linejoin: round; }
+.opera__base { fill: #e6d6bf; stroke: #6d6a72; stroke-width: 1.2; stroke-linejoin: round; }
+.harbour-bridge polyline, .harbour-bridge path { fill: none; stroke: #6f7f8e; stroke-width: 1.3; }
+.harbour-bridge polyline { stroke-width: 2.2; }
+.harbour-bridge .harbour-bridge__deck { stroke-width: 4; }
+.harbour-bridge__py rect { fill: #e6d6bf; stroke: #6d6a72; stroke-width: 1.2; }
+.sydney__water path { fill: none; stroke: #7fa3b9; stroke-width: 2; stroke-linecap: round; opacity: .55; }
+.instant__scene { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.instant__scene .opera__sails path { stroke: #8d7f83; stroke-width: 1; }
+.tx--instant .tx__petals { position: absolute; }
+@media (prefers-reduced-motion: reduce) { .motif--jac i { animation: none; opacity: .5; } }
+@media (max-width: 760px) { .jac-branch { width: 96px; } }
