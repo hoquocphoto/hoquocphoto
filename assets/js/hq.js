@@ -46,12 +46,16 @@
   // 02 · an instant photo develops in your hand, then grows until you're inside it
   document.querySelectorAll('.tx--instant').forEach((el) => {
     const q = (s) => el.querySelector(s);
-    gsap.timeline({ scrollTrigger: st(el) })
+    q('.tx__petals').classList.add('burst');
+    const blossoms = burst(q('.tx__petals'), 30, ['#8f7fd8', '#a08fe3', '#7a68c9', '#b3a4ec'], true);
+    const tl = gsap.timeline({ scrollTrigger: st(el) })
       .fromTo(q('.instant'), { y: 120, rotate: -8, scale: .8 }, { y: 0, rotate: -3, scale: 1, ease: 'power2.out', duration: .25 }, 0)
       .fromTo(q('.instant__chem'), { opacity: 1 }, { opacity: 0, ease: 'none', duration: .35 }, .1)
       .to(q('.instant'), { rotate: 0, scale: 9, ease: 'power2.in', duration: .4 }, .45)
+      .to(q('.instant__scene'), { opacity: 0, ease: 'none', duration: .14 }, .66)
       .fromTo(q('.tx__label'), { opacity: 0, scale: .9 }, { opacity: 1, scale: 1, duration: .15 }, .7)
       .to(q('.tx__label'), { opacity: 0, y: -40, duration: .12 }, .88);
+    throwBits(tl, blossoms, .42);
   });
 
   // 03 · autofocus brackets close in, lock green, the flash fires and confetti goes up

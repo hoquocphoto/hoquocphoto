@@ -5,7 +5,7 @@ import * as THREE from 'three';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 
-const wrap = document.querySelector('.feature');
+const wrap = document.querySelector('.set--ivory .feature');
 const canvas = wrap && wrap.querySelector('.feature__gl');
 const root = document.documentElement;
 if (canvas && !root.classList.contains('no-gl') && window.gsap) start();
