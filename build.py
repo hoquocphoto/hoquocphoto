@@ -47,6 +47,7 @@ CONTACT = {
 ROLL = []   # up to 24 names for the 3D film roll; placeholder frames show while it's empty
 HERO = []   # a few names to cycle behind the lens aperture
 FEATURE = []   # portrait names the 3D instant camera prints, in order (placeholders while empty)
+FILMCAM = []   # up to 6 wedding names for the 3D film camera's strip (placeholders while empty)
 ABOUT_PHOTO = ""   # a photo of Quoc for the About section, e.g. "about-quoc" (a placeholder print while empty)
 
 # how each section holds its photos (portraits use the Polaroid wall)
@@ -197,6 +198,7 @@ out = out.replace("{{N_ROLL}}", str(len(roll)))
 data = json.dumps({"roll": roll, "hero": frames(HERO)}, ensure_ascii=False)
 out = out.replace("{{SCENE_DATA}}", data.replace("</", "<\\/"))
 out = out.replace("{{FEATURE_DATA}}", json.dumps(frames(FEATURE), ensure_ascii=False).replace("</", "<\\/"))
+out = out.replace("{{FILMCAM_DATA}}", json.dumps(frames(FILMCAM), ensure_ascii=False).replace("</", "<\\/"))
 assert not re.search(r"\{\{\w+\}\}", out), "unfilled placeholder"
 (ROOT / "index.html").write_text(out)
 print("index.html built:", {k: len(v) for k, v in SECTIONS.items()}, "| roll:", len(ROLL), "| hero:", len(HERO))
