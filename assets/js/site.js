@@ -171,7 +171,7 @@
       visible.forEach((f) => { const r = f.getBoundingClientRect(), d = Math.abs(r.top + r.height / 2 - innerHeight / 2); if (d < bd && !f.hidden) { bd = d; best = f; } });
       if (best) {
         const [fs, ss, iso, mm] = best.querySelector('a').dataset.exif.split(' · ');
-        if (mm) setHud({ f: fs.replace('f/', 'F'), ss, iso, mm, n: best.dataset.n });   // video credits have no exposure to show
+        if (mm) setHud({ f: fs.replace('f/', 'F'), ss, iso, mm, n: best.dataset.n });   // film scans have no exposure to show
       }
     }
     const v = lenis ? lenis.velocity : 0;

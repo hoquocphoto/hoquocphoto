@@ -1,5 +1,5 @@
 // Ho Quoc: a different scroll transition into each section.
-// 01 light leak · 02 instant photo develops · 03 AF lock + flash · 04 letterbox with REC timecode
+// 01 light leak · 02 instant photo develops · 03 AF lock + flash
 (() => {
   if (!window.gsap || !window.ScrollTrigger) return;
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) { document.documentElement.classList.add('no-motion'); return; }
@@ -72,24 +72,6 @@
       .fromTo(q('.tx__label'), { opacity: 0, scale: 1.08 }, { opacity: 1, scale: 1, duration: .15 }, .5)
       .to(q('.tx__label'), { opacity: 0, y: -40, duration: .12 }, .88);
     throwBits(tl, bits, .47);
-  });
-
-  // 04 · letterbox bars close to black, a REC timecode runs, then they open widescreen
-  document.querySelectorAll('.tx--cinema').forEach((el) => {
-    const q = (s) => el.querySelector(s), tc = q('[data-tc]');
-    const fmt = (p) => { const f = Math.floor(p * 24 * 9); const s = Math.floor(f / 24); return `00:00:${String(s).padStart(2, '0')}:${String(f % 24).padStart(2, '0')}`; };
-    gsap.timeline({ scrollTrigger: { ...st(el), onUpdate: (s) => { tc.textContent = fmt(s.progress); } } })
-      // the clapperboard comes up, claps as the bars meet, then gets out of the way
-      .fromTo(q('.clap'), { opacity: 0, scale: .85, y: 40 }, { opacity: 1, scale: 1, y: 0, duration: .12 }, .02)
-      .fromTo(q('.clap__arm'), { rotate: -28, svgOrigin: '20 58' }, { rotate: 0, svgOrigin: '20 58', ease: 'power4.in', duration: .1 }, .2)
-      .to(q('.clap'), { keyframes: [{ y: 6 }, { y: 0 }], duration: .04 }, .3)
-      .to(q('.clap'), { opacity: 0, scale: .94, duration: .08 }, .4)
-      .to([q('.bar--top'), q('.bar--bot')], { height: '50.5vh', ease: 'power2.in', duration: .35 }, 0)
-      .to(q('.rec'), { opacity: 1, duration: .08 }, .2)
-      .set(q('.tx__wash'), { opacity: 1 }, .36)
-      .to([q('.bar--top'), q('.bar--bot')], { height: '12vh', ease: 'power2.out', duration: .3 }, .42)
-      .fromTo(q('.tx__label'), { opacity: 0, letterSpacing: '.3em' }, { opacity: 1, letterSpacing: '0em', duration: .2 }, .5)
-      .to([q('.tx__label'), q('.rec')], { opacity: 0, duration: .12 }, .88);
   });
 
   // ---------- weddings: the eucalyptus sprigs draw themselves in ----------
