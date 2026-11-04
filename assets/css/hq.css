@@ -6,7 +6,7 @@
    ========================================================== */
 
 .paper {
-  --ivory: #faf6ef; --blush: #f8e8e4; --rose: #d98a93; --harbour: #dbe7ef; --sea: #2b4c63; --cine: #0e0f12;
+  --ivory: #faf6ef; --blush: #f8e8e4; --rose: #d98a93; --harbour: #dbe7ef; --sea: #2b4c63;
   --hq-ink: #2a2522; --hq-ink-2: rgba(42, 37, 34, .84); --hq-red: #c8352f; --sand: #d9b58a;
   --serif: "Instrument Serif", Georgia, serif;
   --sans: "DM Sans", system-ui, sans-serif;
@@ -22,8 +22,6 @@
 .set--blush { --s-bg: var(--blush); --s-fg: var(--hq-ink); --s-fg2: var(--hq-ink-2); --s-accent: var(--rose); --s-em: #b4566a; --s-line: rgba(180, 86, 106, .2); --s-chip: rgba(42, 37, 34, .25); --s-on-bg: #b4566a; --s-on-fg: #fff; }
 .set--ivory { --s-bg: var(--ivory); --s-fg: var(--hq-ink); --s-fg2: var(--hq-ink-2); --s-accent: #a8794a; --s-em: var(--hq-red); --s-line: rgba(42, 37, 34, .14); --s-chip: rgba(42, 37, 34, .25); --s-on-bg: var(--hq-ink); --s-on-fg: var(--ivory); }
 .set--harbour { --s-bg: var(--harbour); --s-fg: #1d2f3c; --s-fg2: rgba(29, 47, 60, .86); --s-accent: var(--sea); --s-em: var(--sea); --s-line: rgba(43, 76, 99, .2); --s-chip: rgba(29, 47, 60, .3); --s-on-bg: var(--sea); --s-on-fg: #fff; }
-.set--cinema { --s-bg: var(--cine); --s-fg: #f2efe9; --s-fg2: rgba(242, 239, 233, .84); --s-accent: var(--hq-red); --s-em: #f2efe9; --s-line: rgba(242, 239, 233, .14); --s-chip: rgba(242, 239, 233, .3); --s-on-bg: var(--hq-red); --s-on-fg: #fff; }
-.set--cinema .set__t em { color: var(--hq-red); }
 .paper .set__head { text-shadow: none; }
 .paper .set__no { display: flex; align-items: center; gap: 10px; font: 600 13px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; }
 .set__icon { width: 30px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; }
@@ -88,15 +86,6 @@
 @keyframes twinkle { 0%, 100% { transform: scale(.2) rotate(0); opacity: 0; } 50% { transform: scale(1) rotate(45deg); opacity: .9; } }
 .motif--waves { top: auto; bottom: 0; width: 100%; height: 80px; }
 
-.motif--cinema { inset: 0; height: auto; }
-.lb-bar { position: absolute; left: 0; right: 0; height: clamp(18px, 3vw, 44px); background: #000; }
-.lb-bar--t { top: 0; } .lb-bar--b { bottom: 0; }
-.cine-rec { position: absolute; top: clamp(30px, 4vw, 60px); right: var(--gutter); display: flex; align-items: center; gap: 8px; font: 500 12px/1 var(--mono); letter-spacing: .2em; color: #f2efe9; }
-.cine-rec i { width: 9px; height: 9px; border-radius: 50%; background: var(--hq-red); animation: recBlink 1.2s steps(2) infinite; }
-.cine-tc { position: absolute; bottom: clamp(30px, 4vw, 60px); right: var(--gutter); font: 500 11px/1 var(--mono); letter-spacing: .16em; color: rgba(242, 239, 233, .5); }
-@keyframes recBlink { 50% { opacity: .15; } }
-.set--cinema::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(0deg, rgba(255, 255, 255, .025) 0 1px, transparent 1px 3px); }
-
 /* ---------- transitions: one per section ---------- */
 .tx { position: relative; z-index: 2; height: 170vh; background: var(--to); }
 .tx__stick { position: sticky; top: 0; height: 100vh; overflow: hidden; display: grid; place-items: center; background: var(--from); }
@@ -132,12 +121,6 @@
 .tx--flash .tx__label { --lab: #1d2f3c; --labk: var(--sea); }
 
 /* 04 letterbox */
-.bar { position: absolute; left: 0; right: 0; height: 0; background: #000; z-index: 4; }
-.bar--top { top: 0; } .bar--bot { bottom: 0; }
-.rec { position: absolute; z-index: 5; top: 24px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 10px; font: 500 13px/1 var(--mono); letter-spacing: .2em; color: #f2efe9; opacity: 0; }
-.rec i { width: 10px; height: 10px; border-radius: 50%; background: var(--hq-red); animation: recBlink 1.2s steps(2) infinite; }
-.rec b { font-weight: 500; font-variant-numeric: tabular-nums; }
-.tx--cinema .tx__label { --lab: #f2efe9; z-index: 3; }
 
 html:not(.js) .tx__wash, .no-motion .tx__wash { opacity: 1; }
 html:not(.js) .tx__label, .no-motion .tx__label { opacity: 1; }
@@ -188,7 +171,7 @@ html:not(.js) .tx__label, .no-motion .tx__label { opacity: 1; }
   .set--ivory .ph figcaption { display: block; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .motif--petals i, .motif--sparkle i, .cine-rec i, .rec i { animation: none; }
+  .motif--petals i, .motif--sparkle i { animation: none; }
 }
 
 /* ---------- featured: the 3D instant camera printing the main portrait ---------- */
@@ -240,13 +223,12 @@ html:not(.js) .tx__label, .no-motion .tx__label { opacity: 1; }
    Each section holds its photos its own way:
    weddings · single cut film negatives, taped up like the Polaroids
    events   · 35mm slide mounts
-   video    · a cinema camera monitor with its recording overlay
    ========================================================== */
-.negs .ph, .slides .ph, .monitors .ph { margin: 0; border-radius: 0; overflow: visible; }
-.negs .ph--empty, .slides .ph--empty, .monitors .ph--empty,
-.negs .ph--empty:nth-child(3n+2), .slides .ph--empty:nth-child(3n+2), .monitors .ph--empty:nth-child(3n+2) { aspect-ratio: auto; display: block; border: 0; }
-.negs .ph a, .slides .ph a, .monitors .ph a { aspect-ratio: var(--ar); overflow: hidden; }
-.negs .ph img, .slides .ph img, .monitors .ph img { width: 100%; height: 100%; object-fit: cover; }
+.negs .ph, .slides .ph { margin: 0; border-radius: 0; overflow: visible; }
+.negs .ph--empty, .slides .ph--empty,
+.negs .ph--empty:nth-child(3n+2), .slides .ph--empty:nth-child(3n+2) { aspect-ratio: auto; display: block; border: 0; }
+.negs .ph a, .slides .ph a { aspect-ratio: var(--ar); overflow: hidden; }
+.negs .ph img, .slides .ph img { width: 100%; height: 100%; object-fit: cover; }
 .ph__soon small { font: 500 10px/1.3 var(--mono); letter-spacing: .14em; text-transform: uppercase; opacity: .75; }
 
 /* ---------- weddings: single negatives ---------- */
@@ -293,6 +275,7 @@ html:not(.js) .tx__label, .no-motion .tx__label { opacity: 1; }
   box-shadow: inset 0 0 0 1px rgba(29, 47, 60, .08), inset 0 -3px 0 rgba(29, 47, 60, .06), 0 18px 30px -18px rgba(29, 47, 60, .55);
   transform: rotate(var(--tilt, 0deg)); transition: transform .4s var(--ease);
 }
+.slides .ph[hidden] { display: none; }   /* the mount's display: grid would otherwise beat the filter */
 .slides .ph:nth-child(3n+2) { --mount: #ece1cc; --tilt: 1.2deg; }
 .slides .ph:nth-child(3n) { --mount: #dfe4e8; --tilt: -1deg; }
 .slides .ph:nth-child(4n+1) { --tilt: -.8deg; }
@@ -308,37 +291,14 @@ html:not(.js) .tx__label, .no-motion .tx__label { opacity: 1; }
 .ph__mount b { position: absolute; top: 5.5%; left: 0; right: 0; text-align: center; font: 600 10px/1 var(--sans); letter-spacing: .3em; }
 .ph__mount i { position: absolute; bottom: 5.5%; left: 0; right: 0; text-align: center; font: 500 10px/1 var(--mono); letter-spacing: .14em; font-style: normal; text-transform: uppercase; }
 
-/* ---------- video: cinema camera monitors ---------- */
-.monitors { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); gap: clamp(22px, 3vw, 34px); }
-.monitors .ph { position: relative; padding: 12px 12px 30px; border-radius: 14px; background: linear-gradient(#1b1d22, #121317); border: 1px solid #2c2f36; box-shadow: 0 24px 40px -24px rgba(0, 0, 0, .8); }
-.monitors .ph::before { content: "HO QUOC · CAM A"; display: block; top: auto; bottom: 10px; left: 16px; opacity: .5; color: #f2efe9; font: 600 9px/1 var(--mono); letter-spacing: .24em; }
-.monitors .ph::after { content: ""; position: absolute; right: 16px; bottom: 11px; width: 7px; height: 7px; border-radius: 50%; background: #3fa66a; box-shadow: 0 0 6px #3fa66a; }
-.monitors .ph a, .monitors .ph__soon { display: block; width: 100%; aspect-ratio: 16 / 9; border-radius: 4px; overflow: hidden; }
-.monitors .ph figcaption { left: 12px; right: 12px; bottom: 30px; padding-bottom: 34px; font: 500 15px/1.2 var(--sans); }
-.monitors .ph__soon { display: grid; place-content: center; gap: 6px; text-align: center; background: radial-gradient(circle at 50% 45%, #2a3440, #0d1014 75%); color: #f2efe9; }
-.monitors .ph__soon span { font: 600 clamp(16px, 1.4vw, 19px)/1.2 var(--sans); }
-/* the recording overlay: frame guides, REC, timecode, settings */
-.ph__hud { position: absolute; inset: 12px 12px 30px; pointer-events: none; color: #f2efe9; font: 500 10px/1 var(--mono); letter-spacing: .1em; text-shadow: 0 1px 2px rgba(0, 0, 0, .7); }
-.ph__hud::before { content: ""; position: absolute; inset: 9%; border: 1px dashed rgba(242, 239, 233, .22); }
-.ph__hud::after { content: ""; position: absolute; left: 50%; top: 50%; width: 18px; height: 18px; margin: -9px 0 0 -9px; background: linear-gradient(rgba(242, 239, 233, .5), rgba(242, 239, 233, .5)) center / 1px 100% no-repeat, linear-gradient(rgba(242, 239, 233, .5), rgba(242, 239, 233, .5)) center / 100% 1px no-repeat; }
-.ph__hud-top, .ph__hud-bot { position: absolute; left: 10px; right: 10px; display: flex; align-items: center; gap: 14px; }
-.ph__hud-top { top: 10px; } .ph__hud-bot { bottom: 10px; }
-.ph__hud em { margin-left: auto; font-style: normal; color: #f2efe9; }
-.ph__hud i { font-style: normal; }
-.ph__hud b { font-weight: 500; font-variant-numeric: tabular-nums; }
-.ph__rec { display: flex; align-items: center; gap: 6px; color: #ff5a4f; }
-.ph__rec::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor; animation: recBlink 1.2s steps(2) infinite; }
-.ph__batt { position: relative; width: 22px; height: 10px; margin-left: auto; border: 1px solid currentColor; border-radius: 2px; background: linear-gradient(90deg, currentColor 0 70%, transparent 70%) 2px 2px / calc(100% - 4px) calc(100% - 4px) no-repeat; }
-.ph__batt::after { content: ""; position: absolute; right: -4px; top: 2px; width: 2px; height: 4px; background: currentColor; }
 @media (max-width: 760px) {
   .negs { grid-template-columns: 1fr; --edge: 26px; }
   .negs .ph:not(.ph--land) { width: 78%; }
-  .negs .ph::before, .monitors .ph::before { display: block; }
+  .negs .ph::before { display: block; }
   .slides { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
   .ph__mount b, .ph__mount i { font-size: 8px; letter-spacing: .14em; }
   .slides .ph:not(.ph--land) a, .slides .ph:not(.ph--land) .ph__soon { width: 42%; }
   .slides .ph a, .slides .ph__soon { width: 70%; }
-  .ph__hud-bot i:not(.ph__batt):nth-child(n+3) { display: none; }
 }
 
 /* ---------- weddings: rings, petals, eucalyptus sprigs ---------- */
@@ -373,24 +333,7 @@ html:not(.js) .tx__label, .no-motion .tx__label { opacity: 1; }
 @keyframes passSwing { from { transform: rotate(-3deg); } to { transform: rotate(3deg); } }
 @media (min-width: 1101px) { .pass { display: block; } .set--harbour .set__head { padding-right: 170px; } }
 
-/* ---------- video: a clapperboard in the transition, a reel and audio meters ---------- */
-.clap { position: absolute; z-index: 5; top: calc(50% - min(280px, 60vw) * .41); width: min(280px, 60vw); height: auto; opacity: 0; overflow: visible; }
-.no-motion .clap, html:not(.js) .clap { display: none; }
-.cinecam { position: absolute; left: var(--gutter); bottom: 52px; width: 118px; height: auto; display: none; }
-.cinecam__body { fill: #44474f; }
-.cinecam__lens { fill: #2e3137; stroke: #6a6e77; stroke-width: 1.5; }
-.cinecam__screen { fill: #4a7a96; stroke: #6a6e77; stroke-width: 1.5; }
-.cinecam__arm, .cinecam__handle { fill: none; stroke: #6a6e77; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
-.cinecam__card { fill: #c8352f; }
-.cinecam__rec { fill: #ff5a4f; animation: recBlink 1.2s steps(2) infinite; }
-@keyframes spin { to { transform: rotate(360deg); } }
-.meters { position: absolute; left: calc(var(--gutter) + 138px); bottom: 66px; height: 56px; display: none; align-items: flex-end; gap: 4px; }
-.meters i { width: 8px; height: 100%; transform-origin: bottom; background: linear-gradient(to top, #3fa66a 0 60%, #e2c24a 60% 85%, var(--hq-red) 85%); -webkit-mask: repeating-linear-gradient(to top, #000 0 4px, transparent 4px 6px); mask: repeating-linear-gradient(to top, #000 0 4px, transparent 4px 6px); animation: meter .8s steps(5) infinite alternate; }
-.meters i + i { animation-duration: .65s; animation-delay: -.3s; }
-.meters small { margin-left: 6px; font: 500 10px/1 var(--mono); letter-spacing: .2em; color: rgba(242, 239, 233, .5); }
-@keyframes meter { from { transform: scaleY(.25); } to { transform: scaleY(.95); } }
-@media (min-width: 1101px) { .cinecam { display: block; } .meters { display: flex; } }
-@media (prefers-reduced-motion: reduce) { .lights__bulbs circle, .pass, .cinecam__rec, .meters i, .ph__rec::before { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .lights__bulbs circle, .pass { animation: none; } }
 
 /* ---------- what to expect ---------- */
 .expect { padding: clamp(64px, 8vw, 110px) 0; background: #fffdf9; color: var(--hq-ink); border-top: 1px solid rgba(42, 37, 34, .08); }
@@ -473,15 +416,37 @@ html:not(.js) .tx__label, .no-motion .tx__label { opacity: 1; }
 .jac__wood path { fill: none; stroke: #5b4638; stroke-linecap: round; }
 .jac-branch { position: absolute; z-index: 0; top: 0; right: 0; width: clamp(130px, 19vw, 280px); height: auto; overflow: visible; pointer-events: none; }
 .sydney { position: absolute; z-index: 0; left: 0; right: 0; bottom: 0; width: 100%; height: clamp(130px, 19vw, 280px); pointer-events: none; }
-.opera__sails path { fill: #fffdf9; stroke: #6d6a72; stroke-width: 1.6; stroke-linejoin: round; }
-.opera__base { fill: #e6d6bf; stroke: #6d6a72; stroke-width: 1.2; stroke-linejoin: round; }
-.harbour-bridge polyline, .harbour-bridge path { fill: none; stroke: #6f7f8e; stroke-width: 1.3; }
-.harbour-bridge polyline { stroke-width: 2.2; }
-.harbour-bridge .harbour-bridge__deck { stroke-width: 4; }
-.harbour-bridge__py rect { fill: #e6d6bf; stroke: #6d6a72; stroke-width: 1.2; }
-.sydney__water path { fill: none; stroke: #7fa3b9; stroke-width: 2; stroke-linecap: round; opacity: .55; }
-.instant__scene { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
-.instant__scene .opera__sails path { stroke: #8d7f83; stroke-width: 1; }
+/* the skyline: line art on ivory, inked like the rest of the section */
+.sydney { overflow: visible; --ink: #6d6a72; --stone: #e8dac4; --steel: #6f7f8e; }
+.sy__city rect { fill: #ece3d4; }
+.sy__line { stroke: #c9d7e0; stroke-width: 1.5; }
+.op__skin { fill: #fffdf9; stroke: var(--ink); stroke-width: 1.5; stroke-linejoin: round; }
+.op__in { fill: #ede5d8; }
+.op__rib polyline { fill: none; stroke: #dcd4c9; stroke-width: 1; }
+.op__mull { stroke: #9fb5c4; stroke-width: .8; }
+.op__glass { fill: #c3d4df; }
+.op__back .op__skin { fill: #f7f2ea; stroke: #8a8590; stroke-width: 1.2; }
+.op__back .op__in { fill: #e6ddcf; }
+.op__podium { fill: var(--stone); stroke: var(--ink); stroke-width: 1.2; stroke-linejoin: round; }
+.op__podium-edge { stroke: #bfae95; stroke-width: 1; }
+.op__steps path { stroke: #bfae95; stroke-width: 1.1; }
+.hb__chord { fill: none; stroke: var(--steel); stroke-width: 2.4; stroke-linejoin: round; }
+.hb__web { fill: none; stroke: var(--steel); stroke-width: 1.1; opacity: .9; }
+.hb__hang { fill: none; stroke: var(--steel); stroke-width: .9; opacity: .75; }
+.hb__deck { stroke: var(--steel); stroke-width: 4.5; }
+.hb__rail { stroke: var(--steel); stroke-width: 1; opacity: .7; }
+.hb__truss { fill: none; stroke: var(--steel); stroke-width: 1.1; }
+.hb__piers rect { fill: var(--stone); stroke: var(--ink); stroke-width: 1; }
+.hb__pylon > path:first-child { fill: var(--stone); stroke: var(--ink); stroke-width: 1.3; stroke-linejoin: round; }
+.hb__course { stroke: #cdbca3; stroke-width: 1; }
+.hb__arch { fill: #d8c7ad; stroke: var(--ink); stroke-width: 1; }
+.sy__water path { fill: none; stroke: #7fa3b9; stroke-width: 2; stroke-linecap: round; opacity: .5; }
+.sy__hull { fill: #3f6b4f; }
+.sy__cabin { fill: #f3e7c9; stroke: #3f6b4f; stroke-width: 1.2; }
+.sy__win { stroke: #3f6b4f; stroke-width: 2.4; }
+.sy__wake { fill: none; stroke: #9db9c9; stroke-width: 1.5; stroke-linecap: round; }
+.sy__bank { fill: #e9eedf; }
+.instant__scene { position: absolute; inset: 0; width: 100%; height: 100%; display: block; object-fit: cover; object-position: 50% 40%; }
 .tx--instant .tx__petals { position: absolute; }
 @media (prefers-reduced-motion: reduce) { .motif--jac i { animation: none; opacity: .5; } }
 @media (max-width: 760px) { .jac-branch { width: 96px; } }
