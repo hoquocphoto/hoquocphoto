@@ -3,7 +3,7 @@
 // Scene 2 (roll): a spiral of film under a darkroom safelight; frames develop from negative as they reach you.
 import * as THREE from 'three';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
-import { buildBody } from './camera-body.js?v=20261028a';
+import { buildBody } from './camera-body.js?v=20261104i';
 
 const NB = window.NB || (window.NB = {});
 const root = document.documentElement;
@@ -59,14 +59,14 @@ function start() {
       const x0 = i * w / 2;
       marks.forEach((m, j) => {
         const x = x0 + 60 + j * (w / 2 - 120) / (marks.length - 1);
-        g.fillStyle = j === 0 ? '#c9a43f' : '#efe2cf';
+        g.fillStyle = j === 0 ? '#c39a4a' : '#efe2cf';
         g.font = '500 46px "JetBrains Mono", ui-monospace, monospace';
         g.fillText(m, x, 92);
         g.fillStyle = 'rgba(239,226,207,.75)'; g.fillRect(x - 1.5, 140, 3, 26);
       });
       for (let k = 0; k < 60; k++) { g.fillStyle = 'rgba(239,226,207,.35)'; g.fillRect(x0 + 40 + k * (w / 2 - 80) / 60, 170, 2, 12); }
     }
-    g.fillStyle = '#c9a43f'; g.fillRect(0, 214, w, 3);
+    g.fillStyle = '#c39a4a'; g.fillRect(0, 214, w, 3);
   });
   const frontTex = canvasTex(1024, 1024, (g, w) => {
     g.fillStyle = '#0b0a0a'; g.fillRect(0, 0, w, w);
@@ -77,7 +77,7 @@ function start() {
     const r = w * 0.43, step = (Math.PI * 2) / text.length;
     for (let i = 0; i < text.length; i++) {
       g.save(); g.rotate(i * step - Math.PI / 2); g.translate(0, -r);
-      g.fillStyle = text[i] === '·' ? '#c9a43f' : '#efe2cf';
+      g.fillStyle = text[i] === '·' ? '#c39a4a' : '#efe2cf';
       g.fillText(text[i], -9, 0); g.restore();
     }
   });
@@ -220,7 +220,7 @@ function start() {
     });
     return new THREE.Points(g, m);
   }
-  const heroBokeh = bokeh(small() ? 70 : 140, [30, 18], [-22, -4], ['#c9a43f', '#e2c77a', '#b3262d', '#f6e3cb', '#7a2b30']);
+  const heroBokeh = bokeh(small() ? 70 : 140, [30, 18], [-22, -4], ['#c39a4a', '#dcc089', '#b3262d', '#efe7da', '#3a3430']);
   hero.add(heroBokeh);
 
   // hero slideshow behind the iris
@@ -262,7 +262,7 @@ function start() {
     depthWrite: false,
   }));
   glow.position.z = -12; roll.add(glow);
-  const rollBokeh = bokeh(small() ? 40 : 80, [26, 16], [-10, -2], ['#b3262d', '#7a1a1f', '#e2c77a']);
+  const rollBokeh = bokeh(small() ? 40 : 80, [26, 16], [-10, -2], ['#b3262d', '#2e2a26', '#dcc089']);
   roll.add(rollBokeh);
 
   const film = new THREE.Group(); roll.add(film);
@@ -280,7 +280,7 @@ function start() {
   // film base with sprocket holes
   const sprocket = canvasTex(256, 256, (g, w, h) => {
     g.clearRect(0, 0, w, h);
-    g.fillStyle = '#1a0b07'; g.fillRect(0, 0, w, h);
+    g.fillStyle = '#161412'; g.fillRect(0, 0, w, h);
     g.globalCompositeOperation = 'destination-out';
     const hole = (x, y) => { g.beginPath(); g.roundRect(x, y, 44, 26, 6); g.fill(); };
     for (let i = 0; i < 4; i++) { hole(10 + i * 64, 8); hole(10 + i * 64, h - 34); }
@@ -306,15 +306,15 @@ function start() {
   }
 
   // a blank frame for the roll until the real photos are in: soft colour from his palette and a label
-  const SOON = [['#f6dcd6', '#e9b8b0'], ['#faf3e6', '#ecd0b2'], ['#dbe7ef', '#a9c2d3'], ['#efe2cf', '#d9b58a']];
+  const SOON = [['#e8dccb', '#d9c3a5'], ['#faf3e6', '#ecd0b2'], ['#d8dee2', '#a9c2d3'], ['#efe2cf', '#d9b58a']];
   const soonTex = (f, i) => (document.fonts ? document.fonts.ready : Promise.resolve()).then(() => {
     const W = f.w > f.h ? 1200 : 800, Hh = f.w > f.h ? 800 : 1200;
     const t = canvasTex(W, Hh, (g, w, h) => {
       const [a, b] = SOON[i % SOON.length], gr = g.createLinearGradient(0, 0, w, h);
       gr.addColorStop(0, a); gr.addColorStop(1, b); g.fillStyle = gr; g.fillRect(0, 0, w, h);
-      g.textAlign = 'center'; g.fillStyle = 'rgba(42,37,34,.85)';
-      g.font = '400 110px "Instrument Serif", Georgia, serif'; g.fillText(f.cap, w / 2, h / 2);
-      g.font = '500 30px "JetBrains Mono", monospace'; g.fillStyle = 'rgba(42,37,34,.55)'; g.fillText('PHOTO COMING SOON', w / 2, h / 2 + 70);
+      g.textAlign = 'center'; g.fillStyle = 'rgba(27, 26, 23,.85)';
+      g.font = '700 110px "Archivo", system-ui, sans-serif'; g.fillText(f.cap, w / 2, h / 2);
+      g.font = '500 30px "JetBrains Mono", monospace'; g.fillStyle = 'rgba(27, 26, 23,.55)'; g.fillText('PHOTO COMING SOON', w / 2, h / 2 + 70);
     });
     t.colorSpace = THREE.NoColorSpace;
     return t;

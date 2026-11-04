@@ -56,7 +56,7 @@ export function buildBody({ canvasTex, maxAniso }) {
     // name plate where the maker's logo would be
     const plate = canvasTex(512, 96, (g2, w, h) => {
       g2.fillStyle = '#cfcbc4'; g2.fillRect(0, 0, w, h);
-      g2.fillStyle = '#1b1716'; g2.font = '600 46px "Be Vietnam Pro", system-ui, sans-serif'; g2.textAlign = 'center'; g2.textBaseline = 'middle';
+      g2.fillStyle = '#1b1716'; g2.font = '600 46px "Archivo", system-ui, sans-serif'; g2.textAlign = 'center'; g2.textBaseline = 'middle';
       g2.fillText('HO QUOC', w / 2, h / 2 + 2);
     });
     add(new THREE.PlaneGeometry(1.25, .24), new THREE.MeshStandardMaterial({ map: plate, metalness: .8, roughness: .35 }), AX, Y2 + .34, -.08 + .68 + .061);

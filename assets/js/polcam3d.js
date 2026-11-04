@@ -58,7 +58,7 @@ function start() {
   const lensGlass = add(new THREE.SphereGeometry(.56, 48, 16, 0, Math.PI * 2, 0, .55), M.glass, -0.35, -0.55, fz + .05);
   lensGlass.rotation.x = Math.PI / 2;
   // stripe in his palette, running down the front
-  ['#c8352f', '#e9a27a', '#d9b58a', '#7fa3b9'].forEach((c, i) => add(new THREE.BoxGeometry(.13, 1.5, .03), new THREE.MeshStandardMaterial({ color: c, roughness: .4 }), 1.05 + i * .15, -0.72, fz + .06));
+  ['#a8401f', '#e9a27a', '#d9b58a', '#7fa3b9'].forEach((c, i) => add(new THREE.BoxGeometry(.13, 1.5, .03), new THREE.MeshStandardMaterial({ color: c, roughness: .4 }), 1.05 + i * .15, -0.72, fz + .06));
   // shutter button and the eject slot under the lens
   add(new THREE.CylinderGeometry(.2, .2, .16, 32), M.red, 1.85, 0.0, fz - .02).rotation.x = Math.PI / 2;
   const SLOT_Y = -1.42;
@@ -72,7 +72,7 @@ function start() {
   // name plate on the front
   {
     const c = document.createElement('canvas'); c.width = 512; c.height = 96; const g = c.getContext('2d');
-    g.fillStyle = '#1c1b1f'; g.fillRect(0, 0, 512, 96); g.fillStyle = '#f3eee4'; g.font = '600 50px "DM Sans", system-ui, sans-serif'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('HO QUOC · instant', 256, 50);
+    g.fillStyle = '#1c1b1f'; g.fillRect(0, 0, 512, 96); g.fillStyle = '#f3eee4'; g.font = '600 50px "Archivo", system-ui, sans-serif'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('HO QUOC · instant', 256, 50);
     const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
     add(new THREE.PlaneGeometry(1.7, .32), new THREE.MeshBasicMaterial({ map: t }), -0.35, 0.02, fz + .06);
   }
@@ -111,7 +111,7 @@ function start() {
   cap.position.set(0, -PH / 2 + .38, .021); printGroup.add(cap);
   const writeCap = (txt) => {
     const g = capCanvas.getContext('2d'); g.clearRect(0, 0, 1024, 200);
-    g.fillStyle = '#2a2522'; g.font = '600 96px Caveat, cursive'; g.textBaseline = 'middle'; g.fillText(txt, 30, 104); capTex.needsUpdate = true;
+    g.fillStyle = '#1b1a17'; g.font = '400 92px "Patrick Hand", cursive'; g.textBaseline = 'middle'; g.fillText(txt, 30, 104); capTex.needsUpdate = true;
   };
 
   // ---------- photos to print ----------
@@ -119,10 +119,10 @@ function start() {
   const loader = new THREE.TextureLoader();
   const placeholder = (label) => {
     const c = document.createElement('canvas'); c.width = c.height = 1024; const g = c.getContext('2d');
-    const gr = g.createLinearGradient(0, 0, 1024, 1024); gr.addColorStop(0, '#f6dcd6'); gr.addColorStop(.45, '#ecd0b2'); gr.addColorStop(1, '#bfd3df');
+    const gr = g.createLinearGradient(0, 0, 1024, 1024); gr.addColorStop(0, '#e8dccb'); gr.addColorStop(.45, '#ecd0b2'); gr.addColorStop(1, '#bfd3df');
     g.fillStyle = gr; g.fillRect(0, 0, 1024, 1024);
-    g.fillStyle = 'rgba(42,37,34,.85)'; g.font = '600 120px Caveat, cursive'; g.textAlign = 'center'; g.fillText(label, 512, 500);
-    g.font = '500 34px "JetBrains Mono", monospace'; g.fillStyle = 'rgba(42,37,34,.55)'; g.fillText('PHOTO COMING SOON', 512, 600);
+    g.fillStyle = 'rgba(27, 26, 23,.85)'; g.font = '400 116px "Patrick Hand", cursive'; g.textAlign = 'center'; g.fillText(label, 512, 500);
+    g.font = '500 34px "JetBrains Mono", monospace'; g.fillStyle = 'rgba(27, 26, 23,.55)'; g.fillText('PHOTO COMING SOON', 512, 600);
     const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.NoColorSpace; return t;
   };
   const items = data.length ? data : [{ cap: 'Graduation · Sydney' }, { cap: 'Concept · golden hour' }, { cap: 'Daily portrait' }];

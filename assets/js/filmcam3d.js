@@ -71,7 +71,7 @@ function start() {
     add(g, M.chrome, 0, Y2 - .02, 0);
     const plate = canvasTex(512, 110, (g2, w, h) => {
       g2.fillStyle = '#d8d3ca'; g2.fillRect(0, 0, w, h);
-      g2.fillStyle = '#1b1716'; g2.font = '600 58px "DM Sans", system-ui, sans-serif'; g2.textAlign = 'center'; g2.textBaseline = 'middle';
+      g2.fillStyle = '#1b1716'; g2.font = '600 58px "Archivo", system-ui, sans-serif'; g2.textAlign = 'center'; g2.textBaseline = 'middle';
       g2.fillText('HO QUOC', w / 2, h / 2 + 3);
     });
     add(new THREE.PlaneGeometry(1.2, .26), new THREE.MeshStandardMaterial({ map: plate, metalness: .75, roughness: .35 }), 0, Y2 + .32, .615);
@@ -115,7 +115,7 @@ function start() {
   onZ(new THREE.CylinderGeometry(1.1, 1.16, .14, 72), M.chrome, 0, AY, front + 1.48);
   const ringTex = canvasTex(1024, 1024, (g, w) => {
     g.fillStyle = '#0c0c0c'; g.fillRect(0, 0, w, w); g.translate(w / 2, w / 2);
-    g.fillStyle = '#d9d4ca'; g.font = '500 52px "DM Sans", system-ui, sans-serif'; g.textAlign = 'center'; g.textBaseline = 'middle';
+    g.fillStyle = '#d9d4ca'; g.font = '500 52px "Archivo", system-ui, sans-serif'; g.textAlign = 'center'; g.textBaseline = 'middle';
     [...'HO QUOC 50mm 1:1.4  ·  FILM  ·  '].forEach((ch, i, a) => { g.save(); g.rotate(i / a.length * Math.PI * 2); g.translate(0, -w * .43); g.fillText(ch, 0, 0); g.restore(); });
   });
   add(new THREE.CircleGeometry(1.05, 72), new THREE.MeshStandardMaterial({ map: ringTex, roughness: .5 }), 0, AY, front + 1.555);
@@ -142,7 +142,7 @@ function start() {
   const paint = (imgs) => {
     const g = atlas.getContext('2d');
     g.clearRect(0, 0, atlas.width, BH);
-    g.fillStyle = '#241410'; g.fillRect(0, 0, atlas.width, BH);
+    g.fillStyle = '#1c1a17'; g.fillRect(0, 0, atlas.width, BH);
     const fw = FW * PX, fh = FH * PX, fy = (BH - fh) / 2;
     items.forEach((it, k) => {
       const cx = (N - 1 - k) * CELL, fx = cx + (CELL - fw) / 2, im = imgs[k];
@@ -151,11 +151,11 @@ function start() {
         g.drawImage(im, (im.width - sw) / 2, (im.height - sh) / 2, sw, sh, fx, fy, fw, fh);
       } else {
         const gr = g.createLinearGradient(fx, fy, fx + fw, fy + fh);
-        gr.addColorStop(0, '#f6dcd6'); gr.addColorStop(.55, '#f3cfc4'); gr.addColorStop(1, '#e9b8b0');
+        gr.addColorStop(0, '#e8dccb'); gr.addColorStop(.55, '#e2d3bd'); gr.addColorStop(1, '#d9c3a5');
         g.fillStyle = gr; g.fillRect(fx, fy, fw, fh);
-        g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillStyle = 'rgba(42,37,34,.85)';
-        g.font = '400 92px "Instrument Serif", Georgia, serif'; g.fillText(it.cap.split(' · ')[0], fx + fw / 2, fy + fh / 2 - 16);
-        g.font = '500 24px "JetBrains Mono", monospace'; g.fillStyle = 'rgba(42,37,34,.6)'; g.fillText('PHOTO COMING SOON', fx + fw / 2, fy + fh / 2 + 52);
+        g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillStyle = 'rgba(27, 26, 23,.85)';
+        g.font = '700 92px "Archivo", system-ui, sans-serif'; g.fillText(it.cap.split(' · ')[0], fx + fw / 2, fy + fh / 2 - 16);
+        g.font = '500 24px "JetBrains Mono", monospace'; g.fillStyle = 'rgba(27, 26, 23,.6)'; g.fillText('PHOTO COMING SOON', fx + fw / 2, fy + fh / 2 + 52);
       }
       g.fillStyle = 'rgba(242,166,90,.95)'; g.font = '600 20px "JetBrains Mono", monospace'; g.textBaseline = 'middle'; g.textAlign = 'left';
       g.fillText('HO QUOC 400', cx + 60, 58);
