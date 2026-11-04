@@ -2,8 +2,8 @@
 
 Plain HTML/CSS/JS portfolio. Galleries are generated: edit `build.py`, then run `python3 build.py`.
 
-- Photos: put `name.jpg` (1800px) and `name-sm.jpg` (800px) in `assets/img`, add a line to WEDDINGS / PORTRAITS / EVENTS / VIDEO in `build.py`.
-- Each section has its own print (`STYLE` in `build.py`): weddings are cut film negatives, portraits Polaroids, events slide mounts, video a cinema camera monitor.
+- Photos: put `name.jpg` (1800px) and `name-sm.jpg` (800px) in `assets/img`, add a line to WEDDINGS / PORTRAITS / EVENTS in `build.py`.
+- Each section has its own print (`STYLE` in `build.py`): weddings are cut film negatives, portraits Polaroids, events slide mounts.
 - Contact: `CONTACT` in `build.py` (Instagram and phone are set; email is hidden while empty).
 - Wedding film camera: list up to 6 wedding photo names in `FILMCAM` (placeholder frames show while it's empty).
 - About photo: set `ABOUT_PHOTO` to a photo name (a placeholder print shows while it's empty).
