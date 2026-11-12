@@ -1,12 +1,12 @@
 # Add photos to your website
 
-Drag photos into the right album folder below and click **Commit changes**. About two minutes later they're resized, captioned and live on [hoquocphoto.github.io/hoquocphoto](https://hoquocphoto.github.io/hoquocphoto/). No software or code needed, just a web browser.
+Each album on the website has a folder here holding all its photos. Drag new photos into an album's folder to add them, or delete a photo from the folder to take it off the site. About two minutes later the change is live on [hoquocphoto.github.io/hoquocphoto](https://hoquocphoto.github.io/hoquocphoto/). No software or code needed, just a web browser.
 
 ## Which folder is which album
 
-Each folder is one album on the website. The folder you upload into decides the album.
+Each folder is one album on the website and holds all of its photos. The folder you upload into decides the album.
 
-| Folder | Album | Section |
+| Folder | Album on the website | Section |
 |---|---|---|
 | [wedding-film](wedding-film/) | Wedding day on film | Weddings |
 | [wedding-pyrmont](wedding-pyrmont/) | Wedding day in Pyrmont | Weddings |
@@ -39,7 +39,7 @@ Each folder is one album on the website. The folder you upload into decides the 
 3. Drag your photos into the box, or click **choose your files** and pick them.
 4. Wait until every photo has finished uploading (the progress bars disappear).
 5. Leave **Commit directly to the main branch** selected and click the green **Commit changes** button.
-6. Wait about two minutes, then refresh the website. The new photos appear at the end of that album, and the folder on GitHub is empty again.
+6. Wait about two minutes, then refresh the website. The new photos appear at the end of that album, and in the folder they're renamed to the next numbers (for example `72.jpg`).
 
 ## Captions and the album cover
 
@@ -56,18 +56,26 @@ The camera settings shown in the viewfinder (aperture, shutter, ISO, focal lengt
 
 ## Checking it worked
 
-It worked when the album folder is empty again and the photos show on the website.
+It worked when your photos have been renamed to numbers in the folder and show on the website.
 
 - **To watch it happen:** open the [Actions page](https://github.com/hoquocphoto/hoquocphoto/actions). The top run, **Add photos and publish**, shows a yellow dot while it works and a green tick when it's done (about 20 seconds). The website catches up a minute or so later.
 - **Website still looks the same:** your browser may be showing an old copy. Refresh with Cmd + Shift + R (Ctrl + Shift + R on Windows).
-- **Red cross on the Actions page:** nothing on the website changed, and the photo stays in the folder. Send Nathan the link to that run.
-- **Photo stayed in the folder but the run is green:** it's probably in the wrong format (for example a RAW file). Export it as JPG and upload again.
-- **Uploaded outside an album folder:** the photos just sit there and nothing changes. Delete them and upload again into the right folder.
-- **Uploaded to the wrong album:** tell Nathan which photos need moving.
+- **Red cross on the Actions page:** nothing on the website changed. Send Nathan the link to that run.
+- **Photo kept its own name but the run is green:** it's probably in the wrong format (for example a RAW file). Delete it, export it as JPG and upload again.
+- **Uploaded outside an album folder:** the photos just sit there and nothing changes. Delete them and upload again into the right album's folder.
+- **Uploaded to the wrong album:** delete them from that folder and upload them into the right one.
 
-## Changing a caption, removing a photo, or a new album
+## Removing a photo
 
-The easy way for all three: message Nathan with the album and what to change.
+1. Open the album's folder and click the photo.
+2. Open the **…** menu (top right) and choose **Delete file**.
+3. Click **Commit changes**. The photo leaves the website about two minutes later.
+
+To remove several, delete them one at a time; each delete updates the site.
+
+## Changing a caption, or a new album
+
+The easy way: message Nathan with the album and what to change.
 
 To fix a caption yourself:
 
@@ -78,4 +86,4 @@ To fix a caption yourself:
 
 If an edit breaks the file, the run on the Actions page shows a red cross and the website keeps showing the previous version until it's fixed.
 
-Removing photos and new albums are best left to Nathan. A new album needs a title, a one-line note and a section (Weddings, Portraits or Events), so have those ready.
+New albums are best left to Nathan. A new album needs a title, a one-line note and a section (Weddings, Portraits or Events), so have those ready.
