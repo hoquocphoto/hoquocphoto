@@ -96,7 +96,6 @@ ROLL = ['wedding-06', 'wedding-14', 'wedding-01', 'portrait-13', 'portrait-12', 
 HERO = ['wedding-06', 'portrait-12', 'portrait-15', 'portrait-01']   # a few names to cycle behind the lens aperture
 FEATURE = ['portrait-12', 'portrait-13', 'portrait-14', 'portrait-20', 'portrait-26', 'portrait-03']   # portrait names the 3D instant camera prints, in order
 FILMCAM = ['wedding-06', 'wedding-07', 'wedding-08', 'wedding-09', 'wedding-10', 'wedding-12']   # up to 6 wedding names for the 3D film camera's strip
-INSTANT_PHOTO = "portrait-15"   # the instant print that develops in the transition into portraits
 ABOUT_PHOTO = ""   # a photo of Quoc for the About section, e.g. "about-quoc" (a placeholder print while empty)
 
 def jpeg_size(path):
@@ -202,7 +201,6 @@ if ABOUT_PHOTO:
 else:
     about_img = '<div class="about__soon"><span>photo of me<br>coming soon</span></div>'
 out = out.replace("{{ABOUT_PHOTO}}", about_img)
-out = out.replace("{{INSTANT_PHOTO}}", f'<img class="instant__scene" src="assets/img/{INSTANT_PHOTO}-sm.jpg" alt="" decoding="async">')
 # until there are photos for the roll, it carries labelled blank frames, one per kind of shoot
 ROLL_SOON = ["Weddings", "Pre-wedding", "Graduation", "Daily portraits", "Concept", "Cosplay", "Events", "Tour groups", "Car shoots"]
 roll = frames(ROLL) or [{"cap": c, "w": 3 if i % 3 != 1 else 2, "h": 2 if i % 3 != 1 else 3} for i, c in enumerate(ROLL_SOON)]

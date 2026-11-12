@@ -1,4 +1,4 @@
-// Nathan Bui — Photography: page behaviour (scroll, viewfinder HUD, AF cursor, reveals, albums, lightbox).
+// Ho Quoc — Photography: page behaviour (scroll, viewfinder HUD, AF cursor, reveals, albums, lightbox).
 // The WebGL layer lives in scene.js; the two talk through window.NB.
 (() => {
   const root = document.documentElement;
@@ -11,6 +11,7 @@
   if (!hasGsap) { root.classList.remove('js'); wireBasics(); return; }
 
   gsap.registerPlugin(ScrollTrigger);
+  if (window.SplitText) gsap.registerPlugin(SplitText);
   const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
 
   // ---------- smooth scroll ----------
@@ -74,15 +75,7 @@
   if (!gl) setTimeout(NB.ready, 300);
   setTimeout(NB.ready, 4000);
 
-  // ---------- aperture breaks between galleries: the iris opens as you scroll through ----------
   if (reduce) root.classList.add('no-motion');
-  else gsap.utils.toArray('.iris-break').forEach((el) => {
-    const iris = el.querySelector('.iris'), label = el.querySelector('.iris-break__label');
-    gsap.timeline({ scrollTrigger: { trigger: el, start: 'top top', end: 'bottom bottom', scrub: .6 } })
-      .fromTo(iris, { '--r': '0vmax', '--spin': '-70deg' }, { '--r': '100vmax', '--spin': '0deg', ease: 'power2.in', duration: 1 }, 0)
-      .fromTo(label, { scale: .82 }, { scale: 1.06, ease: 'none', duration: 1 }, 0)
-      .to(label, { autoAlpha: 0, y: -40, duration: .25 }, .78);
-  });
 
   // ---------- section motifs ----------
   if (!reduce) {
@@ -92,48 +85,39 @@
     gsap.fromTo('.m-mid', { y: 24 }, { y: 0, ease: 'none', scrollTrigger: sky });
   }
 
-  // ---------- each gallery reveals its photos differently ----------
-  // scenery: exposes up from the horizon like a sunrise · people: racks into focus · events: pops with a flash
-  const FX = {
-    expose: {
-      from: { clipPath: 'inset(100% 0% 0% 0%)', filter: 'brightness(.2) sepia(.9) saturate(1.5)', scale: 1.14 },
-      play: (img) => gsap.timeline()
-        .to(img, { clipPath: 'inset(0% 0% 0% 0%)', duration: .9, ease: 'power3.inOut' })
-        .to(img, { filter: 'brightness(1) sepia(0) saturate(1)', scale: 1, duration: 1.6, ease: 'power2.out', clearProps: 'filter,transform' }, '-=.5'),
-    },
-    focus: {
-      from: { filter: 'blur(18px)', scale: 1.08, opacity: 0 },
-      play: (img) => gsap.to(img, { filter: 'blur(0px)', scale: 1, opacity: 1, duration: 1.3, ease: 'power3.out', clearProps: 'filter,transform' }),
-    },
-    // weddings: frames on the strip start as colour negatives and develop into the photo
-    develop: {
-      from: { filter: 'invert(1) sepia(.6) saturate(1.6) brightness(.85)', opacity: .9 },
-      play: (img) => gsap.to(img, { filter: 'invert(0) sepia(0) saturate(1) brightness(1)', opacity: 1, duration: 1.8, ease: 'power2.inOut', clearProps: 'filter,opacity' }),
-    },
-    polaroid: { from: {}, play: () => {} },   // handled in hq.js (flash, develop, wiggle)
-    flash: {
-      from: { opacity: 0 },
-      play: (img, fig) => gsap.timeline()
-        .set(img, { opacity: 1, filter: 'brightness(1.9) contrast(.8)' })
-        .fromTo(fig.querySelector('.flash'), { opacity: .95 }, { opacity: 0, duration: .75, ease: 'expo.out' }, 0)
-        .to(img, { filter: 'brightness(1) contrast(1)', duration: 1.1, ease: 'power2.out', clearProps: 'filter' }, 0),
-    },
-  };
-  const fxOf = (fig) => FX[fig.closest('.set').dataset.fx] || FX.focus;
-  document.querySelectorAll('[data-fx="flash"] .ph:not(.ph--empty)').forEach((fig) => { const f = document.createElement('i'); f.className = 'flash'; fig.appendChild(f); });
+  // ---------- one way in for every album: the cover racks into focus (weddings develop from the negative) ----------
   if (!reduce) {
-    document.querySelectorAll('.ph:not(.ph--empty)').forEach((fig) => gsap.set(fig.querySelector('img'), fxOf(fig).from));
-    ScrollTrigger.batch('.ph:not(.ph--empty)', {
-      start: 'top 92%', once: true,
-      onEnter: (batch) => batch.forEach((fig, i) => gsap.delayedCall(i * .09, () => fxOf(fig).play(fig.querySelector('img'), fig))),
+    const NEG = { filter: 'invert(1) sepia(.6) saturate(1.6) brightness(.85)' }, SOFT = { filter: 'blur(16px)', scale: 1.08, opacity: 0 };
+    document.querySelectorAll('.album').forEach((card) => {
+      gsap.set([card.querySelector('.album__pile'), card.querySelector('.album__meta')], { autoAlpha: 0, y: 40 });
+      gsap.set(card.querySelector('.album__cover img'), card.closest('.albums--neg') ? NEG : SOFT);
+    });
+    ScrollTrigger.batch('.album', {
+      start: 'top 88%', once: true,
+      onEnter: (batch) => batch.forEach((card, i) => {
+        const neg = !!card.closest('.albums--neg');
+        gsap.timeline({ delay: i * .12 })
+          .to(card.querySelector('.album__pile'), { autoAlpha: 1, y: 0, duration: .9, ease: 'power3.out', clearProps: 'transform' }, 0)
+          .to(card.querySelector('.album__cover img'), neg
+            ? { filter: 'invert(0) sepia(0) saturate(1) brightness(1)', duration: 1.8, ease: 'power2.inOut', clearProps: 'filter' }
+            : { filter: 'blur(0px)', scale: 1, opacity: 1, duration: 1.3, ease: 'power3.out', clearProps: 'filter,transform,opacity' }, .15)
+          .to(card.querySelector('.album__meta'), { autoAlpha: 1, y: 0, duration: .8, ease: 'power3.out', clearProps: 'transform' }, .25);
+      }),
     });
   }
+
+  // ---------- section headings come up line by line; the other blocks fade up ----------
+  if (!reduce && window.SplitText) gsap.utils.toArray('.set__t, .about__t, .offer__t, .expect__t, .book__t').forEach((h) => SplitText.create(h, {
+    type: 'lines', mask: 'lines', autoSplit: true,
+    onSplit: (s) => gsap.from(s.lines, { yPercent: 105, duration: 1, stagger: .1, ease: 'power3.out', scrollTrigger: { trigger: h, start: 'top 88%', once: true } }),
+  }));
+  if (!reduce) gsap.utils.toArray('.set__no, .set__side, .tips, .set__cta, .offer__grid .card, .expect__step, .about__photo, .reach__card').forEach((el) => {
+    gsap.from(el, { autoAlpha: 0, y: 40, duration: 1, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 88%' } });
+  });
+
   // recent-events ticker: duplicate the items so the loop is seamless
   const track = document.querySelector('.recent__track');
   if (track) [...track.children].forEach((n) => { const c = n.cloneNode(true); c.setAttribute('aria-hidden', 'true'); track.appendChild(c); });
-  gsap.utils.toArray('.set__head, .album, .tips, .set__cta, .offer__grid .card, .expect__step, .about__grid > *, .reach__card').forEach((el) => {
-    gsap.from(el, { autoAlpha: 0, y: 40, duration: 1, ease: 'power3.out', scrollTrigger: { trigger: el, start: 'top 88%' } });
-  });
 
   // ---------- viewfinder HUD ----------
   const hud = { ss: q('[data-hud="ss"]'), f: q('[data-hud="f"]'), iso: q('[data-hud="iso"]'), mm: q('[data-hud="mm"]'), level: q('.hud__level i') };
@@ -204,45 +188,148 @@
   wireBasics();
 
   function wireBasics() {
-    // lightbox
+    const anim = hasGsap && !reduce;
+    const onScreen = (r) => r && r.width > 0 && r.bottom > 0 && r.top < innerHeight;
+
+    // lightbox: the photo grows out of the thumbnail you clicked and shrinks back into it.
+    // It shows the thumbnail at once and swaps in the full-size file when that has loaded.
+    // On a phone, swipe sideways for the next photo or down to close.
     const lb = document.querySelector('.lb');
     if (lb && typeof lb.showModal === 'function') {
       const links = [...document.querySelectorAll('.ph a')];
-      const img = lb.querySelector('img'), cap = lb.querySelector('figcaption b'), exif = lb.querySelector('figcaption span');
-      let list = links, i = 0;
-      const show = (n) => {
-        const items = list.filter((a) => !a.closest('[hidden]'));
-        if (!items.length) return;
-        i = (n + items.length) % items.length;
-        const a = items[i];
-        img.src = a.href; img.alt = a.dataset.cap; cap.textContent = a.dataset.cap; exif.textContent = a.dataset.exif;
-        if (window.gsap) gsap.fromTo(img, { clipPath: 'inset(0% 0% 100% 0%)' }, { clipPath: 'inset(0% 0% 0% 0%)', duration: .55, ease: 'power3.inOut' });
+      const fig = lb.querySelector('.lb__fig'), img = fig.querySelector('img');
+      const cap = fig.querySelector('figcaption b'), exif = fig.querySelector('figcaption span');
+      const chrome = [...lb.querySelectorAll('button, figcaption')];
+      const BG = 'rgba(12, 12, 11, .97)', CLEAR = 'rgba(12, 12, 11, 0)';
+      let list = links, i = 0, cur = null, closing = false;
+      const items = () => list.filter((a) => !a.closest('[hidden]'));
+      const thumb = (a) => (a && a.isConnected && a.querySelector('img')) || null;
+      const fit = (ratio) => {
+        if (!ratio) { img.style.width = img.style.height = ''; return; }
+        const w = Math.min(fig.clientWidth || innerWidth - 128, (innerHeight - 120) * ratio);
+        img.style.width = w + 'px'; img.style.height = w / ratio + 'px';
       };
-      const open = () => { lb.showModal(); NB.lenis && NB.lenis.stop(); };
-      links.forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); list = links; lb.classList.remove('is-single'); show(list.filter((x) => !x.closest('[hidden]')).indexOf(a)); open(); }));
-      NB.openList = (as, n) => { list = as; lb.classList.remove('is-single'); show(n); open(); };
+      const show = (n, dir) => {
+        const all = items(); if (!all.length) return;
+        i = (n + all.length) % all.length;
+        const a = cur = all[i], t = thumb(a);
+        const ratio = t ? (t.naturalWidth || +t.getAttribute('width')) / (t.naturalHeight || +t.getAttribute('height')) : 0;
+        fit(ratio);
+        img.src = t ? (t.currentSrc || t.src) : a.href;
+        if (t) { const full = new Image(); full.onload = () => { if (cur === a) img.src = a.href; }; full.src = a.href; }
+        img.alt = a.dataset.cap; cap.textContent = a.dataset.cap; exif.textContent = a.dataset.exif;
+        if (anim && dir) gsap.fromTo(img, { x: dir * 48, autoAlpha: 0 }, { x: 0, autoAlpha: 1, duration: .35, ease: 'power2.out' });
+      };
+      // the transform that puts the photo exactly over a rectangle on the page
+      const over = (r) => {
+        const y0 = gsap.getProperty(img, 'y'), x0 = gsap.getProperty(img, 'x');
+        gsap.set(img, { x: 0, y: 0, scale: 1 });
+        const b = img.getBoundingClientRect();
+        gsap.set(img, { x: x0, y: y0 });
+        return { x: r.left + r.width / 2 - (b.left + b.width / 2), y: r.top + r.height / 2 - (b.top + b.height / 2), scaleX: r.width / b.width, scaleY: r.height / b.height };
+      };
+      const open = (from) => {
+        if (!lb.open) { lb.showModal(); NB.lenis && NB.lenis.stop(); }
+        if (!anim) return;
+        gsap.fromTo(lb, { backgroundColor: CLEAR }, { backgroundColor: BG, duration: .45, ease: 'power2.out' });
+        gsap.fromTo(chrome, { autoAlpha: 0 }, { autoAlpha: 1, duration: .3, delay: .3 });
+        const t = thumb(from), r = t && t.getBoundingClientRect();
+        if (onScreen(r)) gsap.fromTo(img, { ...over(r), autoAlpha: 1 }, { x: 0, y: 0, scaleX: 1, scaleY: 1, duration: .6, ease: 'power3.inOut' });
+        else gsap.fromTo(img, { autoAlpha: 0, scale: .96 }, { autoAlpha: 1, scale: 1, duration: .4, ease: 'power2.out' });
+      };
+      const close = () => {
+        if (!lb.open || closing) return;
+        if (!anim) { lb.close(); return; }
+        closing = true;
+        const t = thumb(cur), r = t && t.getBoundingClientRect();
+        const tl = gsap.timeline({ onComplete: () => { lb.close(); gsap.set(img, { clearProps: 'transform,opacity,visibility' }); gsap.set(lb, { clearProps: 'backgroundColor' }); gsap.set(chrome, { clearProps: 'opacity,visibility' }); closing = false; } });
+        tl.to(chrome, { autoAlpha: 0, duration: .15 }, 0).to(lb, { backgroundColor: CLEAR, duration: .45, ease: 'power2.in' }, 0);
+        if (onScreen(r)) tl.to(img, { ...over(r), duration: .5, ease: 'power3.inOut' }, 0);
+        else tl.to(img, { autoAlpha: 0, scale: .96, duration: .3 }, 0);
+      };
+      links.forEach((a) => a.addEventListener('click', (e) => { e.preventDefault(); list = links; lb.classList.remove('is-single'); show(items().indexOf(a)); open(a); }));
+      NB.openList = (as, n) => { list = as; lb.classList.remove('is-single'); show(n); open(as[n]); };
       NB.openSingle = (href, c, x) => {
         const a = document.createElement('a'); a.href = href; a.dataset.cap = c; a.dataset.exif = x;
-        list = [a]; lb.classList.add('is-single'); show(0); open();
+        list = [a]; lb.classList.add('is-single'); show(0); open(null);
       };
-      lb.querySelector('.lb__prev').addEventListener('click', () => show(i - 1));
-      lb.querySelector('.lb__next').addEventListener('click', () => show(i + 1));
-      lb.querySelector('.lb__x').addEventListener('click', () => lb.close());
-      lb.addEventListener('click', (e) => { if (e.target === lb) lb.close(); });
+      lb.querySelector('.lb__prev').addEventListener('click', () => show(i - 1, -1));
+      lb.querySelector('.lb__next').addEventListener('click', () => show(i + 1, 1));
+      lb.querySelector('.lb__x').addEventListener('click', close);
+      lb.addEventListener('click', (e) => { if (e.target === lb) close(); });
+      lb.addEventListener('cancel', (e) => { e.preventDefault(); close(); });
       lb.addEventListener('close', () => { if (!document.querySelector('dialog[open]')) NB.lenis && NB.lenis.start(); });
-      lb.addEventListener('keydown', (e) => { if (e.key === 'ArrowLeft') show(i - 1); if (e.key === 'ArrowRight') show(i + 1); });
+      lb.addEventListener('keydown', (e) => { if (e.key === 'ArrowLeft') show(i - 1, -1); if (e.key === 'ArrowRight') show(i + 1, 1); });
+      addEventListener('resize', () => { if (lb.open && img.style.width) fit(parseFloat(img.style.width) / parseFloat(img.style.height)); });
+      // swipe (touch and pen only; a mouse uses the arrows)
+      let drag = null;
+      if (hasGsap) {
+      fig.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse' && !closing) drag = { x: e.clientX, y: e.clientY, dx: 0, dy: 0 }; });
+      fig.addEventListener('pointermove', (e) => {
+        if (!drag) return;
+        drag.dx = e.clientX - drag.x; drag.dy = e.clientY - drag.y;
+        if (Math.abs(drag.dy) > Math.abs(drag.dx)) {
+          const d = Math.max(0, drag.dy);
+          gsap.set(img, { x: 0, y: d, scale: 1 - Math.min(d / 1800, .2) });
+          gsap.set(lb, { backgroundColor: `rgba(12, 12, 11, ${.97 * (1 - Math.min(d / 420, .85))})` });
+        } else gsap.set(img, { x: drag.dx * .6, y: 0 });
+      });
+      const release = () => {
+        if (!drag) return;
+        const { dx, dy } = drag; drag = null;
+        if (dy > 110 && dy > Math.abs(dx)) { close(); return; }
+        if (Math.abs(dx) > 60 && Math.abs(dx) > dy && !lb.classList.contains('is-single')) { show(dx < 0 ? i + 1 : i - 1, dx < 0 ? 1 : -1); gsap.set(lb, { backgroundColor: BG }); return; }
+        gsap.to(img, { x: 0, y: 0, scale: 1, duration: .35, ease: 'power3.out' });
+        gsap.to(lb, { backgroundColor: BG, duration: .3 });
+      };
+      fig.addEventListener('pointerup', release);
+      fig.addEventListener('pointercancel', release);
+      }
     }
-    // albums: a big cover per shoot; opening one shows every photo from it, and the
-    // browser's back button closes it again (#album-<slug> in the address bar)
+
+    // albums: a big cover per shoot. Opening one grows the cover until it fills the screen and
+    // the album appears behind it; closing shrinks it back onto the cover. The browser's back
+    // button closes it too (#album-<slug> in the address bar).
     const av = document.querySelector('.av'), albumJson = document.getElementById('album-data');
     if (av && albumJson && typeof av.showModal === 'function') {
       const albums = JSON.parse(albumJson.textContent);
       const grid = av.querySelector('.av__grid'), title = av.querySelector('.av__t');
+      const ghost = document.createElement('img');
+      ghost.className = 'av__ghost'; ghost.alt = ''; ghost.setAttribute('aria-hidden', 'true'); av.appendChild(ghost);
       const esc = (t) => t.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-      let pushed = false, opener = null;
-      const openAlbum = (slug, push) => {
+      let pushed = false, opener = null, closing = false;
+      const coverOf = (card) => card && card.querySelector('.album__cover img');
+      const box = (r) => ({ left: r.left, top: r.top, width: r.width, height: r.height });
+      const clip = (r) => `inset(${Math.max(0, r.top)}px ${Math.max(0, innerWidth - r.right)}px ${Math.max(0, innerHeight - r.bottom)}px ${Math.max(0, r.left)}px round 2px)`;
+      const FULL = 'inset(0px 0px 0px 0px round 0px)';
+      const settle = () => gsap.from([...av.querySelectorAll('.av__head > *'), ...[...grid.children].slice(0, 12)],
+        { autoAlpha: 0, y: 30, duration: .7, stagger: .05, ease: 'power3.out', clearProps: 'opacity,visibility,transform' });
+      const grow = (card) => {
+        const c = coverOf(card), r = c && c.getBoundingClientRect();
+        if (!onScreen(r)) { gsap.from(av, { autoAlpha: 0, y: 28, duration: .4, ease: 'power2.out', clearProps: 'opacity,visibility,transform' }); settle(); return; }
+        ghost.src = c.currentSrc || c.src;
+        gsap.timeline()
+          .fromTo(av, { clipPath: clip(r) }, { clipPath: FULL, duration: .75, ease: 'power3.inOut', clearProps: 'clipPath' }, 0)
+          .fromTo(ghost, { autoAlpha: 1, ...box(r) }, { left: 0, top: 0, width: innerWidth, height: innerHeight, duration: .75, ease: 'power3.inOut' }, 0)
+          .to(ghost, { autoAlpha: 0, duration: .45, ease: 'power1.out' }, .7)
+          .add(settle, .62);
+      };
+      const shut = () => {
+        if (!av.open || closing) return;
+        const c = coverOf(opener), r = c && c.getBoundingClientRect();
+        if (!anim) { av.close(); return; }
+        closing = true;
+        const done = () => { av.close(); gsap.set(av, { clearProps: 'opacity,visibility,clipPath' }); gsap.set(ghost, { clearProps: 'all' }); closing = false; };
+        if (!onScreen(r)) { gsap.to(av, { autoAlpha: 0, duration: .3, onComplete: done }); return; }
+        ghost.src = c.currentSrc || c.src;
+        gsap.timeline({ onComplete: done })
+          .fromTo(ghost, { autoAlpha: 0, left: 0, top: 0, width: innerWidth, height: innerHeight }, { autoAlpha: 1, duration: .25, ease: 'power1.in' }, 0)
+          .to(ghost, { ...box(r), duration: .6, ease: 'power3.inOut' }, .22)
+          .fromTo(av, { clipPath: FULL }, { clipPath: clip(r), duration: .6, ease: 'power3.inOut' }, .22);
+      };
+      const openAlbum = (slug, push, card) => {
         const a = albums[slug]; if (!a) return;
-        const card = document.querySelector(`.album[data-album="${slug}"]`);
+        card = card || document.querySelector(`.album[data-album="${slug}"]`);
         const sec = card && card.closest('.set');
         av.style.setProperty('--av-accent', sec ? getComputedStyle(sec).getPropertyValue('--s-em').trim() : '');
         title.textContent = a.title + ' ';
@@ -251,18 +338,21 @@
         av.querySelector('.av__note').textContent = a.note || '';
         grid.innerHTML = a.photos.map(([src, full, w, h, cap, exif], i) =>
           `<a class="av__ph" href="${full}" data-cap="${esc(cap)}" data-exif="${esc(exif)}"><img src="${src}" width="${w}" height="${h}" alt="${esc(cap)}" loading="${i < 6 ? 'eager' : 'lazy'}" decoding="async"></a>`).join('');
-        if (!av.open) { opener = card; av.showModal(); NB.lenis && NB.lenis.stop(); }
+        const wasOpen = av.open;
+        if (!wasOpen) { opener = card; av.showModal(); NB.lenis && NB.lenis.stop(); }
         av.scrollTop = 0;
         if (push) { history.pushState({ album: slug }, '', '#album-' + slug); pushed = true; }
+        if (!wasOpen && anim) grow(push ? card : null);
       };
-      document.querySelectorAll('.album').forEach((el) => el.addEventListener('click', (e) => { e.preventDefault(); openAlbum(el.dataset.album, true); }));
+      document.querySelectorAll('.album').forEach((el) => el.addEventListener('click', (e) => { e.preventDefault(); openAlbum(el.dataset.album, true, el); }));
       grid.addEventListener('click', (e) => {
         const a = e.target.closest('.av__ph'); if (!a || !NB.openList) return;
         e.preventDefault();
         const all = [...grid.querySelectorAll('.av__ph')];
         NB.openList(all, all.indexOf(a));
       });
-      av.querySelector('.av__back').addEventListener('click', () => av.close());
+      av.querySelector('.av__back').addEventListener('click', shut);
+      av.addEventListener('cancel', (e) => { e.preventDefault(); shut(); });
       // the booking link leaves the album for the contact section, so the album's history entry is replaced, not stepped back over
       av.querySelector('.av__book').addEventListener('click', () => { pushed = false; history.replaceState(null, '', location.pathname + location.search); av.close(); });
       av.addEventListener('close', () => {
@@ -274,7 +364,7 @@
       addEventListener('popstate', () => {
         const m = location.hash.match(/^#album-(.+)$/);
         if (m && albums[m[1]]) openAlbum(m[1], false);
-        else if (av.open) { pushed = false; av.close(); }
+        else if (av.open) { pushed = false; shut(); }
       });
       const m = location.hash.match(/^#album-(.+)$/);
       if (m && albums[m[1]]) openAlbum(m[1], false);
