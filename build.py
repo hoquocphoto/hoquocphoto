@@ -115,8 +115,8 @@ SECTIONS = {"WEDDINGS": WEDDINGS, "PORTRAITS": PORTRAITS, "EVENTS": EVENTS}
 ALL = {p[0]: p for items in SECTIONS.values() for p in items}
 
 
-# ---------- albums (albums.json: one per shoot theme, written by the photo export) ----------
-ALBUMS = json.loads((ROOT / "albums.json").read_text())
+# ---------- albums (albums.json, kept in step with albums/<album>/ by tools/sync_albums.py) ----------
+ALBUMS = [a for a in json.loads((ROOT / "albums.json").read_text()) if a["photos"]]   # an emptied album drops off the page
 for a in ALBUMS:
     for p in a["photos"]:
         p["w"], p["h"] = jpeg_size(ROOT / p["src"])

@@ -1,11 +1,12 @@
-# Photos uploaded to uploads/<album>/ are resized, added to their album and
-# published. Editing albums.json (captions, order) on GitHub also republishes.
+# Keeps each album in step with its folder, albums/<album>/: photos uploaded there
+# are resized and added, photos deleted there leave the album. Then the site is
+# rebuilt and published. Editing albums.json (captions, order) also republishes.
 name: Add photos and publish
 
 on:
   push:
     branches: [main]
-    paths: ["uploads/**", "albums.json", "template.html", "build.py", "tools/**"]
+    paths: ["albums/**", "albums.json", "template.html", "build.py", "tools/**"]
   workflow_dispatch:
 
 permissions:
@@ -29,8 +30,8 @@ jobs:
       - name: Install image tools
         run: pip install Pillow==12.0.0 pillow-heif==1.0.0
 
-      - name: Add uploaded photos to their albums
-        run: python tools/add_photos.py
+      - name: Match albums to their folders
+        run: python tools/sync_albums.py
 
       - name: Rebuild the page
         run: python build.py
@@ -45,7 +46,7 @@ jobs:
             echo "Nothing new to publish."
             exit 0
           fi
-          git commit -m "Add uploaded photos and rebuild the site"
+          git commit -m "Update albums from their folders and rebuild the site"
           git pull --rebase --quiet
           git push
           echo "pushed=1" >> "$GITHUB_OUTPUT"
