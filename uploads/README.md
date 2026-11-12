@@ -22,3 +22,5 @@ Each folder below is one album on the site. Open the album's folder, click **Add
 | [birthdays](birthdays/) | First birthdays | Events |
 
 JPG, PNG and iPhone HEIC photos all work, at any size. The copies on the site have location data removed; only the shutter, aperture, ISO and focal length are kept, for the viewfinder display.
+
+Problems or a new album? Message Nathan.
