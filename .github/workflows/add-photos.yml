@@ -1,0 +1,57 @@
+# Photos uploaded to uploads/<album>/ are resized, added to their album and
+# published. Editing albums.json (captions, order) on GitHub also republishes.
+name: Add photos and publish
+
+on:
+  push:
+    branches: [upload-test]
+    paths: ["uploads/**", "albums.json", "template.html", "build.py", "tools/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: add-photos
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install image tools
+        run: pip install Pillow==12.0.0 pillow-heif==1.0.0
+
+      - name: Add uploaded photos to their albums
+        run: python tools/add_photos.py
+
+      - name: Rebuild the page
+        run: python build.py
+
+      - name: Save to the site
+        id: save
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing new to publish."
+            exit 0
+          fi
+          git commit -m "Add uploaded photos and rebuild the site"
+          git pull --rebase --quiet
+          git push
+          echo "pushed=1" >> "$GITHUB_OUTPUT"
+
+      - name: Publish to GitHub Pages
+        if: steps.save.outputs.pushed == '1' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages will rebuild on its own."
