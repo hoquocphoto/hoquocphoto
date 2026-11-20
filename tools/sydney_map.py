@@ -123,9 +123,16 @@ def effect(kind, x, y):
                           [(-14, -28, 13, "#a58bd6"), (12, -30, 14, "#8f73c6"), (0, -40, 15, "#b9a2e3"), (-22, -38, 9, "#8f73c6"), (22, -40, 10, "#a58bd6"), (2, -26, 10, "#c8b6ea")])
                 + f'</g><g fill="#a58bd6">{petals}</g></g>')
     if kind == "golden":
+        # seagulls circling the sails: each gull flaps (inner group) while it drifts along its own loop (outer group)
+        gull = ('<path d="M-9 0Q-5 -6 0 0Q5 -6 9 0" fill="none" stroke="#5d6a76" stroke-width="1.6" stroke-linecap="round"/>'
+                '<path d="M-9 0l-2 1M9 0l2 1" stroke="#2f3a44" stroke-width="1.6" stroke-linecap="round"/><ellipse cx="0" cy=".6" rx="2.2" ry="1.3" fill="#ffffff" stroke="#5d6a76" stroke-width=".5"/>')
+        gulls = "".join(f'<g class="mfx-gull" style="--d:{d}s;--t:{t}s;--x0:{x + x0}px;--y0:{y + y0}px;--x1:{x + x1}px;--y1:{y + y1}px;--s:{sc}">'
+                        f'<g class="mfx-flap" style="--f:{f}s">{gull}</g></g>'
+                        for x0, y0, x1, y1, sc, t, f, d in [(-70, -40, 60, -70, 1.6, 5.5, .45, 0), (50, -20, -60, -60, 1.3, 6.5, .38, -1.5),
+                                                            (-30, -75, 70, -35, 1.2, 7, .5, -3), (20, -55, -80, -25, 1.45, 6, .42, -4.2)])
         return (f'<g class="mfx mfx--golden"><circle cx="{x}" cy="{y - 6}" r="70" fill="url(#m-glow)"/>'
                 + "".join(f'<path class="mfx-ray" d="M{x} {y - 6}l{dx} {dy}" stroke="#f2c27a" stroke-width="1.6" stroke-linecap="round"/>' for dx, dy in [(-46, -30), (-20, -50), (12, -54), (40, -36), (54, -8)])
-                + '</g>')
+                + gulls + '</g>')
     if kind == "ferry":
         return (f'<g class="mfx mfx--ferry"><g class="mfx-boat" style="--x0:{x - 60}px;--x1:{x + 40}px;--y:{y + 22}px"><path d="M0 0h26l-4 6h-18z" fill="#2f6b4f"/><path d="M5 0v-5h14v5" fill="#f3ead5" stroke="#2f6b4f" stroke-width=".8"/><path d="M-14 4h12M-20 7h14" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round"/></g>'
                 + "".join(f'<path class="mfx-spark" d="M{x + sx} {y + sy}l3 -3l3 3l-3 3z" fill="#ffffff" style="--d:{d}s"/>' for sx, sy, d in [(-30, 30, 0), (10, 34, .5), (30, 26, 1), (-10, 40, 1.4)])
@@ -162,7 +169,7 @@ def render(albums):
         if not sets:
             continue
         lx, ly, anchor = {"r": (x + 14, y + 4, "start"), "l": (x - 14, y + 4, "end"), "t": (x, y - 14, "middle")}[side]
-        k = 1.9 if kind == "jacaranda" else 1.5          # scenes are drawn small and scaled up around the pin
+        k = {"jacaranda": 1.9, "golden": 1.3}.get(kind, 1.5)          # scenes are drawn small and scaled up around the pin
         effects.append(f'<g transform="translate({x} {y}) scale({k}) translate({-x} {-y})">'
                        + effect(kind, x, y).replace('class="mfx ', f'data-fx="{key}" class="mfx ') + '</g>')
         pins.append(f'<g class="m-spot" data-spot="{key}" tabindex="0" role="button" aria-label="{html.escape(name)}: {len(sets)} {"album" if len(sets) == 1 else "albums"}">'

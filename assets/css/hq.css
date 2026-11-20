@@ -620,3 +620,17 @@ html:not(.js) .tx__wash, .no-motion .tx__wash { opacity: 1; }
   .m-hit { r: 30; }
 }
 @media (prefers-reduced-motion: reduce) { .sydmap__plane { transform: none; } .m-pulse, .m-ferry, .m-ripples path { animation: none; } }
+
+/* Opera House: seagulls wheel around the sails */
+.mfx-gull { transform: translate(var(--x0), var(--y0)) scale(var(--s)); opacity: 0; }
+.mfx.is-on .mfx-gull { animation: mGull var(--t) ease-in-out var(--d) infinite; }
+.mfx-flap { transform-box: fill-box; transform-origin: 50% 70%; }
+.mfx.is-on .mfx-flap { animation: mFlap var(--f) ease-in-out infinite alternate; }
+@keyframes mGull {
+  0% { transform: translate(var(--x0), var(--y0)) scale(var(--s)); opacity: 0; }
+  12% { opacity: 1; }
+  50% { transform: translate(calc((var(--x0) + var(--x1)) / 2), calc(var(--y0) - 26px)) scale(var(--s)); }
+  88% { opacity: 1; }
+  100% { transform: translate(var(--x1), var(--y1)) scale(var(--s)); opacity: 0; }
+}
+@keyframes mFlap { from { transform: scaleY(1); } to { transform: scaleY(-.55); } }
