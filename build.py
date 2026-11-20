@@ -142,7 +142,7 @@ def album_card(a, wide, first_n):
           </a>"""
 
 
-COMPACT = {"PORTRAITS", "WEDDINGS"}   # small covers, several to a row, no full-width first album
+COMPACT = {"PORTRAITS", "WEDDINGS", "EVENTS"}   # small covers, several to a row, no full-width first album
 
 
 def album_grid(section):

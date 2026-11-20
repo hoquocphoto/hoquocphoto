@@ -1,6 +1,6 @@
-# Couples, here and there
+# A couple under the jacarandas
 
-This folder holds every photo in the **Couples, here and there** album (Portraits) on the website. What's here is what's on the site.
+This folder holds every photo in the **A couple under the jacarandas** album (Portraits) on the website. What's here is what's on the site.
 
 - **Add photos:** click **Add file → Upload files**, drag them in and click **Commit changes**. About two minutes later they're resized, renamed to the next number and live at the end of the album.
 - **Remove a photo:** click it, open the **…** menu (top right), choose **Delete file** and click **Commit changes**. It leaves the website about two minutes later.

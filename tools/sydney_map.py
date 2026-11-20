@@ -9,10 +9,10 @@ import html, json
 
 # key, name, area line, (x, y) of the pin, album slugs, effect, label side
 SPOTS = [
-    ("opera", "Sydney Opera House", "Bennelong Point", (612, 374), ["p-opera-soft", "p-opera-golden"], "golden", "r"),
+    ("opera", "Sydney Opera House", "Bennelong Point", (612, 374), ["p-opera-soft", "p-opera-golden", "p-opera-bridge"], "golden", "r"),
     ("milsons", "Milsons Point", "Under the bridge", (666, 326), ["p-milsons-point"], "ferry", "t"),
-    ("mcmahons", "McMahons Point", "Henry Lawson Avenue · Blues Point", (568, 312), ["p-mcmahons", "p-couple"], "ferry", "l"),
-    ("kirribilli", "Kirribilli", "Lanes, walls and the water", (768, 334), ["p-kirribilli", "p-jacaranda-kirribilli", "p-bougainvillea-kirribilli", "p-couple"], "bougain", "r"),
+    ("mcmahons", "McMahons Point", "Henry Lawson Avenue · Blues Point", (568, 312), ["p-mcmahons", "p-couple-blues-point"], "ferry", "l"),
+    ("kirribilli", "Kirribilli", "Lanes, walls and the water", (768, 334), ["p-kirribilli", "p-jacaranda-kirribilli", "p-bougainvillea-kirribilli", "p-couple-kirribilli"], "bougain", "r"),
     ("barangaroo", "Barangaroo", "Last light on the west side", (462, 430), ["p-barangaroo"], "sunset", "l"),
     ("balmain", "Propeller Park", "Balmain East", (254, 418), ["p-jacaranda-propeller", "p-jacaranda-propeller-2"], "jacaranda", "l"),
     ("pirrama", "Pirrama Park", "Pyrmont", (356, 446), ["p-pirrama", "wedding-pyrmont"], "leaves", "b"),
@@ -27,11 +27,13 @@ SPOTS = [
     ("mrsmac", "Mrs Macquarie's Chair", "The sails and the bridge in one frame", (742, 412), ["prewedding-mrs-macquarie"], "sparkle", "r"),
     ("taronga", "Taronga Zoo Wharf", "Across the harbour", (1016, 290), ["p-yacht"], "ferry", "t"),
     ("redleaf", "Redleaf Pool", "Woollahra", (1040, 450), ["p-redleaf"], "ferry", "t"),
-    ("usyd", "The University of Sydney", "Camperdown", (128, 676), ["ao-usyd", "p-magnolia-usyd", "p-bougainvillea-usyd", "p-couple"], "bougain", "r"),
+    ("usyd", "The University of Sydney", "Camperdown", (128, 676), ["ao-usyd", "p-magnolia-usyd"], "bougain", "r"),
+    ("camperdown", "Camperdown", "Bougainvillea streets by the university", (176, 616), ["p-bougainvillea-usyd", "p-couple-camperdown"], "bougain", "r"),
     # further afield: drawn in the inset box in the top-left corner
-    ("mq", "Macquarie University", "Macquarie Park", (44, 70), ["p-maple-mq"], "maple", "r"),
+    ("mq", "Macquarie Park", "Macquarie University", (44, 70), ["p-maple-mq"], "maple", "r"),
     ("outer", "Merrylands · Bowral · Gerringong", "Out of the city", (44, 100), ["p-further", "prewedding-gerringong"], "leaves", "r"),
     ("vietnam", "Vietnam", "Back home", (44, 130), ["ao-vietnam", "ao-dalat", "p-curls"], "lantern", "r"),
+    ("newtown", "Newtown", "AP Bakery and the brick lanes", (44, 160), ["p-newtown"], "leaves", "r"),
 ]
 
 INK, LINE, CREAM, TAN, SAGE, SAGE2, TRUNK = "#5d6a76", "#7d8b98", "#fbf7ef", "#eadfcd", "#8fae90", "#5d7a62", "#5b4638"
@@ -121,7 +123,7 @@ def art():
         out.append(f'<text x="{x}" y="{y}" class="m-lab m-lab--area">{t}</text>')
     out.append('<text x="1158" y="300" class="m-lab m-lab--area" transform="rotate(90 1158 300)">TASMAN SEA</text>')
     # further afield: places off the edge of this map
-    out.append(f'<g class="m-inset"><rect x="18" y="20" width="232" height="128" rx="10" fill="{CREAM}" stroke="{LINE}" stroke-dasharray="4 3"/>'
+    out.append(f'<g class="m-inset"><rect x="18" y="20" width="232" height="158" rx="10" fill="{CREAM}" stroke="{LINE}" stroke-dasharray="4 3"/>'
                f'<text x="34" y="44" class="m-lab">FURTHER AFIELD</text><path d="M34 52h200" stroke="#e2d8c6"/></g>')
     out.append(f'<g class="m-compass" transform="translate(1040 650)"><circle r="24" fill="{CREAM}" stroke="{LINE}"/><path d="M0 -18L6 0L0 18L-6 0Z" fill="{TAN}" stroke="{LINE}" stroke-width=".8"/>'
                f'<path d="M0 -18L6 0H-6Z" fill="#b9554a"/><text y="-28" class="m-lab m-lab--sm" text-anchor="middle">N</text></g>')

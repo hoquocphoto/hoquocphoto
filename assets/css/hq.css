@@ -673,3 +673,4 @@ html:not(.js) .tx__wash, .no-motion .tx__wash { opacity: 1; }
 @media (max-width: 760px) { .aodai { border-radius: 0; margin-left: calc(var(--gutter, 20px) * -1); margin-right: calc(var(--gutter, 20px) * -1); } .albums--aodai { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 16px; } .albums--aodai .album__note { display: none; } .aodai__lanterns i:nth-child(2), .aodai__lanterns i:nth-child(3) { display: none; } }
 @media (prefers-reduced-motion: reduce) { .aodai__lanterns i, .aodai__petals i { animation: none; } .aodai__petals { display: none; } }
 .albums--pol.albums--compact .album__edge { right: 10px; font-size: 18px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.albums--slide.albums--compact .album__edge { display: none; }
