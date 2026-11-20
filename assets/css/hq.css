@@ -526,3 +526,97 @@ html:not(.js) .tx__wash, .no-motion .tx__wash { opacity: 1; }
 @media (max-width: 760px) { .fx__i { width: calc(var(--w) * .7); height: calc(var(--w) * .7); } .fx--drift .fx__w { font-size: calc(var(--fs) * .75); } }
 .no-motion .fx, html:not(.js) .fx { display: none; }
 @media (prefers-reduced-motion: reduce) { .fx { display: none; } }
+
+/* ==========================================================
+   Portraits: the illustrated Sydney map. Hover a spot for its shoots.
+   ========================================================== */
+.sydmap { position: relative; z-index: 2; margin: clamp(36px, 5vw, 72px) 0 clamp(40px, 5vw, 64px); }
+.sydmap__head { display: grid; gap: 8px; margin-bottom: 18px; }
+.sydmap__k { margin: 0; font: 600 12px/1 var(--sans); letter-spacing: .18em; text-transform: uppercase; color: var(--s-em); }
+.sydmap__t { margin: 0; font: 650 semi-expanded clamp(30px, 3.4vw, 48px)/1 var(--display); letter-spacing: -.02em; }
+.sydmap__t em { color: var(--s-em); }
+.sydmap__hint { margin: 0; font-size: 15px; color: var(--s-fg2); }
+.sydmap__stage { position: relative; perspective: 1700px; perspective-origin: 50% 20%; }
+.sydmap__plane { --rx: 16deg; --ry: 0deg; transform: rotateX(var(--rx)) rotateY(var(--ry)); transform-origin: 50% 60%; transition: transform .6s cubic-bezier(.2, .7, .3, 1); border-radius: 18px; box-shadow: 0 40px 60px -40px rgba(27, 26, 23, .55), 0 0 0 1px rgba(125, 139, 152, .35); overflow: hidden; background: #dbe3e7; }
+.sydmap__svg { display: block; width: 100%; height: auto; }
+.sydmap .m-lab { font: 600 9.5px/1 var(--sans); letter-spacing: .14em; fill: #5d6a76; }
+.sydmap .m-lab--area { font-size: 10px; letter-spacing: .3em; fill: #9aa6b0; }
+.sydmap .m-lab--sm { font-size: 7.5px; }
+.sydmap .m-lab--spot { font-size: 9px; fill: #2f3a44; paint-order: stroke; stroke: #f6f1e7; stroke-width: 3px; stroke-linejoin: round; transition: fill .2s; }
+
+/* ambient life */
+.m-ferry { animation: mFerry 26s linear infinite; }
+.m-ferry--a { offset-path: path("M300 360C420 350 500 360 600 352S800 380 1100 370"); }
+.m-ferry--b { offset-path: path("M1100 400C900 400 800 400 700 362S520 352 300 376"); animation-duration: 34s; animation-delay: -12s; }
+@keyframes mFerry { from { offset-distance: 0%; } to { offset-distance: 100%; } }
+.m-ripples path { animation: mRipple 5s ease-in-out infinite; }
+.m-ripples path:nth-child(2n) { animation-delay: -2.5s; }
+@keyframes mRipple { 50% { transform: translateX(8px); opacity: .4; } }
+
+/* spots */
+.m-spot { cursor: pointer; outline: none; }
+.m-hit { fill: transparent; }
+.m-pin { fill: #a8401f; stroke: #fbf7ef; stroke-width: 2; transition: r .25s, fill .25s; }
+.m-pulse { fill: none; stroke: #a8401f; stroke-width: 1.5; transform-box: fill-box; transform-origin: center; animation: mPulse 2.4s ease-out infinite; }
+@keyframes mPulse { from { transform: scale(1); opacity: .9; } to { transform: scale(2.4); opacity: 0; } }
+.m-spot.is-on .m-pin, .m-spot:focus-visible .m-pin { r: 8; fill: #24573f; }
+.m-spot.is-on .m-pulse { stroke: #24573f; }
+.m-spot.is-on .m-lab--spot { fill: #24573f; }
+
+/* each spot's scene, hidden until it's on */
+.mfx { opacity: 0; transition: opacity .35s; pointer-events: none; }
+.mfx.is-on { opacity: 1; }
+.mfx-grow { transform: scale(0); transition: transform .9s cubic-bezier(.3, 1.5, .5, 1); }
+.mfx.is-on .mfx-grow { transform: scale(1); }
+.mfx-petal { opacity: 0; }
+.mfx.is-on .mfx-petal { animation: mPetal 3s linear var(--d) infinite; }
+@keyframes mPetal { 0% { transform: translate(0, 0) rotate(0); opacity: 0; } 15% { opacity: 1; } 100% { transform: translate(var(--dx), 70px) rotate(200deg); opacity: 0; } }
+.mfx.is-on .mfx-ray { animation: mRay 2.2s ease-in-out infinite; }
+@keyframes mRay { 50% { opacity: .3; } }
+.mfx-boat { transform: translate(var(--x0), var(--y)); }
+.mfx.is-on .mfx-boat { animation: mBoat 5s ease-in-out infinite alternate; }
+@keyframes mBoat { to { transform: translate(var(--x1), var(--y)); } }
+.mfx.is-on .mfx-spark { animation: mTwinkle 1.6s ease-in-out var(--d) infinite; }
+@keyframes mTwinkle { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+.mfx-bloom { transform: scale(0); transition: transform .5s cubic-bezier(.3, 1.6, .5, 1) calc(var(--d) * 1.2); }
+.mfx.is-on .mfx-bloom { transform: scale(1); }
+.mfx.is-on .mfx-win { animation: mTwinkle 1.4s ease-in-out var(--d) infinite; }
+.mfx.is-on .mfx-lamp { animation: mSwing 2s ease-in-out var(--d) infinite; transform-box: fill-box; transform-origin: 50% 0; }
+@keyframes mSwing { 50% { transform: rotate(8deg); } }
+.mfx.is-on .mfx-sign { animation: mFlicker 1.8s steps(1) var(--d) infinite; }
+@keyframes mFlicker { 0%, 100% { opacity: 1; } 10% { opacity: .2; } 14% { opacity: 1; } 60% { opacity: .5; } 64% { opacity: 1; } }
+.mfx.is-on .mfx-bird { animation: mBird 3s ease-in-out var(--d) infinite; }
+@keyframes mBird { 0% { transform: translate(0, 0); opacity: 0; } 20% { opacity: 1; } 100% { transform: translate(60px, -30px); opacity: 0; } }
+.mfx.is-on .mfx-leaf { animation: mPetal 2.6s linear var(--d) infinite; }
+
+/* the card that pops up over a spot */
+.sydmap__pop { position: absolute; z-index: 5; width: min(340px, calc(100% - 16px)); padding: 16px 16px 12px; background: #fffdf8; border-radius: 14px; box-shadow: 0 24px 50px -20px rgba(27, 26, 23, .5), 0 0 0 1px rgba(125, 139, 152, .25); }
+.sydmap__pop::after { content: ""; position: absolute; top: var(--arrow, 50%); left: -7px; width: 14px; height: 14px; margin-top: -7px; background: #fffdf8; transform: rotate(45deg); box-shadow: 1px 1px 0 rgba(125, 139, 152, .25); }
+.sydmap__pop.is-left::after { left: auto; right: -7px; }
+.sydmap__pop::after { box-shadow: -1px 1px 0 rgba(125, 139, 152, .25); }
+.sydmap__pop.is-left::after { box-shadow: 1px -1px 0 rgba(125, 139, 152, .25); }
+.sydmap__pop.is-under::after { display: none; }
+.sydmap__pop.is-in { animation: mPop .32s cubic-bezier(.2, .9, .3, 1.2); }
+@keyframes mPop { from { opacity: 0; transform: translateY(8px) scale(.96); } }
+.sydmap__pop-k { margin: 0 0 4px; font: 600 10px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--s-em); }
+.sydmap__pop-t { display: block; margin-bottom: 12px; font: 650 semi-expanded 22px/1.1 var(--display); color: var(--hq-ink); }
+.sydmap__sets { display: grid; gap: 8px; }
+.sydmap__set { display: grid; grid-template-columns: 64px 1fr; gap: 12px; align-items: center; width: 100%; padding: 6px; border: 0; border-radius: 10px; background: #f3efe6; text-align: left; cursor: pointer; font: inherit; color: inherit; transition: background .2s, transform .2s; }
+.sydmap__set:hover, .sydmap__set:focus-visible { background: #e7efe6; transform: translateX(3px); outline: none; }
+.sydmap__set img { width: 64px; height: 64px; object-fit: cover; border-radius: 6px; }
+.sydmap__set b { display: block; font: 600 15px/1.25 var(--sans); }
+.sydmap__set em { color: var(--s-em); }
+.sydmap__set small { display: block; margin-top: 3px; font: 500 11px/1.3 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--s-fg2); }
+
+/* the same spots as a row of chips, for touch and keyboards */
+.sydmap__chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.sydmap__chip { padding: 8px 14px; border: 1px dashed rgba(27, 26, 23, .3); border-radius: 999px; background: transparent; font: 500 13px/1 var(--sans); color: var(--s-fg); cursor: pointer; transition: background .2s, border-color .2s, color .2s; }
+.sydmap__chip:hover, .sydmap__chip.is-on { background: #24573f; border-color: #24573f; border-style: solid; color: #fff; }
+@media (max-width: 760px) {
+  .sydmap__plane { --rx: 8deg; border-radius: 12px; }
+  .sydmap__stage { margin: 0 calc(var(--gutter, 20px) * -.5); }
+  .sydmap .m-lab--spot { font-size: 13px; }
+  .sydmap .m-lab--area { display: none; }
+  .m-hit { r: 30; }
+}
+@media (prefers-reduced-motion: reduce) { .sydmap__plane { transform: none; } .m-pulse, .m-ferry, .m-ripples path { animation: none; } }

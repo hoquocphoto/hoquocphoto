@@ -8,10 +8,12 @@ The lists below (assets/img, 1800px + 800px -sm) are the hand-picked frames for
 the 3D film roll, the lens, the film camera and the instant camera.
 Run:  python3 build.py
 """
-import html, json, re, struct
+import html, json, re, struct, sys
 from pathlib import Path
 
 ROOT = Path(__file__).parent
+sys.path.insert(0, str(ROOT / "tools"))
+import sydney_map   # the illustrated map in the Portraits section
 IMG = ROOT / "assets/img"
 
 # ---------- photos ----------
@@ -204,6 +206,7 @@ def frames(names):
 
 out = (ROOT / "template.html").read_text()
 out = out.replace("{{ALBUMS_GRADUATION}}", grad_rows())
+out = out.replace("{{PORTRAIT_MAP}}", sydney_map.render(ALBUMS))
 for key in ("WEDDINGS", "PORTRAITS", "EVENTS"):   # one placeholder per section in template.html
     out = out.replace(f"{{{{ALBUMS_{key}}}}}", album_grid(key))
 album_data = {a["slug"]: {"title": a["title"], "em": a["em"], "sub": a["sub"], "note": a["note"],
