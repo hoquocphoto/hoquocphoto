@@ -1,6 +1,6 @@
-# The Quad and the cloisters (USYD)
+# Up the grand stairs
 
-This folder holds every photo in the **The Quad and the cloisters** album (USYD row of Graduation) on the website. What's here is what's on the site.
+This folder holds every photo in the **Up the grand stairs** album (Graduation) on the website. What's here is what's on the site.
 
 - **Add photos:** click **Add file → Upload files**, drag them in and click **Commit changes**. About two minutes later they're resized, renamed to the next number and live at the end of the album.
 - **Remove a photo:** click it, open the **…** menu (top right), choose **Delete file** and click **Commit changes**. It leaves the website about two minutes later.

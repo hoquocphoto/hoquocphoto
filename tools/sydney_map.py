@@ -15,7 +15,7 @@ SPOTS = [
     ("kirribilli", "Kirribilli", "Lanes, walls and the water", (768, 334), ["p-kirribilli", "p-jacaranda-kirribilli", "p-bougainvillea-kirribilli", "p-couple"], "bougain", "r"),
     ("barangaroo", "Barangaroo", "Last light on the west side", (462, 430), ["p-barangaroo"], "sunset", "l"),
     ("balmain", "Propeller Park", "Balmain East", (254, 418), ["p-jacaranda-propeller", "p-jacaranda-propeller-2"], "jacaranda", "l"),
-    ("pirrama", "Pirrama Park", "Pyrmont", (356, 446), ["p-pirrama"], "leaves", "b"),
+    ("pirrama", "Pirrama Park", "Pyrmont", (356, 446), ["p-pirrama", "wedding-pyrmont"], "leaves", "b"),
     ("circularquay", "Circular Quay", "Campbell's Cove, under the bridge", (548, 428), ["p-circular-quay"], "ferry", "r"),
     ("chinese", "Chinese Garden of Friendship", "Darling Harbour", (420, 634), ["ao-chinese-garden"], "lantern", "l"),
     ("qvb", "Queen Victoria Building", "George Street", (510, 574), ["p-qvb", "p-idol-qvb"], "sparkle", "l"),
@@ -24,12 +24,13 @@ SPOTS = [
     ("hyde", "Hyde Park", "The avenue of figs", (614, 600), ["p-hyde-park", "p-hyde-park-2"], "leaves", "r"),
     ("stmarys", "St Mary's Cathedral", "College Street", (654, 556), ["p-st-marys"], "sparkle", "r"),
     ("botanic", "Royal Botanic Garden", "And Government House", (676, 484), ["p-botanic", "p-government-house"], "leaves", "r"),
+    ("mrsmac", "Mrs Macquarie's Chair", "The sails and the bridge in one frame", (742, 412), ["prewedding-mrs-macquarie"], "sparkle", "r"),
     ("taronga", "Taronga Zoo Wharf", "Across the harbour", (1016, 290), ["p-yacht"], "ferry", "t"),
     ("redleaf", "Redleaf Pool", "Woollahra", (1040, 450), ["p-redleaf"], "ferry", "t"),
     ("usyd", "The University of Sydney", "Camperdown", (128, 676), ["ao-usyd", "p-magnolia-usyd", "p-bougainvillea-usyd", "p-couple"], "bougain", "r"),
     # further afield: drawn in the inset box in the top-left corner
     ("mq", "Macquarie University", "Macquarie Park", (44, 70), ["p-maple-mq"], "maple", "r"),
-    ("outer", "Merrylands · Bowral", "Out of the city", (44, 100), ["p-further"], "leaves", "r"),
+    ("outer", "Merrylands · Bowral · Gerringong", "Out of the city", (44, 100), ["p-further", "prewedding-gerringong"], "leaves", "r"),
     ("vietnam", "Vietnam", "Back home", (44, 130), ["ao-vietnam", "ao-dalat", "p-curls"], "lantern", "r"),
 ]
 
