@@ -4,14 +4,27 @@ Each album on the website has a folder here holding all its photos. Drag new pho
 
 ## Which folder is which album
 
-Each folder is one album on the website and holds all of its photos. The folder you upload into decides the album.
+Each folder is one album on the website and holds all of its photos. The folder you upload into decides the album. Graduation has one folder per shoot, named after the school (`grad-usyd-1`, `grad-uts-2`…), and the website lists them in rows by school.
 
 | Folder | Album on the website | Section |
 |---|---|---|
-| [wedding-film](wedding-film/) | Wedding day on film | Weddings |
-| [wedding-pyrmont](wedding-pyrmont/) | Wedding day in Pyrmont | Weddings |
-| [prewedding](prewedding/) | Pre-wedding by the harbour | Weddings |
-| [graduation](graduation/) | Graduation day | Portraits |
+| [grad-usyd-1](grad-usyd-1/) | Sandstone and stained glass | Graduation · USYD |
+| [grad-usyd-2](grad-usyd-2/) | Under the arches | Graduation · USYD |
+| [grad-usyd-3](grad-usyd-3/) | Up on the sandstone | Graduation · USYD |
+| [grad-usyd-4](grad-usyd-4/) | The Quad and the cloisters | Graduation · USYD |
+| [grad-usyd-5](grad-usyd-5/) | Afternoon in the Quad | Graduation · USYD |
+| [grad-usyd-6](grad-usyd-6/) | Window light on the stairs | Graduation · USYD |
+| [grad-macquarie-1](grad-macquarie-1/) | Autumn leaves at Macquarie | Graduation · MQU |
+| [grad-uts-1](grad-uts-1/) | City campus in daylight | Graduation · UTS |
+| [grad-uts-2](grad-uts-2/) | Shadows and glass | Graduation · UTS |
+| [grad-unsw-1](grad-unsw-1/) | Yellow for 2026 | Graduation · UNSW |
+| [grad-unsw-2](grad-unsw-2/) | Long shadows on campus | Graduation · UNSW |
+| [grad-uow-1](grad-uow-1/) | A twirl in blue | Graduation · UOW |
+| [grad-uow-2](grad-uow-2/) | A bear in a blue cap | Graduation · UOW |
+| [grad-icms-1](grad-icms-1/) | ICMS graduation | Graduation · ICMS |
+| [grad-uq-1](grad-uq-1/) | Up in Brisbane | Graduation · UQ |
+| [grad-vietnam-1](grad-vietnam-1/) | Áo dài for graduation | Graduation · Vietnam |
+| [grad-vietnam-2](grad-vietnam-2/) | With the whole class | Graduation · Vietnam |
 | [harbour](harbour/) | On the harbour | Portraits |
 | [opera-house](opera-house/) | The sails at golden hour | Portraits |
 | [jacaranda](jacaranda/) | Jacaranda season | Portraits |
@@ -21,6 +34,9 @@ Each folder is one album on the website and holds all of its photos. The folder 
 | [street](street/) | Out on the street | Portraits |
 | [concepts](concepts/) | Concept shoots | Portraits |
 | [cosplay](cosplay/) | Cosplay in character | Portraits |
+| [wedding-film](wedding-film/) | Wedding day on film | Weddings |
+| [wedding-pyrmont](wedding-pyrmont/) | Wedding day in Pyrmont | Weddings |
+| [prewedding](prewedding/) | Pre-wedding by the harbour | Weddings |
 | [tours](tours/) | Seeing Sydney together | Events |
 | [cars](cars/) | Car shoots after dark | Events |
 | [birthdays](birthdays/) | First birthdays | Events |
@@ -86,4 +102,4 @@ To fix a caption yourself:
 
 If an edit breaks the file, the run on the Actions page shows a red cross and the website keeps showing the previous version until it's fixed.
 
-New albums are best left to Nathan. A new album needs a title, a one-line note and a section (Weddings, Portraits or Events), so have those ready.
+New albums are best left to Nathan. A new album needs a title, a one-line note and a section (Weddings, Graduation, Portraits or Events), so have those ready.

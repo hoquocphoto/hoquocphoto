@@ -34,13 +34,13 @@ WEDDINGS = [
     ('wedding-16', "Pre-wedding at Circular Quay", 'f/14 · 1/125s · ISO 500 · 19.4mm', 'prewedding'),
 ]
 PORTRAITS = [
-    ('portrait-01', "Graduation day at UTS", 'f/4 · 1/100s · ISO 500 · 22.7mm', 'grad-au'),
+    ('portrait-01', "Graduation day under the sandstone at USYD", 'f/4 · 1/100s · ISO 500 · 22.7mm', 'grad-au'),
     ('portrait-02', "Graduation day at UNSW", 'f/7.1 · 1/125s · ISO 500 · 19.4mm', 'grad-au'),
     ('portrait-03', "Graduation day under the sandstone at USYD", 'f/5.6 · 1/100s · ISO 500 · 53.3mm', 'grad-au'),
     ('portrait-04', "Graduation day under the sandstone at USYD", 'f/11 · 1/100s · ISO 500 · 17mm', 'grad-au'),
     ('portrait-05', "Graduation day at UOW", 'f/6.4 · 1/200s · ISO 500 · 16mm', 'grad-au'),
     ('portrait-06', "Graduation day at UNSW", 'f/16 · 1/125s · ISO 500 · 16mm', 'grad-au'),
-    ('portrait-07', "Graduation day at UTS", 'f/5 · 1/80s · ISO 500 · 27.4mm', 'grad-au'),
+    ('portrait-07', "Graduation day under the sandstone at USYD", 'f/5 · 1/80s · ISO 500 · 27.4mm', 'grad-au'),
     ('portrait-08', "Graduation day at Macquarie", 'f/8 · 1/125s · ISO 800 · 16mm', 'grad-au'),
     ('portrait-09', "Graduation day, back home in Vietnam", 'f/4 · 1/160s · ISO 500 · 55mm', 'grad-vn'),
     ('portrait-10', "Graduation day, back home in Vietnam", 'f/6.4 · 1/160s · ISO 500 · 44.1mm', 'grad-vn'),
@@ -140,13 +140,57 @@ def album_card(a, wide, first_n):
           </a>"""
 
 
+COMPACT = {"PORTRAITS", "WEDDINGS"}   # small covers, several to a row, no full-width first album
+
+
 def album_grid(section):
     mine = [a for a in ALBUMS if a["section"] == section]
     out, n = [], 1 + sum(len(a["photos"]) for a in ALBUMS[:ALBUMS.index(mine[0])])
     for i, a in enumerate(mine):
-        out.append(album_card(a, i == 0 and len(mine) % 2 == 1, n))   # an odd count: the first album runs full width
+        out.append(album_card(a, i == 0 and len(mine) % 2 == 1 and section not in COMPACT, n))   # an odd count: the first album runs full width
         n += len(a["photos"])
     return "\n".join(out)
+
+
+# (school key in albums.json, label in the row, full name), in the order the rows appear
+SCHOOLS = [("USYD", "USYD", "The University of Sydney"), ("Macquarie", "MQU", "Macquarie University"),
+           ("UTS", "UTS", "University of Technology Sydney"), ("UNSW", "UNSW", "University of New South Wales"),
+           ("UOW", "UOW", "University of Wollongong"), ("ICMS", "ICMS", "International College of Management, Sydney"),
+           ("UQ", "UQ", "The University of Queensland"), ("Vietnam", "Vietnam", "Back home")]
+
+
+def grad_rows():
+    """Graduation as a list: one row per school, the school's name first, then a small cover for each shoot."""
+    mine = [a for a in ALBUMS if a["section"] == "GRADUATION"]
+    if not mine:
+        return ""
+    n, numbers = 1 + sum(len(a["photos"]) for a in ALBUMS[:ALBUMS.index(mine[0])]), {}
+    for a in mine:
+        numbers[a["slug"]] = n
+        n += len(a["photos"])
+    rows = []
+    for school, label, full in SCHOOLS:
+        sets = [a for a in mine if a.get("school") == school]
+        if not sets:
+            continue                                   # a school with no photos yet stays hidden
+        cards = []
+        for a in sets:
+            ph = a["photos"]
+            cover = ph[0]
+            title = html.escape(a["title"]) + (f' <em>{html.escape(a["em"])}</em>' if a["em"] else "")
+            plain = html.escape(f'{a["title"]} {a["em"]}'.strip())
+            cards.append(f"""            <a class="album album--mini" href="#album-{a["slug"]}" data-album="{a["slug"]}" data-n="{numbers[a["slug"]]:03d}" data-exif="{html.escape(cover["exif"])}">
+              <span class="album__pile"><span class="album__cover" data-exif="{html.escape(cover["exif"])}"><img src="{cover["src"]}" width="{cover["w"]}" height="{cover["h"]}" alt="{plain}: album cover" loading="lazy" decoding="async"></span></span>
+              <span class="album__meta"><b class="album__t">{title}</b><span class="album__sub">{len(ph)} photos</span></span>
+            </a>""")
+        total = sum(len(a["photos"]) for a in sets)
+        rows.append(f"""          <div class="grad-row">
+            <div class="grad-row__school"><b>{html.escape(label)}</b><small>{html.escape(full)}</small><span>{len(sets)} {'shoot' if len(sets) == 1 else 'shoots'} · {total} photos</span></div>
+            <div class="grad-row__sets">
+{chr(10).join(cards)}
+            </div>
+          </div>""")
+    return "\n".join(rows)
 
 
 def frames(names):
@@ -159,7 +203,8 @@ def frames(names):
 
 
 out = (ROOT / "template.html").read_text()
-for key in SECTIONS:
+out = out.replace("{{ALBUMS_GRADUATION}}", grad_rows())
+for key in ("WEDDINGS", "PORTRAITS", "EVENTS"):   # one placeholder per section in template.html
     out = out.replace(f"{{{{ALBUMS_{key}}}}}", album_grid(key))
 album_data = {a["slug"]: {"title": a["title"], "em": a["em"], "sub": a["sub"], "note": a["note"],
                           "photos": [[p["src"], p["full"], p["w"], p["h"], p["cap"], p["exif"]] for p in a["photos"]]} for a in ALBUMS}

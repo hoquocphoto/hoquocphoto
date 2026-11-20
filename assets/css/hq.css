@@ -404,3 +404,125 @@ html:not(.js) .tx__wash, .no-motion .tx__wash { opacity: 1; }
 @media (prefers-reduced-motion: reduce) { .av__ph:hover img { transform: none; } }
 .album__note { max-width: 34em; font-size: 16px; line-height: 1.55; color: var(--s-fg2); }
 .av__note { max-width: 40em; margin: 18px 0 0; font-size: 18px; line-height: 1.6; color: var(--av-ink); }
+
+/* ==========================================================
+   Graduation: campus sandstone, gown navy, a maroon hood and gold tassels.
+   Album covers sit in framed-certificate mounts; caps drift up the section.
+   ========================================================== */
+.set--sand { --s-bg: #e4d6bf; --s-fg: #1f1b16; --s-fg2: rgba(31, 27, 22, .84); --s-accent: #7a2433; --s-em: #7a2433; --s-line: rgba(122, 36, 51, .2); --s-chip: rgba(31, 27, 22, .25); --s-on-bg: #1f3550; --s-on-fg: #fff;
+  background: #e4d6bf; background-image: linear-gradient(rgba(150, 112, 70, .07) 1px, transparent 1px), linear-gradient(90deg, rgba(150, 112, 70, .05) 1px, transparent 1px); background-size: 120px 40px, 120px 40px; }
+.set__icon--cap { width: 34px; height: 24px; stroke-linejoin: round; stroke-linecap: round; }
+
+/* caps tossed in the air, with a little confetti */
+.motif--caps { inset: 0; height: auto; overflow: hidden; }
+.motif--caps i { position: absolute; bottom: -60px; left: var(--x); width: var(--s); height: calc(var(--s) * .55); opacity: 0; animation: capToss var(--t) ease-out var(--d) infinite;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 22'%3E%3Cpath d='M20 1L39 8L20 15L1 8Z' fill='%231f3550'/%3E%3Cpath d='M10 11V17C13 20 27 20 30 17V11L20 15Z' fill='%23162740'/%3E%3Cpath d='M20 8L34 10V18' stroke='%23c39a52' stroke-width='1.6' fill='none'/%3E%3Ccircle cx='34' cy='19' r='2' fill='%23c39a52'/%3E%3C/svg%3E") center / contain no-repeat; }
+.motif--caps b { position: absolute; bottom: -20px; left: var(--x); width: 7px; height: 11px; border-radius: 1px; background: var(--c); opacity: 0; animation: confetti 9s linear var(--d) infinite; }
+@keyframes capToss { 0% { transform: translateY(0) rotate(var(--r)); opacity: 0; } 10% { opacity: .5; } 60% { opacity: .35; } 100% { transform: translateY(-900px) rotate(calc(var(--r) * -3)); opacity: 0; } }
+@keyframes confetti { 0% { transform: translate(0, 0) rotate(0); opacity: 0; } 10% { opacity: .55; } 100% { transform: translate(40px, -820px) rotate(540deg); opacity: 0; } }
+.no-motion .motif--caps i, .no-motion .motif--caps b { animation: none; opacity: 0; }
+@media (prefers-reduced-motion: reduce) { .motif--caps { display: none; } }
+
+/* framed certificate: navy frame, gold fillet, cream mat */
+.albums--grad .album { --frame: #fbf6ec; --pad: 6% 6.5%; --r: 2px; --edge-c: #7a2433; }
+.albums--grad .album--wide { --pad: 4.2% 4.6%; }
+.albums--grad .album__cover { box-shadow: 0 0 0 10px #1f3550, 0 0 0 12px #c39a52, 0 40px 60px -30px rgba(31, 27, 22, .55); }
+.albums--grad .album__cover img { box-shadow: 0 0 0 1px #c39a52, 0 0 0 6px #fbf6ec, 0 0 0 7px rgba(195, 154, 82, .6); }
+.albums--grad .album__edge { left: 0; right: 0; bottom: 1.6%; text-align: center; font: 600 11px/1 var(--mono); letter-spacing: .24em; text-transform: uppercase; }
+.albums--grad .album__stack img { padding: 6%; background: #fbf6ec; box-shadow: 0 0 0 10px #1f3550; }
+@media (max-width: 760px) { .albums--grad .album__cover { box-shadow: 0 0 0 7px #1f3550, 0 0 0 9px #c39a52, 0 30px 46px -26px rgba(31, 27, 22, .55); } }
+
+/* ---------- about: a short intro, then work and study side by side ---------- */
+.paper .about__body > p.about__intro { font-size: 20px; line-height: 1.6; margin-bottom: 28px; color: #f6ede4; }
+.about__cv { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 36px; }
+.about__col h3 { margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1px solid rgba(217, 178, 122, .35); font: 600 12px/1 var(--sans); letter-spacing: .18em; text-transform: uppercase; color: #d9b27a; }
+.about__col ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px; }
+.about__col li { display: grid; gap: 4px; }
+.about__col li b { font: 600 16px/1.35 var(--sans); color: #f6ede4; }
+.about__col li span { font: 400 14.5px/1.5 var(--sans); color: rgba(246, 237, 228, .7); }
+.about__facts dd { text-transform: uppercase; letter-spacing: .06em; font-size: 16px; }
+@media (max-width: 640px) { .about__cv { grid-template-columns: 1fr; } }
+
+/* ---------- graduation as a list: the school first, then a small framed cover per shoot ---------- */
+.grad-list { display: grid; margin-top: clamp(28px, 4vw, 56px); border-top: 1px solid var(--s-line); }
+.grad-row { display: grid; grid-template-columns: minmax(150px, 210px) minmax(0, 1fr); gap: clamp(20px, 3vw, 44px); padding: clamp(22px, 2.6vw, 34px) 0; border-bottom: 1px solid var(--s-line); align-items: start; }
+.grad-row__school { position: sticky; top: 96px; display: grid; gap: 6px; }
+.grad-row__school b { font: 650 semi-expanded clamp(26px, 2.6vw, 38px)/1 var(--display); letter-spacing: -.02em; color: var(--s-fg); }
+.grad-row__school small { font: 500 13px/1.35 var(--sans); color: var(--s-fg2); }
+.grad-row__school span { margin-top: 4px; font: 600 11px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--s-em); }
+.grad-row__sets { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 22px 18px; }
+.album--mini { gap: 12px; }
+.album--mini .album__pile { aspect-ratio: 4 / 5; }
+.album--mini .album__cover { padding: 7px; background: #fbf6ec; box-shadow: 0 0 0 4px #1f3550, 0 0 0 5px #c39a52, 0 18px 26px -18px rgba(31, 27, 22, .6); }
+.album--mini:hover .album__cover { transform: translateY(-4px) rotate(-1deg); }
+.album--mini .album__meta { gap: 3px; }
+.album--mini .album__t { font: 600 15px/1.25 var(--sans); letter-spacing: 0; }
+.album--mini .album__sub { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+@media (max-width: 760px) {
+  .grad-row { grid-template-columns: 1fr; gap: 14px; }
+  .grad-row__school { position: static; grid-template-columns: auto 1fr; align-items: baseline; column-gap: 12px; }
+  .grad-row__school span { grid-column: 1 / -1; }
+  .grad-row__sets { grid-auto-flow: column; grid-auto-columns: 42%; grid-template-columns: none; overflow-x: auto; padding: 6px 2px 14px; scroll-snap-type: x mandatory; }
+  .album--mini { scroll-snap-align: start; }
+}
+
+/* ---------- compact album grids (portraits, weddings): smaller covers, several to a row ---------- */
+.albums--compact { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 44px 26px; }
+.albums--neg.albums--compact .album__edge { display: none; }
+.albums--compact .album { gap: 14px; }
+.albums--compact .album__pile { aspect-ratio: 4 / 5; }
+.albums--compact .album__t { font-size: clamp(20px, 1.7vw, 26px); line-height: 1.1; }
+.albums--compact .album__note { font-size: 14px; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.albums--compact .album__sub { font-size: 12px; }
+.albums--compact .album__go { font-size: 11px; }
+.albums--pol.albums--compact .album { --pad: 9px 9px 42px; }
+.albums--pol.albums--compact .album__edge { left: 12px; bottom: 11px; font-size: 21px; }
+.albums--pol.albums--compact .album__stack img { padding: 8px 8px 36px; }
+.albums--neg.albums--compact .album { --pad: 8px 24px; }
+.albums--neg.albums--compact .album__stack img { padding: 6px 20px; }
+@media (max-width: 760px) {
+  .albums--compact { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 34px 16px; }
+  .albums--compact .album__note { display: none; }
+  .albums--neg.albums--compact .album { --pad: 6px 18px; }
+}
+
+/* ---------- chapter cards: things that fly across behind the title ---------- */
+.fx { position: absolute; inset: 0; z-index: 2; overflow: hidden; pointer-events: none; }
+.fx__i { position: absolute; display: block; width: var(--w); height: var(--w); will-change: transform, opacity; }
+.fx__i svg { display: block; width: 100%; height: 100%; overflow: visible; filter: drop-shadow(0 10px 14px rgba(20, 16, 12, .22)); }
+
+/* graduation: caps, rolled testamurs and sashes tossed up from the bottom */
+.fx--toss .fx__i { left: var(--x); bottom: -120px; animation: fxToss var(--t) cubic-bezier(.22, .61, .36, 1) var(--d) infinite; }
+.fx--toss .fx__c { position: absolute; left: var(--x); bottom: -20px; width: 8px; height: 13px; border-radius: 1px; background: var(--c); animation: fxConfetti var(--t) linear var(--d) infinite; }
+@keyframes fxToss {
+  0% { transform: translate(0, 0) rotate(0); opacity: 0; }
+  8% { opacity: 1; }
+  55% { transform: translate(calc(var(--dx) * .6), -82vh) rotate(calc(var(--r) * .6)); opacity: 1; }
+  100% { transform: translate(var(--dx), -125vh) rotate(var(--r)); opacity: 0; }
+}
+@keyframes fxConfetti { 0% { transform: translate(0, 0) rotate(0); opacity: 0; } 10% { opacity: .9; } 100% { transform: translate(var(--dx), -115vh) rotate(720deg); opacity: 0; } }
+
+/* portraits: film canisters, strips, an instant camera and prints bursting out from behind the title */
+.fx--burst .fx__i { left: 50%; top: 50%; animation: fxBurst var(--t) cubic-bezier(.2, .7, .3, 1) var(--d) infinite; }
+@keyframes fxBurst {
+  0% { transform: translate(-50%, -50%) scale(.25) rotate(0); opacity: 0; }
+  12% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(1) rotate(var(--r)); opacity: 0; }
+}
+
+/* weddings: blossoms, roses, rings, hearts, petals and a few vows drifting down */
+.fx--drift .fx__i, .fx--drift .fx__w, .fx--drift .fx__p { position: absolute; left: var(--x); top: -140px; animation: fxDrift var(--t) linear var(--d) infinite; }
+.fx--drift .fx__w { font: 400 var(--fs)/1 var(--hand); font-style: normal; color: #9c4a22; opacity: .85; white-space: nowrap; }
+.fx--drift .fx__p { width: var(--s); height: calc(var(--s) * .72); border-radius: 0 100% 0 100%; background: linear-gradient(135deg, #fff 0%, #f1d2c4 60%, #d9a08c 100%); }
+@keyframes fxDrift {
+  0% { transform: translate(0, 0) rotate(0); opacity: 0; }
+  10% { opacity: 1; }
+  25% { transform: translate(var(--sw), 30vh) rotate(calc(var(--r, 120deg) * .25)); }
+  50% { transform: translate(calc(var(--sw) * -.6), 60vh) rotate(calc(var(--r, 120deg) * .5)); }
+  75% { transform: translate(var(--sw), 90vh) rotate(calc(var(--r, 120deg) * .75)); opacity: 1; }
+  100% { transform: translate(0, 125vh) rotate(var(--r, 120deg)); opacity: 0; }
+}
+@media (max-width: 760px) { .fx__i { width: calc(var(--w) * .7); height: calc(var(--w) * .7); } .fx--drift .fx__w { font-size: calc(var(--fs) * .75); } }
+.no-motion .fx, html:not(.js) .fx { display: none; }
+@media (prefers-reduced-motion: reduce) { .fx { display: none; } }

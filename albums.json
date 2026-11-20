@@ -1,1067 +1,654 @@
 [
  {
-  "slug": "wedding-film",
-  "section": "WEDDINGS",
-  "title": "Wedding day",
-  "em": "on film",
-  "sub": "Sydney",
-  "note": "Shot on film from start to finish. The grain, the warm skin and the odd soft frame are all part of how the day felt.",
+  "slug": "grad-usyd-1",
+  "section": "GRADUATION",
+  "school": "USYD",
+  "title": "Sandstone",
+  "em": "and stained glass",
+  "sub": "The University of Sydney · Quadrangle · Great Hall",
+  "note": "Golden hour through the Quad arches, then inside for the stained glass and the old staircase.",
   "photos": [
    {
-    "full": "albums/wedding-film/01.jpg",
-    "src": "assets/thumbs/wedding-film/01.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/02.jpg",
-    "src": "assets/thumbs/wedding-film/02.jpg",
-    "cap": "The wedding day, on film, at the Opera House",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/03.jpg",
-    "src": "assets/thumbs/wedding-film/03.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/04.jpg",
-    "src": "assets/thumbs/wedding-film/04.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/05.jpg",
-    "src": "assets/thumbs/wedding-film/05.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/06.jpg",
-    "src": "assets/thumbs/wedding-film/06.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/07.jpg",
-    "src": "assets/thumbs/wedding-film/07.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/08.jpg",
-    "src": "assets/thumbs/wedding-film/08.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/09.jpg",
-    "src": "assets/thumbs/wedding-film/09.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/10.jpg",
-    "src": "assets/thumbs/wedding-film/10.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/11.jpg",
-    "src": "assets/thumbs/wedding-film/11.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/12.jpg",
-    "src": "assets/thumbs/wedding-film/12.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/13.jpg",
-    "src": "assets/thumbs/wedding-film/13.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/14.jpg",
-    "src": "assets/thumbs/wedding-film/14.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/15.jpg",
-    "src": "assets/thumbs/wedding-film/15.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/16.jpg",
-    "src": "assets/thumbs/wedding-film/16.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/17.jpg",
-    "src": "assets/thumbs/wedding-film/17.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/18.jpg",
-    "src": "assets/thumbs/wedding-film/18.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/19.jpg",
-    "src": "assets/thumbs/wedding-film/19.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/20.jpg",
-    "src": "assets/thumbs/wedding-film/20.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/21.jpg",
-    "src": "assets/thumbs/wedding-film/21.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/22.jpg",
-    "src": "assets/thumbs/wedding-film/22.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/23.jpg",
-    "src": "assets/thumbs/wedding-film/23.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/24.jpg",
-    "src": "assets/thumbs/wedding-film/24.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/25.jpg",
-    "src": "assets/thumbs/wedding-film/25.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/26.jpg",
-    "src": "assets/thumbs/wedding-film/26.jpg",
-    "cap": "The wedding day, on film, by the harbour",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/27.jpg",
-    "src": "assets/thumbs/wedding-film/27.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/28.jpg",
-    "src": "assets/thumbs/wedding-film/28.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/29.jpg",
-    "src": "assets/thumbs/wedding-film/29.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/30.jpg",
-    "src": "assets/thumbs/wedding-film/30.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/31.jpg",
-    "src": "assets/thumbs/wedding-film/31.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/32.jpg",
-    "src": "assets/thumbs/wedding-film/32.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/33.jpg",
-    "src": "assets/thumbs/wedding-film/33.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/34.jpg",
-    "src": "assets/thumbs/wedding-film/34.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/35.jpg",
-    "src": "assets/thumbs/wedding-film/35.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/36.jpg",
-    "src": "assets/thumbs/wedding-film/36.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/37.jpg",
-    "src": "assets/thumbs/wedding-film/37.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/38.jpg",
-    "src": "assets/thumbs/wedding-film/38.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/39.jpg",
-    "src": "assets/thumbs/wedding-film/39.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/40.jpg",
-    "src": "assets/thumbs/wedding-film/40.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/41.jpg",
-    "src": "assets/thumbs/wedding-film/41.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/42.jpg",
-    "src": "assets/thumbs/wedding-film/42.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/43.jpg",
-    "src": "assets/thumbs/wedding-film/43.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/44.jpg",
-    "src": "assets/thumbs/wedding-film/44.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/45.jpg",
-    "src": "assets/thumbs/wedding-film/45.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/46.jpg",
-    "src": "assets/thumbs/wedding-film/46.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/47.jpg",
-    "src": "assets/thumbs/wedding-film/47.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/48.jpg",
-    "src": "assets/thumbs/wedding-film/48.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/49.jpg",
-    "src": "assets/thumbs/wedding-film/49.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/50.jpg",
-    "src": "assets/thumbs/wedding-film/50.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/51.jpg",
-    "src": "assets/thumbs/wedding-film/51.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/52.jpg",
-    "src": "assets/thumbs/wedding-film/52.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/53.jpg",
-    "src": "assets/thumbs/wedding-film/53.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/54.jpg",
-    "src": "assets/thumbs/wedding-film/54.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/55.jpg",
-    "src": "assets/thumbs/wedding-film/55.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/56.jpg",
-    "src": "assets/thumbs/wedding-film/56.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/57.jpg",
-    "src": "assets/thumbs/wedding-film/57.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/58.jpg",
-    "src": "assets/thumbs/wedding-film/58.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/59.jpg",
-    "src": "assets/thumbs/wedding-film/59.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/60.jpg",
-    "src": "assets/thumbs/wedding-film/60.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/61.jpg",
-    "src": "assets/thumbs/wedding-film/61.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/62.jpg",
-    "src": "assets/thumbs/wedding-film/62.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/63.jpg",
-    "src": "assets/thumbs/wedding-film/63.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/64.jpg",
-    "src": "assets/thumbs/wedding-film/64.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/65.jpg",
-    "src": "assets/thumbs/wedding-film/65.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/66.jpg",
-    "src": "assets/thumbs/wedding-film/66.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/67.jpg",
-    "src": "assets/thumbs/wedding-film/67.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/68.jpg",
-    "src": "assets/thumbs/wedding-film/68.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/69.jpg",
-    "src": "assets/thumbs/wedding-film/69.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/70.jpg",
-    "src": "assets/thumbs/wedding-film/70.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/wedding-film/71.jpg",
-    "src": "assets/thumbs/wedding-film/71.jpg",
-    "cap": "The wedding day, on film",
-    "exif": "Shot on film"
-   }
-  ]
- },
- {
-  "slug": "wedding-pyrmont",
-  "section": "WEDDINGS",
-  "title": "Wedding day",
-  "em": "in Pyrmont",
-  "sub": "Pyrmont, Sydney",
-  "note": "Glass towers, harbour wind and a shower of petals on the way out. A city wedding from the ceremony to the portraits by the water.",
-  "photos": [
-   {
-    "full": "albums/wedding-pyrmont/01.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/01.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/8 · 1/400s · ISO 500 · 41.4mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/02.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/02.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/8 · 1/320s · ISO 640 · 55mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/03.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/03.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/2.8 · 1/160s · ISO 1000 · 16mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/04.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/04.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/2.8 · 1/800s · ISO 500 · 37.6mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/05.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/05.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/8 · 1/640s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/06.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/06.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/8 · 1/400s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/07.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/07.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/8 · 1/400s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/08.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/08.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/5.6 · 1/400s · ISO 640 · 25.7mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/09.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/09.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/2.8 · 1/100s · ISO 500 · 22mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/10.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/10.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/4.5 · 1/200s · ISO 800 · 27.4mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/11.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/11.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/2.8 · 1/500s · ISO 640 · 30.2mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/12.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/12.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/2.8 · 1/500s · ISO 640 · 35.3mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/13.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/13.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/2.8 · 1/100s · ISO 500 · 55mm"
-   },
-   {
-    "full": "albums/wedding-pyrmont/14.jpg",
-    "src": "assets/thumbs/wedding-pyrmont/14.jpg",
-    "cap": "The wedding day in Pyrmont",
-    "exif": "f/5.6 · 1/400s · ISO 640 · 41.4mm"
-   }
-  ]
- },
- {
-  "slug": "prewedding",
-  "section": "WEDDINGS",
-  "title": "Pre-wedding",
-  "em": "by the harbour",
-  "sub": "Sydney Opera House · Circular Quay",
-  "note": "An easy afternoon on the Opera House steps and around the Quay. No script, just the two of them.",
-  "photos": [
-   {
-    "full": "albums/prewedding/01.jpg",
-    "src": "assets/thumbs/prewedding/01.jpg",
-    "cap": "Pre-wedding by the Opera House",
-    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/prewedding/02.jpg",
-    "src": "assets/thumbs/prewedding/02.jpg",
-    "cap": "Pre-wedding by the Opera House",
-    "exif": "f/11 · 1/125s · ISO 500 · 22mm"
-   },
-   {
-    "full": "albums/prewedding/03.jpg",
-    "src": "assets/thumbs/prewedding/03.jpg",
-    "cap": "Pre-wedding at Circular Quay",
-    "exif": "f/14 · 1/125s · ISO 500 · 19.4mm"
-   },
-   {
-    "full": "albums/prewedding/04.jpg",
-    "src": "assets/thumbs/prewedding/04.jpg",
-    "cap": "Pre-wedding by the Opera House",
-    "exif": "f/11 · 1/125s · ISO 500 · 17.6mm"
-   },
-   {
-    "full": "albums/prewedding/05.jpg",
-    "src": "assets/thumbs/prewedding/05.jpg",
-    "cap": "Pre-wedding by the Opera House",
-    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/prewedding/06.jpg",
-    "src": "assets/thumbs/prewedding/06.jpg",
-    "cap": "Pre-wedding by the Opera House",
-    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/prewedding/07.jpg",
-    "src": "assets/thumbs/prewedding/07.jpg",
-    "cap": "Pre-wedding by the Opera House",
-    "exif": "f/11 · 1/125s · ISO 500 · 20.6mm"
-   },
-   {
-    "full": "albums/prewedding/08.jpg",
-    "src": "assets/thumbs/prewedding/08.jpg",
-    "cap": "Pre-wedding by the Opera House",
-    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
-   }
-  ]
- },
- {
-  "slug": "graduation",
-  "section": "PORTRAITS",
-  "title": "Graduation",
-  "em": "day",
-  "sub": "UTS · USYD · UNSW · Macquarie · UOW · Vietnam",
-  "note": "Years of work, then one afternoon to remember it by. Gowns, sandstone and big bouquets, across Sydney and back home in Vietnam.",
-  "photos": [
-   {
-    "full": "albums/graduation/01.jpg",
-    "src": "assets/thumbs/graduation/01.jpg",
-    "cap": "Graduation day at UTS",
+    "full": "albums/grad-usyd-1/01.jpg",
+    "src": "assets/thumbs/grad-usyd-1/01.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/4 · 1/100s · ISO 500 · 22.7mm"
    },
    {
-    "full": "albums/graduation/02.jpg",
-    "src": "assets/thumbs/graduation/02.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/7.1 · 1/125s · ISO 500 · 19.4mm"
-   },
-   {
-    "full": "albums/graduation/03.jpg",
-    "src": "assets/thumbs/graduation/03.jpg",
+    "full": "albums/grad-usyd-1/02.jpg",
+    "src": "assets/thumbs/grad-usyd-1/02.jpg",
     "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/5.6 · 1/100s · ISO 500 · 53.3mm"
+    "exif": "f/5 · 1/80s · ISO 500 · 27.4mm"
    },
    {
-    "full": "albums/graduation/04.jpg",
-    "src": "assets/thumbs/graduation/04.jpg",
+    "full": "albums/grad-usyd-1/03.jpg",
+    "src": "assets/thumbs/grad-usyd-1/03.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/2.8 · 1/80s · ISO 5000 · 16mm"
+   },
+   {
+    "full": "albums/grad-usyd-1/04.jpg",
+    "src": "assets/thumbs/grad-usyd-1/04.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/2.8 · 1/100s · ISO 5000 · 16mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-usyd-2",
+  "section": "GRADUATION",
+  "school": "USYD",
+  "title": "Under",
+  "em": "the arches",
+  "sub": "The University of Sydney · Quadrangle",
+  "note": "A white dress, a big bouquet and the soft light that falls through the Quad's arches.",
+  "photos": [
+   {
+    "full": "albums/grad-usyd-2/01.jpg",
+    "src": "assets/thumbs/grad-usyd-2/01.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/11 · 1/100s · ISO 500 · 17mm"
    },
    {
-    "full": "albums/graduation/05.jpg",
-    "src": "assets/thumbs/graduation/05.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/6.4 · 1/200s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/06.jpg",
-    "src": "assets/thumbs/graduation/06.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/16 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/07.jpg",
-    "src": "assets/thumbs/graduation/07.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/5 · 1/80s · ISO 500 · 27.4mm"
-   },
-   {
-    "full": "albums/graduation/08.jpg",
-    "src": "assets/thumbs/graduation/08.jpg",
-    "cap": "Graduation day at Macquarie",
-    "exif": "f/8 · 1/125s · ISO 800 · 16mm"
-   },
-   {
-    "full": "albums/graduation/09.jpg",
-    "src": "assets/thumbs/graduation/09.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/4 · 1/160s · ISO 500 · 55mm"
-   },
-   {
-    "full": "albums/graduation/10.jpg",
-    "src": "assets/thumbs/graduation/10.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/6.4 · 1/160s · ISO 500 · 44.1mm"
-   },
-   {
-    "full": "albums/graduation/11.jpg",
-    "src": "assets/thumbs/graduation/11.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/3.6 · 1/320s · ISO 500 · 37.6mm"
-   },
-   {
-    "full": "albums/graduation/12.jpg",
-    "src": "assets/thumbs/graduation/12.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/16 · 1/125s · ISO 500 · 20.6mm"
-   },
-   {
-    "full": "albums/graduation/13.jpg",
-    "src": "assets/thumbs/graduation/13.jpg",
+    "full": "albums/grad-usyd-2/02.jpg",
+    "src": "assets/thumbs/grad-usyd-2/02.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/11 · 1/100s · ISO 500 · 22mm"
    },
    {
-    "full": "albums/graduation/14.jpg",
-    "src": "assets/thumbs/graduation/14.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/20 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/15.jpg",
-    "src": "assets/thumbs/graduation/15.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/6.4 · 1/160s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/16.jpg",
-    "src": "assets/thumbs/graduation/16.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/5.6 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/17.jpg",
-    "src": "assets/thumbs/graduation/17.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/2.8 · 1/80s · ISO 5000 · 16mm"
-   },
-   {
-    "full": "albums/graduation/18.jpg",
-    "src": "assets/thumbs/graduation/18.jpg",
-    "cap": "Graduation day at Macquarie",
-    "exif": "f/8 · 1/125s · ISO 800 · 16mm"
-   },
-   {
-    "full": "albums/graduation/19.jpg",
-    "src": "assets/thumbs/graduation/19.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/7.1 · 1/125s · ISO 500 · 19.4mm"
-   },
-   {
-    "full": "albums/graduation/20.jpg",
-    "src": "assets/thumbs/graduation/20.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/6.4 · 1/200s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/21.jpg",
-    "src": "assets/thumbs/graduation/21.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/7.1 · 1/125s · ISO 500 · 23.4mm"
-   },
-   {
-    "full": "albums/graduation/22.jpg",
-    "src": "assets/thumbs/graduation/22.jpg",
+    "full": "albums/grad-usyd-2/03.jpg",
+    "src": "assets/thumbs/grad-usyd-2/03.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/11 · 1/100s · ISO 500 · 18.2mm"
    },
    {
-    "full": "albums/graduation/23.jpg",
-    "src": "assets/thumbs/graduation/23.jpg",
+    "full": "albums/grad-usyd-2/04.jpg",
+    "src": "assets/thumbs/grad-usyd-2/04.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/8 · 1/125s · ISO 500 · 16mm"
    },
    {
-    "full": "albums/graduation/24.jpg",
-    "src": "assets/thumbs/graduation/24.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/8 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/25.jpg",
-    "src": "assets/thumbs/graduation/25.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/6.4 · 1/100s · ISO 500 · 18.7mm"
-   },
-   {
-    "full": "albums/graduation/26.jpg",
-    "src": "assets/thumbs/graduation/26.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/2.8 · 1/100s · ISO 5000 · 16mm"
-   },
-   {
-    "full": "albums/graduation/27.jpg",
-    "src": "assets/thumbs/graduation/27.jpg",
-    "cap": "Graduation day at Macquarie",
-    "exif": "f/8 · 1/125s · ISO 800 · 16mm"
-   },
-   {
-    "full": "albums/graduation/28.jpg",
-    "src": "assets/thumbs/graduation/28.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/8 · 1/125s · ISO 500 · 17mm"
-   },
-   {
-    "full": "albums/graduation/29.jpg",
-    "src": "assets/thumbs/graduation/29.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/6.4 · 1/200s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/30.jpg",
-    "src": "assets/thumbs/graduation/30.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/11 · 1/125s · ISO 500 · 31.1mm"
-   },
-   {
-    "full": "albums/graduation/31.jpg",
-    "src": "assets/thumbs/graduation/31.jpg",
+    "full": "albums/grad-usyd-2/05.jpg",
+    "src": "assets/thumbs/grad-usyd-2/05.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/11 · 1/100s · ISO 500 · 20.6mm"
    },
    {
-    "full": "albums/graduation/32.jpg",
-    "src": "assets/thumbs/graduation/32.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/6.4 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/33.jpg",
-    "src": "assets/thumbs/graduation/33.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": ""
-   },
-   {
-    "full": "albums/graduation/34.jpg",
-    "src": "assets/thumbs/graduation/34.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/8 · 1/100s · ISO 500 · 25.7mm"
-   },
-   {
-    "full": "albums/graduation/35.jpg",
-    "src": "assets/thumbs/graduation/35.jpg",
-    "cap": "Graduation day at Macquarie",
-    "exif": "f/8 · 1/125s · ISO 800 · 16mm"
-   },
-   {
-    "full": "albums/graduation/36.jpg",
-    "src": "assets/thumbs/graduation/36.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/13 · 1/125s · ISO 500 · 24.2mm"
-   },
-   {
-    "full": "albums/graduation/37.jpg",
-    "src": "assets/thumbs/graduation/37.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/2.8 · 1/60s · ISO 1600 · 16mm"
-   },
-   {
-    "full": "albums/graduation/38.jpg",
-    "src": "assets/thumbs/graduation/38.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/9 · 1/125s · ISO 500 · 22.7mm"
-   },
-   {
-    "full": "albums/graduation/39.jpg",
-    "src": "assets/thumbs/graduation/39.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/5 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/40.jpg",
-    "src": "assets/thumbs/graduation/40.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/41.jpg",
-    "src": "assets/thumbs/graduation/41.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/6.4 · 1/160s · ISO 500 · 29.2mm"
-   },
-   {
-    "full": "albums/graduation/42.jpg",
-    "src": "assets/thumbs/graduation/42.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/7.1 · 1/100s · ISO 500 · 25.7mm"
-   },
-   {
-    "full": "albums/graduation/43.jpg",
-    "src": "assets/thumbs/graduation/43.jpg",
-    "cap": "Graduation day at Macquarie",
-    "exif": "f/8 · 1/125s · ISO 800 · 35.3mm"
-   },
-   {
-    "full": "albums/graduation/44.jpg",
-    "src": "assets/thumbs/graduation/44.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/7.1 · 1/125s · ISO 500 · 27.4mm"
-   },
-   {
-    "full": "albums/graduation/45.jpg",
-    "src": "assets/thumbs/graduation/45.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/10 · 1/125s · ISO 500 · 37.6mm"
-   },
-   {
-    "full": "albums/graduation/46.jpg",
-    "src": "assets/thumbs/graduation/46.jpg",
+    "full": "albums/grad-usyd-2/06.jpg",
+    "src": "assets/thumbs/grad-usyd-2/06.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/11 · 1/100s · ISO 500 · 16mm"
-   },
+   }
+  ]
+ },
+ {
+  "slug": "grad-usyd-3",
+  "section": "GRADUATION",
+  "school": "USYD",
+  "title": "Up on",
+  "em": "the sandstone",
+  "sub": "The University of Sydney · Fisher Library side",
+  "note": "Sitting up on the old stone balustrades with the Gothic towers behind.",
+  "photos": [
    {
-    "full": "albums/graduation/47.jpg",
-    "src": "assets/thumbs/graduation/47.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/11 · 1/125s · ISO 500 · 30.2mm"
-   },
-   {
-    "full": "albums/graduation/48.jpg",
-    "src": "assets/thumbs/graduation/48.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/2.8 · 1/400s · ISO 500 · 30.2mm"
-   },
-   {
-    "full": "albums/graduation/49.jpg",
-    "src": "assets/thumbs/graduation/49.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/8 · 1/100s · ISO 500 · 23.4mm"
-   },
-   {
-    "full": "albums/graduation/50.jpg",
-    "src": "assets/thumbs/graduation/50.jpg",
-    "cap": "Graduation day at Macquarie",
-    "exif": "f/11 · 1/160s · ISO 800 · 20mm"
-   },
-   {
-    "full": "albums/graduation/51.jpg",
-    "src": "assets/thumbs/graduation/51.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/13 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/52.jpg",
-    "src": "assets/thumbs/graduation/52.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/10 · 1/125s · ISO 500 · 19.4mm"
-   },
-   {
-    "full": "albums/graduation/53.jpg",
-    "src": "assets/thumbs/graduation/53.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/7.1 · 1/100s · ISO 500 · 22mm"
-   },
-   {
-    "full": "albums/graduation/54.jpg",
-    "src": "assets/thumbs/graduation/54.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/graduation/55.jpg",
-    "src": "assets/thumbs/graduation/55.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/6.4 · 1/160s · ISO 500 · 47mm"
-   },
-   {
-    "full": "albums/graduation/56.jpg",
-    "src": "assets/thumbs/graduation/56.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/5 · 1/100s · ISO 500 · 17.6mm"
-   },
-   {
-    "full": "albums/graduation/57.jpg",
-    "src": "assets/thumbs/graduation/57.jpg",
-    "cap": "Graduation day at UOW",
-    "exif": "f/16 · 1/125s · ISO 500 · 22mm"
-   },
-   {
-    "full": "albums/graduation/58.jpg",
-    "src": "assets/thumbs/graduation/58.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/10 · 1/125s · ISO 500 · 37.6mm"
-   },
-   {
-    "full": "albums/graduation/59.jpg",
-    "src": "assets/thumbs/graduation/59.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/5 · 1/100s · ISO 500 · 18.7mm"
-   },
-   {
-    "full": "albums/graduation/60.jpg",
-    "src": "assets/thumbs/graduation/60.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/6.4 · 1/100s · ISO 500 · 30.2mm"
-   },
-   {
-    "full": "albums/graduation/61.jpg",
-    "src": "assets/thumbs/graduation/61.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/5.6 · 1/100s · ISO 500 · 44.1mm"
-   },
-   {
-    "full": "albums/graduation/62.jpg",
-    "src": "assets/thumbs/graduation/62.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/3.2 · 1/100s · ISO 500 · 24.9mm"
-   },
-   {
-    "full": "albums/graduation/63.jpg",
-    "src": "assets/thumbs/graduation/63.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/9 · 1/125s · ISO 500 · 22.7mm"
-   },
-   {
-    "full": "albums/graduation/64.jpg",
-    "src": "assets/thumbs/graduation/64.jpg",
+    "full": "albums/grad-usyd-3/01.jpg",
+    "src": "assets/thumbs/grad-usyd-3/01.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/5 · 1/100s · ISO 500 · 25.7mm"
    },
    {
-    "full": "albums/graduation/65.jpg",
-    "src": "assets/thumbs/graduation/65.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/2.8 · 1/125s · ISO 500 · 27.4mm"
-   },
-   {
-    "full": "albums/graduation/66.jpg",
-    "src": "assets/thumbs/graduation/66.jpg",
-    "cap": "Graduation day, back home in Vietnam",
-    "exif": "f/2.8 · 1/100s · ISO 800 · 55mm"
-   },
-   {
-    "full": "albums/graduation/67.jpg",
-    "src": "assets/thumbs/graduation/67.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/5 · 1/100s · ISO 500 · 17.6mm"
-   },
-   {
-    "full": "albums/graduation/68.jpg",
-    "src": "assets/thumbs/graduation/68.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/10 · 1/125s · ISO 500 · 34.2mm"
-   },
-   {
-    "full": "albums/graduation/69.jpg",
-    "src": "assets/thumbs/graduation/69.jpg",
+    "full": "albums/grad-usyd-3/02.jpg",
+    "src": "assets/thumbs/grad-usyd-3/02.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/5 · 1/100s · ISO 500 · 16mm"
    },
    {
-    "full": "albums/graduation/70.jpg",
-    "src": "assets/thumbs/graduation/70.jpg",
+    "full": "albums/grad-usyd-3/03.jpg",
+    "src": "assets/thumbs/grad-usyd-3/03.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/5 · 1/100s · ISO 500 · 18.7mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-usyd-4",
+  "section": "GRADUATION",
+  "school": "USYD",
+  "title": "The Quad",
+  "em": "and the cloisters",
+  "sub": "The University of Sydney · Quadrangle",
+  "note": "The ivy archway, the clock tower, the cloisters and the #USYD sign, all in one afternoon.",
+  "photos": [
+   {
+    "full": "albums/grad-usyd-4/01.jpg",
+    "src": "assets/thumbs/grad-usyd-4/01.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/6.4 · 1/100s · ISO 500 · 16mm"
    },
    {
-    "full": "albums/graduation/71.jpg",
-    "src": "assets/thumbs/graduation/71.jpg",
-    "cap": "Graduation day at UTS",
-    "exif": "f/5.6 · 1/100s · ISO 500 · 30.2mm"
+    "full": "albums/grad-usyd-4/02.jpg",
+    "src": "assets/thumbs/grad-usyd-4/02.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/20 · 1/100s · ISO 500 · 16mm"
    },
    {
-    "full": "albums/graduation/72.jpg",
-    "src": "assets/thumbs/graduation/72.jpg",
-    "cap": "Graduation day at UNSW",
-    "exif": "f/7.1 · 1/125s · ISO 500 · 24.2mm"
+    "full": "albums/grad-usyd-4/03.jpg",
+    "src": "assets/thumbs/grad-usyd-4/03.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
    },
    {
-    "full": "albums/graduation/73.jpg",
-    "src": "assets/thumbs/graduation/73.jpg",
+    "full": "albums/grad-usyd-4/04.jpg",
+    "src": "assets/thumbs/grad-usyd-4/04.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-usyd-4/05.jpg",
+    "src": "assets/thumbs/grad-usyd-4/05.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/5 · 1/100s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-usyd-4/06.jpg",
+    "src": "assets/thumbs/grad-usyd-4/06.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/6.4 · 1/100s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-usyd-4/07.jpg",
+    "src": "assets/thumbs/grad-usyd-4/07.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/6.4 · 1/100s · ISO 500 · 34.2mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-usyd-5",
+  "section": "GRADUATION",
+  "school": "USYD",
+  "title": "Afternoon",
+  "em": "in the Quad",
+  "sub": "The University of Sydney · Quadrangle",
+  "note": "Close portraits in the doorways and long side light across the sandstone.",
+  "photos": [
+   {
+    "full": "albums/grad-usyd-5/01.jpg",
+    "src": "assets/thumbs/grad-usyd-5/01.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/11 · 1/125s · ISO 500 · 30.2mm"
+   },
+   {
+    "full": "albums/grad-usyd-5/02.jpg",
+    "src": "assets/thumbs/grad-usyd-5/02.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/5.6 · 1/100s · ISO 500 · 53.3mm"
+   },
+   {
+    "full": "albums/grad-usyd-5/03.jpg",
+    "src": "assets/thumbs/grad-usyd-5/03.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/5.6 · 1/100s · ISO 500 · 16mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-usyd-6",
+  "section": "GRADUATION",
+  "school": "USYD",
+  "title": "Window light",
+  "em": "on the stairs",
+  "sub": "The University of Sydney · Quadrangle",
+  "note": "Warm light through old windows, flowers and the testamur to finish.",
+  "photos": [
+   {
+    "full": "albums/grad-usyd-6/01.jpg",
+    "src": "assets/thumbs/grad-usyd-6/01.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/7.1 · 1/100s · ISO 500 · 25.7mm"
    },
    {
-    "full": "albums/graduation/74.jpg",
-    "src": "assets/thumbs/graduation/74.jpg",
+    "full": "albums/grad-usyd-6/02.jpg",
+    "src": "assets/thumbs/grad-usyd-6/02.jpg",
     "cap": "Graduation day under the sandstone at USYD",
-    "exif": "f/6.4 · 1/100s · ISO 500 · 34.2mm"
+    "exif": "f/7.1 · 1/100s · ISO 500 · 22mm"
    },
    {
-    "full": "albums/graduation/75.jpg",
-    "src": "assets/thumbs/graduation/75.jpg",
+    "full": "albums/grad-usyd-6/03.jpg",
+    "src": "assets/thumbs/grad-usyd-6/03.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/6.4 · 1/100s · ISO 500 · 30.2mm"
+   },
+   {
+    "full": "albums/grad-usyd-6/04.jpg",
+    "src": "assets/thumbs/grad-usyd-6/04.jpg",
+    "cap": "Graduation day under the sandstone at USYD",
+    "exif": "f/2.8 · 1/125s · ISO 500 · 27.4mm"
+   },
+   {
+    "full": "albums/grad-usyd-6/05.jpg",
+    "src": "assets/thumbs/grad-usyd-6/05.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/7.1 · 1/100s · ISO 500 · 21.3mm"
    },
    {
-    "full": "albums/graduation/76.jpg",
-    "src": "assets/thumbs/graduation/76.jpg",
+    "full": "albums/grad-usyd-6/06.jpg",
+    "src": "assets/thumbs/grad-usyd-6/06.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/11 · 1/100s · ISO 500 · 20.6mm"
    },
    {
-    "full": "albums/graduation/77.jpg",
-    "src": "assets/thumbs/graduation/77.jpg",
+    "full": "albums/grad-usyd-6/07.jpg",
+    "src": "assets/thumbs/grad-usyd-6/07.jpg",
     "cap": "Graduation day under the sandstone at USYD",
     "exif": "f/7.1 · 1/100s · ISO 500 · 40.1mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-macquarie-1",
+  "section": "GRADUATION",
+  "school": "Macquarie",
+  "title": "Autumn leaves",
+  "em": "at Macquarie",
+  "sub": "Macquarie University",
+  "note": "Red sash, white dress, a carpet of autumn leaves and the lake fountain.",
+  "photos": [
+   {
+    "full": "albums/grad-macquarie-1/01.jpg",
+    "src": "assets/thumbs/grad-macquarie-1/01.jpg",
+    "cap": "Graduation day at Macquarie",
+    "exif": "f/8 · 1/125s · ISO 800 · 16mm"
    },
    {
-    "full": "albums/graduation/78.jpg",
-    "src": "assets/thumbs/graduation/78.jpg",
-    "cap": "Graduation day under the sandstone at USYD",
+    "full": "albums/grad-macquarie-1/02.jpg",
+    "src": "assets/thumbs/grad-macquarie-1/02.jpg",
+    "cap": "Graduation day at Macquarie",
+    "exif": "f/8 · 1/125s · ISO 800 · 16mm"
+   },
+   {
+    "full": "albums/grad-macquarie-1/03.jpg",
+    "src": "assets/thumbs/grad-macquarie-1/03.jpg",
+    "cap": "Graduation day at Macquarie",
+    "exif": "f/8 · 1/125s · ISO 800 · 16mm"
+   },
+   {
+    "full": "albums/grad-macquarie-1/04.jpg",
+    "src": "assets/thumbs/grad-macquarie-1/04.jpg",
+    "cap": "Graduation day at Macquarie",
+    "exif": "f/8 · 1/125s · ISO 800 · 16mm"
+   },
+   {
+    "full": "albums/grad-macquarie-1/05.jpg",
+    "src": "assets/thumbs/grad-macquarie-1/05.jpg",
+    "cap": "Graduation day at Macquarie",
+    "exif": "f/8 · 1/125s · ISO 800 · 35.3mm"
+   },
+   {
+    "full": "albums/grad-macquarie-1/06.jpg",
+    "src": "assets/thumbs/grad-macquarie-1/06.jpg",
+    "cap": "Graduation day at Macquarie",
+    "exif": "f/11 · 1/160s · ISO 800 · 20mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-uts-1",
+  "section": "GRADUATION",
+  "school": "UTS",
+  "title": "City campus",
+  "em": "in daylight",
+  "sub": "UTS · Ultimo",
+  "note": "Bouquets, the testamur and the city right outside the ceremony.",
+  "photos": [
+   {
+    "full": "albums/grad-uts-1/01.jpg",
+    "src": "assets/thumbs/grad-uts-1/01.jpg",
+    "cap": "Graduation day at UTS",
     "exif": "f/5.6 · 1/100s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-uts-1/02.jpg",
+    "src": "assets/thumbs/grad-uts-1/02.jpg",
+    "cap": "Graduation day at UTS",
+    "exif": "f/6.4 · 1/100s · ISO 500 · 18.7mm"
+   },
+   {
+    "full": "albums/grad-uts-1/03.jpg",
+    "src": "assets/thumbs/grad-uts-1/03.jpg",
+    "cap": "Graduation day at UTS",
+    "exif": "f/5.6 · 1/100s · ISO 500 · 30.2mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-uts-2",
+  "section": "GRADUATION",
+  "school": "UTS",
+  "title": "Shadows",
+  "em": "and glass",
+  "sub": "UTS · Ultimo",
+  "note": "Low light, dark glass and flowers glowing in the one patch of sun.",
+  "photos": [
+   {
+    "full": "albums/grad-uts-2/01.jpg",
+    "src": "assets/thumbs/grad-uts-2/01.jpg",
+    "cap": "Graduation day at UTS",
+    "exif": "f/7.1 · 1/100s · ISO 500 · 25.7mm"
+   },
+   {
+    "full": "albums/grad-uts-2/02.jpg",
+    "src": "assets/thumbs/grad-uts-2/02.jpg",
+    "cap": "Graduation day at UTS",
+    "exif": "f/8 · 1/100s · ISO 500 · 25.7mm"
+   },
+   {
+    "full": "albums/grad-uts-2/03.jpg",
+    "src": "assets/thumbs/grad-uts-2/03.jpg",
+    "cap": "Graduation day at UTS",
+    "exif": "f/8 · 1/100s · ISO 500 · 23.4mm"
+   },
+   {
+    "full": "albums/grad-uts-2/04.jpg",
+    "src": "assets/thumbs/grad-uts-2/04.jpg",
+    "cap": "Graduation day at UTS",
+    "exif": "f/5 · 1/100s · ISO 500 · 17.6mm"
+   },
+   {
+    "full": "albums/grad-uts-2/05.jpg",
+    "src": "assets/thumbs/grad-uts-2/05.jpg",
+    "cap": "Graduation day at UTS",
+    "exif": "f/3.2 · 1/100s · ISO 500 · 24.9mm"
+   },
+   {
+    "full": "albums/grad-uts-2/06.jpg",
+    "src": "assets/thumbs/grad-uts-2/06.jpg",
+    "cap": "Graduation day at UTS",
+    "exif": "f/5 · 1/100s · ISO 500 · 17.6mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-unsw-1",
+  "section": "GRADUATION",
+  "school": "UNSW",
+  "title": "Yellow",
+  "em": "for 2026",
+  "sub": "University of New South Wales · Kensington",
+  "note": "The 2026 sign, the UNSW banners and a bouquet almost as big as the graduate.",
+  "photos": [
+   {
+    "full": "albums/grad-unsw-1/01.jpg",
+    "src": "assets/thumbs/grad-unsw-1/01.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/7.1 · 1/125s · ISO 500 · 19.4mm"
+   },
+   {
+    "full": "albums/grad-unsw-1/02.jpg",
+    "src": "assets/thumbs/grad-unsw-1/02.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/16 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-unsw-1/03.jpg",
+    "src": "assets/thumbs/grad-unsw-1/03.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/16 · 1/125s · ISO 500 · 20.6mm"
+   },
+   {
+    "full": "albums/grad-unsw-1/04.jpg",
+    "src": "assets/thumbs/grad-unsw-1/04.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/7.1 · 1/125s · ISO 500 · 23.4mm"
+   },
+   {
+    "full": "albums/grad-unsw-1/05.jpg",
+    "src": "assets/thumbs/grad-unsw-1/05.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/11 · 1/125s · ISO 500 · 31.1mm"
+   },
+   {
+    "full": "albums/grad-unsw-1/06.jpg",
+    "src": "assets/thumbs/grad-unsw-1/06.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/7.1 · 1/125s · ISO 500 · 24.2mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-unsw-2",
+  "section": "GRADUATION",
+  "school": "UNSW",
+  "title": "Long shadows",
+  "em": "on campus",
+  "sub": "University of New South Wales · Kensington",
+  "note": "Two bouquets, striped shadows on the walls and the glass of the main walkway.",
+  "photos": [
+   {
+    "full": "albums/grad-unsw-2/01.jpg",
+    "src": "assets/thumbs/grad-unsw-2/01.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/9 · 1/125s · ISO 500 · 22.7mm"
+   },
+   {
+    "full": "albums/grad-unsw-2/02.jpg",
+    "src": "assets/thumbs/grad-unsw-2/02.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/9 · 1/125s · ISO 500 · 22.7mm"
+   },
+   {
+    "full": "albums/grad-unsw-2/03.jpg",
+    "src": "assets/thumbs/grad-unsw-2/03.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/10 · 1/125s · ISO 500 · 37.6mm"
+   },
+   {
+    "full": "albums/grad-unsw-2/04.jpg",
+    "src": "assets/thumbs/grad-unsw-2/04.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/10 · 1/125s · ISO 500 · 19.4mm"
+   },
+   {
+    "full": "albums/grad-unsw-2/05.jpg",
+    "src": "assets/thumbs/grad-unsw-2/05.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/10 · 1/125s · ISO 500 · 37.6mm"
+   },
+   {
+    "full": "albums/grad-unsw-2/06.jpg",
+    "src": "assets/thumbs/grad-unsw-2/06.jpg",
+    "cap": "Graduation day at UNSW",
+    "exif": "f/10 · 1/125s · ISO 500 · 34.2mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-uow-1",
+  "section": "GRADUATION",
+  "school": "UOW",
+  "title": "A twirl",
+  "em": "in blue",
+  "sub": "University of Wollongong",
+  "note": "The blue gown in motion outside the Jillian Broadbent Building and inside the theatre.",
+  "photos": [
+   {
+    "full": "albums/grad-uow-1/01.jpg",
+    "src": "assets/thumbs/grad-uow-1/01.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/6.4 · 1/200s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-uow-1/02.jpg",
+    "src": "assets/thumbs/grad-uow-1/02.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/6.4 · 1/200s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-uow-1/03.jpg",
+    "src": "assets/thumbs/grad-uow-1/03.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/6.4 · 1/200s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-uow-1/04.jpg",
+    "src": "assets/thumbs/grad-uow-1/04.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/2.8 · 1/60s · ISO 1600 · 16mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-uow-2",
+  "section": "GRADUATION",
+  "school": "UOW",
+  "title": "A bear",
+  "em": "in a blue cap",
+  "sub": "University of Wollongong",
+  "note": "A teddy in a matching cap, the testamur thrown in the air and bush around campus.",
+  "photos": [
+   {
+    "full": "albums/grad-uow-2/01.jpg",
+    "src": "assets/thumbs/grad-uow-2/01.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/13 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-uow-2/02.jpg",
+    "src": "assets/thumbs/grad-uow-2/02.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/7.1 · 1/125s · ISO 500 · 19.4mm"
+   },
+   {
+    "full": "albums/grad-uow-2/03.jpg",
+    "src": "assets/thumbs/grad-uow-2/03.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/8 · 1/125s · ISO 500 · 17mm"
+   },
+   {
+    "full": "albums/grad-uow-2/04.jpg",
+    "src": "assets/thumbs/grad-uow-2/04.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/13 · 1/125s · ISO 500 · 24.2mm"
+   },
+   {
+    "full": "albums/grad-uow-2/05.jpg",
+    "src": "assets/thumbs/grad-uow-2/05.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/7.1 · 1/125s · ISO 500 · 27.4mm"
+   },
+   {
+    "full": "albums/grad-uow-2/06.jpg",
+    "src": "assets/thumbs/grad-uow-2/06.jpg",
+    "cap": "Graduation day at UOW",
+    "exif": "f/16 · 1/125s · ISO 500 · 22mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-icms-1",
+  "section": "GRADUATION",
+  "school": "ICMS",
+  "title": "ICMS",
+  "em": "graduation",
+  "sub": "International College of Management, Sydney · Manly",
+  "note": "Graduation at ICMS.",
+  "photos": []
+ },
+ {
+  "slug": "grad-uq-1",
+  "section": "GRADUATION",
+  "school": "UQ",
+  "title": "Up in",
+  "em": "Brisbane",
+  "sub": "The University of Queensland · St Lucia",
+  "note": "A job that took me up to Brisbane for graduation day at UQ.",
+  "photos": []
+ },
+ {
+  "slug": "grad-vietnam-1",
+  "section": "GRADUATION",
+  "school": "Vietnam",
+  "title": "Áo dài",
+  "em": "for graduation",
+  "sub": "Back home in Vietnam",
+  "note": "White áo dài, the old school corridors and the yard where it all started.",
+  "photos": [
+   {
+    "full": "albums/grad-vietnam-1/01.jpg",
+    "src": "assets/thumbs/grad-vietnam-1/01.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/6.4 · 1/160s · ISO 500 · 44.1mm"
+   },
+   {
+    "full": "albums/grad-vietnam-1/02.jpg",
+    "src": "assets/thumbs/grad-vietnam-1/02.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/4 · 1/160s · ISO 500 · 55mm"
+   },
+   {
+    "full": "albums/grad-vietnam-1/03.jpg",
+    "src": "assets/thumbs/grad-vietnam-1/03.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/6.4 · 1/160s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-vietnam-1/04.jpg",
+    "src": "assets/thumbs/grad-vietnam-1/04.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/8 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/grad-vietnam-1/05.jpg",
+    "src": "assets/thumbs/grad-vietnam-1/05.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/6.4 · 1/160s · ISO 500 · 29.2mm"
+   },
+   {
+    "full": "albums/grad-vietnam-1/06.jpg",
+    "src": "assets/thumbs/grad-vietnam-1/06.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/2.8 · 1/400s · ISO 500 · 30.2mm"
+   },
+   {
+    "full": "albums/grad-vietnam-1/07.jpg",
+    "src": "assets/thumbs/grad-vietnam-1/07.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/6.4 · 1/160s · ISO 500 · 47mm"
+   },
+   {
+    "full": "albums/grad-vietnam-1/08.jpg",
+    "src": "assets/thumbs/grad-vietnam-1/08.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/5.6 · 1/100s · ISO 500 · 44.1mm"
+   }
+  ]
+ },
+ {
+  "slug": "grad-vietnam-2",
+  "section": "GRADUATION",
+  "school": "Vietnam",
+  "title": "With",
+  "em": "the whole class",
+  "sub": "Back home in Vietnam",
+  "note": "The class all together, certificates up, before everyone goes their own way.",
+  "photos": [
+   {
+    "full": "albums/grad-vietnam-2/01.jpg",
+    "src": "assets/thumbs/grad-vietnam-2/01.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/3.6 · 1/320s · ISO 500 · 37.6mm"
+   },
+   {
+    "full": "albums/grad-vietnam-2/02.jpg",
+    "src": "assets/thumbs/grad-vietnam-2/02.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": ""
+   },
+   {
+    "full": "albums/grad-vietnam-2/03.jpg",
+    "src": "assets/thumbs/grad-vietnam-2/03.jpg",
+    "cap": "Graduation day, back home in Vietnam",
+    "exif": "f/2.8 · 1/100s · ISO 800 · 55mm"
    }
   ]
  },
@@ -3000,6 +2587,594 @@
     "src": "assets/thumbs/cosplay/27.jpg",
     "cap": "In character",
     "exif": "f/1.6 · 1/250s · ISO 500 · 75mm"
+   }
+  ]
+ },
+ {
+  "slug": "wedding-film",
+  "section": "WEDDINGS",
+  "title": "Wedding day",
+  "em": "on film",
+  "sub": "Sydney",
+  "note": "Shot on film from start to finish. The grain, the warm skin and the odd soft frame are all part of how the day felt.",
+  "photos": [
+   {
+    "full": "albums/wedding-film/01.jpg",
+    "src": "assets/thumbs/wedding-film/01.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/02.jpg",
+    "src": "assets/thumbs/wedding-film/02.jpg",
+    "cap": "The wedding day, on film, at the Opera House",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/03.jpg",
+    "src": "assets/thumbs/wedding-film/03.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/04.jpg",
+    "src": "assets/thumbs/wedding-film/04.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/05.jpg",
+    "src": "assets/thumbs/wedding-film/05.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/06.jpg",
+    "src": "assets/thumbs/wedding-film/06.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/07.jpg",
+    "src": "assets/thumbs/wedding-film/07.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/08.jpg",
+    "src": "assets/thumbs/wedding-film/08.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/09.jpg",
+    "src": "assets/thumbs/wedding-film/09.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/10.jpg",
+    "src": "assets/thumbs/wedding-film/10.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/11.jpg",
+    "src": "assets/thumbs/wedding-film/11.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/12.jpg",
+    "src": "assets/thumbs/wedding-film/12.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/13.jpg",
+    "src": "assets/thumbs/wedding-film/13.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/14.jpg",
+    "src": "assets/thumbs/wedding-film/14.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/15.jpg",
+    "src": "assets/thumbs/wedding-film/15.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/16.jpg",
+    "src": "assets/thumbs/wedding-film/16.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/17.jpg",
+    "src": "assets/thumbs/wedding-film/17.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/18.jpg",
+    "src": "assets/thumbs/wedding-film/18.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/19.jpg",
+    "src": "assets/thumbs/wedding-film/19.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/20.jpg",
+    "src": "assets/thumbs/wedding-film/20.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/21.jpg",
+    "src": "assets/thumbs/wedding-film/21.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/22.jpg",
+    "src": "assets/thumbs/wedding-film/22.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/23.jpg",
+    "src": "assets/thumbs/wedding-film/23.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/24.jpg",
+    "src": "assets/thumbs/wedding-film/24.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/25.jpg",
+    "src": "assets/thumbs/wedding-film/25.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/26.jpg",
+    "src": "assets/thumbs/wedding-film/26.jpg",
+    "cap": "The wedding day, on film, by the harbour",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/27.jpg",
+    "src": "assets/thumbs/wedding-film/27.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/28.jpg",
+    "src": "assets/thumbs/wedding-film/28.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/29.jpg",
+    "src": "assets/thumbs/wedding-film/29.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/30.jpg",
+    "src": "assets/thumbs/wedding-film/30.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/31.jpg",
+    "src": "assets/thumbs/wedding-film/31.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/32.jpg",
+    "src": "assets/thumbs/wedding-film/32.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/33.jpg",
+    "src": "assets/thumbs/wedding-film/33.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/34.jpg",
+    "src": "assets/thumbs/wedding-film/34.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/35.jpg",
+    "src": "assets/thumbs/wedding-film/35.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/36.jpg",
+    "src": "assets/thumbs/wedding-film/36.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/37.jpg",
+    "src": "assets/thumbs/wedding-film/37.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/38.jpg",
+    "src": "assets/thumbs/wedding-film/38.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/39.jpg",
+    "src": "assets/thumbs/wedding-film/39.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/40.jpg",
+    "src": "assets/thumbs/wedding-film/40.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/41.jpg",
+    "src": "assets/thumbs/wedding-film/41.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/42.jpg",
+    "src": "assets/thumbs/wedding-film/42.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/43.jpg",
+    "src": "assets/thumbs/wedding-film/43.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/44.jpg",
+    "src": "assets/thumbs/wedding-film/44.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/45.jpg",
+    "src": "assets/thumbs/wedding-film/45.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/46.jpg",
+    "src": "assets/thumbs/wedding-film/46.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/47.jpg",
+    "src": "assets/thumbs/wedding-film/47.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/48.jpg",
+    "src": "assets/thumbs/wedding-film/48.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/49.jpg",
+    "src": "assets/thumbs/wedding-film/49.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/50.jpg",
+    "src": "assets/thumbs/wedding-film/50.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/51.jpg",
+    "src": "assets/thumbs/wedding-film/51.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/52.jpg",
+    "src": "assets/thumbs/wedding-film/52.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/53.jpg",
+    "src": "assets/thumbs/wedding-film/53.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/54.jpg",
+    "src": "assets/thumbs/wedding-film/54.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/55.jpg",
+    "src": "assets/thumbs/wedding-film/55.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/56.jpg",
+    "src": "assets/thumbs/wedding-film/56.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/57.jpg",
+    "src": "assets/thumbs/wedding-film/57.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/58.jpg",
+    "src": "assets/thumbs/wedding-film/58.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/59.jpg",
+    "src": "assets/thumbs/wedding-film/59.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/60.jpg",
+    "src": "assets/thumbs/wedding-film/60.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/61.jpg",
+    "src": "assets/thumbs/wedding-film/61.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/62.jpg",
+    "src": "assets/thumbs/wedding-film/62.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/63.jpg",
+    "src": "assets/thumbs/wedding-film/63.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/64.jpg",
+    "src": "assets/thumbs/wedding-film/64.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/65.jpg",
+    "src": "assets/thumbs/wedding-film/65.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/66.jpg",
+    "src": "assets/thumbs/wedding-film/66.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/67.jpg",
+    "src": "assets/thumbs/wedding-film/67.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/68.jpg",
+    "src": "assets/thumbs/wedding-film/68.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/69.jpg",
+    "src": "assets/thumbs/wedding-film/69.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/70.jpg",
+    "src": "assets/thumbs/wedding-film/70.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   },
+   {
+    "full": "albums/wedding-film/71.jpg",
+    "src": "assets/thumbs/wedding-film/71.jpg",
+    "cap": "The wedding day, on film",
+    "exif": "Shot on film"
+   }
+  ]
+ },
+ {
+  "slug": "wedding-pyrmont",
+  "section": "WEDDINGS",
+  "title": "Wedding day",
+  "em": "in Pyrmont",
+  "sub": "Pyrmont, Sydney",
+  "note": "Glass towers, harbour wind and a shower of petals on the way out. A city wedding from the ceremony to the portraits by the water.",
+  "photos": [
+   {
+    "full": "albums/wedding-pyrmont/01.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/01.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/8 · 1/400s · ISO 500 · 41.4mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/02.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/02.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/8 · 1/320s · ISO 640 · 55mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/03.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/03.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/2.8 · 1/160s · ISO 1000 · 16mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/04.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/04.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/2.8 · 1/800s · ISO 500 · 37.6mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/05.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/05.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/8 · 1/640s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/06.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/06.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/8 · 1/400s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/07.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/07.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/8 · 1/400s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/08.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/08.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/5.6 · 1/400s · ISO 640 · 25.7mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/09.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/09.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/2.8 · 1/100s · ISO 500 · 22mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/10.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/10.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/4.5 · 1/200s · ISO 800 · 27.4mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/11.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/11.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/2.8 · 1/500s · ISO 640 · 30.2mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/12.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/12.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/2.8 · 1/500s · ISO 640 · 35.3mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/13.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/13.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/2.8 · 1/100s · ISO 500 · 55mm"
+   },
+   {
+    "full": "albums/wedding-pyrmont/14.jpg",
+    "src": "assets/thumbs/wedding-pyrmont/14.jpg",
+    "cap": "The wedding day in Pyrmont",
+    "exif": "f/5.6 · 1/400s · ISO 640 · 41.4mm"
+   }
+  ]
+ },
+ {
+  "slug": "prewedding",
+  "section": "WEDDINGS",
+  "title": "Pre-wedding",
+  "em": "by the harbour",
+  "sub": "Sydney Opera House · Circular Quay",
+  "note": "An easy afternoon on the Opera House steps and around the Quay. No script, just the two of them.",
+  "photos": [
+   {
+    "full": "albums/prewedding/01.jpg",
+    "src": "assets/thumbs/prewedding/01.jpg",
+    "cap": "Pre-wedding by the Opera House",
+    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/prewedding/02.jpg",
+    "src": "assets/thumbs/prewedding/02.jpg",
+    "cap": "Pre-wedding by the Opera House",
+    "exif": "f/11 · 1/125s · ISO 500 · 22mm"
+   },
+   {
+    "full": "albums/prewedding/03.jpg",
+    "src": "assets/thumbs/prewedding/03.jpg",
+    "cap": "Pre-wedding at Circular Quay",
+    "exif": "f/14 · 1/125s · ISO 500 · 19.4mm"
+   },
+   {
+    "full": "albums/prewedding/04.jpg",
+    "src": "assets/thumbs/prewedding/04.jpg",
+    "cap": "Pre-wedding by the Opera House",
+    "exif": "f/11 · 1/125s · ISO 500 · 17.6mm"
+   },
+   {
+    "full": "albums/prewedding/05.jpg",
+    "src": "assets/thumbs/prewedding/05.jpg",
+    "cap": "Pre-wedding by the Opera House",
+    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/prewedding/06.jpg",
+    "src": "assets/thumbs/prewedding/06.jpg",
+    "cap": "Pre-wedding by the Opera House",
+    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/prewedding/07.jpg",
+    "src": "assets/thumbs/prewedding/07.jpg",
+    "cap": "Pre-wedding by the Opera House",
+    "exif": "f/11 · 1/125s · ISO 500 · 20.6mm"
+   },
+   {
+    "full": "albums/prewedding/08.jpg",
+    "src": "assets/thumbs/prewedding/08.jpg",
+    "cap": "Pre-wedding by the Opera House",
+    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
    }
   ]
  },
