@@ -25,14 +25,39 @@ Each folder is one album on the website and holds all of its photos. The folder 
 | [grad-uq-1](grad-uq-1/) | Up in Brisbane | Graduation · UQ |
 | [grad-vietnam-1](grad-vietnam-1/) | Áo dài for graduation | Graduation · Vietnam |
 | [grad-vietnam-2](grad-vietnam-2/) | With the whole class | Graduation · Vietnam |
-| [harbour](harbour/) | On the harbour | Portraits |
-| [opera-house](opera-house/) | The sails at golden hour | Portraits |
-| [jacaranda](jacaranda/) | Jacaranda season | Portraits |
-| [parks](parks/) | Parks & gardens | Portraits |
-| [ao-dai](ao-dai/) | Áo dài in Sydney | Portraits |
-| [bougainvillea](bougainvillea/) | Bougainvillea walls | Portraits |
-| [street](street/) | Out on the street | Portraits |
-| [concepts](concepts/) | Concept shoots | Portraits |
+| [p-milsons-point](p-milsons-point/) | Milsons Point and the ferry | Portraits · By the harbour |
+| [p-mcmahons](p-mcmahons/) | Along Henry Lawson Avenue | Portraits · By the harbour |
+| [p-kirribilli](p-kirribilli/) | Kirribilli on film | Portraits · By the harbour |
+| [p-circular-quay](p-circular-quay/) | After dark at Circular Quay | Portraits · By the harbour |
+| [p-redleaf](p-redleaf/) | Redleaf on film | Portraits · By the harbour |
+| [p-pirrama](p-pirrama/) | Pirrama Park by the Anzac Bridge | Portraits · By the harbour |
+| [p-opera-soft](p-opera-soft/) | The sails in soft light | Portraits · Opera House & Barangaroo |
+| [p-opera-golden](p-opera-golden/) | The sails at golden hour | Portraits · Opera House & Barangaroo |
+| [p-barangaroo](p-barangaroo/) | Barangaroo at last light | Portraits · Opera House & Barangaroo |
+| [p-jacaranda-kirribilli](p-jacaranda-kirribilli/) | Jacaranda in Kirribilli | Portraits · Flowers in season |
+| [p-jacaranda-propeller](p-jacaranda-propeller/) | Jacaranda at Propeller Park | Portraits · Flowers in season |
+| [p-jacaranda-propeller-2](p-jacaranda-propeller-2/) | Under the jacarandas | Portraits · Flowers in season |
+| [p-bougainvillea-kirribilli](p-bougainvillea-kirribilli/) | Bougainvillea in Kirribilli | Portraits · Flowers in season |
+| [p-bougainvillea-usyd](p-bougainvillea-usyd/) | Bougainvillea walls | Portraits · Flowers in season |
+| [p-magnolia-usyd](p-magnolia-usyd/) | Magnolias at USYD | Portraits · Flowers in season |
+| [p-maple-mq](p-maple-mq/) | Red maples at Macquarie | Portraits · Flowers in season |
+| [p-hyde-park](p-hyde-park/) | Hyde Park on film | Portraits · Parks & gardens |
+| [p-hyde-park-2](p-hyde-park-2/) | Hyde Park in the late sun | Portraits · Parks & gardens |
+| [p-government-house](p-government-house/) | Government House and its fountain | Portraits · Parks & gardens |
+| [p-botanic](p-botanic/) | The Botanic Garden by the sails | Portraits · Parks & gardens |
+| [p-further](p-further/) | Out of the city | Portraits · Parks & gardens |
+| [p-idol-qvb](p-idol-qvb/) | Idol cover in the city | Portraits · City & concepts |
+| [p-qvb](p-qvb/) | The QVB on film | Portraits · City & concepts |
+| [p-yacht](p-yacht/) | A day out on a yacht | Portraits · City & concepts |
+| [p-train](p-train/) | Train concept | Portraits · City & concepts |
+| [p-street](p-street/) | Out on the street | Portraits · City & concepts |
+| [p-st-marys](p-st-marys/) | St Mary's Cathedral | Portraits · City & concepts |
+| [p-couple](p-couple/) | Couples, here and there | Portraits · City & concepts |
+| [p-curls](p-curls/) | Curls by the lake | Portraits · City & concepts |
+| [ao-chinese-garden](ao-chinese-garden/) | Áo dài in the Chinese Garden | Portraits · Áo dài |
+| [ao-usyd](ao-usyd/) | Áo dài under the sandstone | Portraits · Áo dài |
+| [ao-vietnam](ao-vietnam/) | Áo dài back home | Portraits · Áo dài |
+| [ao-dalat](ao-dalat/) | Áo dài in Đà Lạt | Portraits · Áo dài |
 | [cosplay](cosplay/) | Cosplay in character | Portraits |
 | [wedding-film](wedding-film/) | Wedding day on film | Weddings |
 | [wedding-pyrmont](wedding-pyrmont/) | Wedding day in Pyrmont | Weddings |

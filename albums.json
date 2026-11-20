@@ -653,1767 +653,2800 @@
   ]
  },
  {
-  "slug": "harbour",
+  "slug": "p-milsons-point",
   "section": "PORTRAITS",
-  "title": "On the",
-  "em": "harbour",
-  "sub": "Milsons Point · McMahons Point · Kirribilli",
-  "note": "Sydney's best backdrop costs nothing. The bridge, the ferries going past and that late light coming off the water.",
+  "group": "harbour",
+  "title": "Milsons Point",
+  "em": "and the ferry",
+  "sub": "Milsons Point · The Rocks · Circular Quay",
+  "note": "Flowers from the market, the lanes of The Rocks, then the ferry across to sit under the bridge.",
   "photos": [
    {
-    "full": "albums/harbour/01.jpg",
-    "src": "assets/thumbs/harbour/01.jpg",
-    "cap": "Under the bridge at Milsons Point",
-    "exif": "f/8 · 1/160s · ISO 500 · 16.5mm"
-   },
-   {
-    "full": "albums/harbour/02.jpg",
-    "src": "assets/thumbs/harbour/02.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/03.jpg",
-    "src": "assets/thumbs/harbour/03.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2 · 1/800s · ISO 500 · 75mm"
-   },
-   {
-    "full": "albums/harbour/04.jpg",
-    "src": "assets/thumbs/harbour/04.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/05.jpg",
-    "src": "assets/thumbs/harbour/05.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/06.jpg",
-    "src": "assets/thumbs/harbour/06.jpg",
-    "cap": "Under the bridge at Milsons Point",
-    "exif": "f/8 · 1/250s · ISO 500 · 21.3mm"
-   },
-   {
-    "full": "albums/harbour/07.jpg",
-    "src": "assets/thumbs/harbour/07.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/08.jpg",
-    "src": "assets/thumbs/harbour/08.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/09.jpg",
-    "src": "assets/thumbs/harbour/09.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/10.jpg",
-    "src": "assets/thumbs/harbour/10.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/1.2 · 1/3200s · ISO 500 · 75mm"
-   },
-   {
-    "full": "albums/harbour/11.jpg",
-    "src": "assets/thumbs/harbour/11.jpg",
-    "cap": "Harbour light",
-    "exif": "f/2.8 · 1/100s · ISO 1000 · 16mm"
-   },
-   {
-    "full": "albums/harbour/12.jpg",
-    "src": "assets/thumbs/harbour/12.jpg",
-    "cap": "Under the bridge at Milsons Point",
-    "exif": "f/8 · 1/160s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/harbour/13.jpg",
-    "src": "assets/thumbs/harbour/13.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/14.jpg",
-    "src": "assets/thumbs/harbour/14.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/15.jpg",
-    "src": "assets/thumbs/harbour/15.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/16.jpg",
-    "src": "assets/thumbs/harbour/16.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2 · 1/1000s · ISO 500 · 75mm"
-   },
-   {
-    "full": "albums/harbour/17.jpg",
-    "src": "assets/thumbs/harbour/17.jpg",
-    "cap": "Harbour light",
-    "exif": "f/2.8 · 1/100s · ISO 1600 · 18.7mm"
-   },
-   {
-    "full": "albums/harbour/18.jpg",
-    "src": "assets/thumbs/harbour/18.jpg",
-    "cap": "Under the bridge at Milsons Point",
-    "exif": "f/8 · 1/250s · ISO 500 · 20.6mm"
-   },
-   {
-    "full": "albums/harbour/19.jpg",
-    "src": "assets/thumbs/harbour/19.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/20.jpg",
-    "src": "assets/thumbs/harbour/20.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/21.jpg",
-    "src": "assets/thumbs/harbour/21.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/22.jpg",
-    "src": "assets/thumbs/harbour/22.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2.8 · 1/640s · ISO 500 · 40.1mm"
-   },
-   {
-    "full": "albums/harbour/23.jpg",
-    "src": "assets/thumbs/harbour/23.jpg",
-    "cap": "Under the bridge at Milsons Point",
-    "exif": "f/13 · 1/250s · ISO 500 · 19.4mm"
-   },
-   {
-    "full": "albums/harbour/24.jpg",
-    "src": "assets/thumbs/harbour/24.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/25.jpg",
-    "src": "assets/thumbs/harbour/25.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/26.jpg",
-    "src": "assets/thumbs/harbour/26.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/27.jpg",
-    "src": "assets/thumbs/harbour/27.jpg",
-    "cap": "Curls and harbour light",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/28.jpg",
-    "src": "assets/thumbs/harbour/28.jpg",
-    "cap": "Under the bridge at Milsons Point",
-    "exif": "f/16 · 1/100s · ISO 500 · 35.3mm"
-   },
-   {
-    "full": "albums/harbour/29.jpg",
-    "src": "assets/thumbs/harbour/29.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/30.jpg",
-    "src": "assets/thumbs/harbour/30.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/31.jpg",
-    "src": "assets/thumbs/harbour/31.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/32.jpg",
-    "src": "assets/thumbs/harbour/32.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2 · 1/640s · ISO 500 · 75mm"
-   },
-   {
-    "full": "albums/harbour/33.jpg",
-    "src": "assets/thumbs/harbour/33.jpg",
-    "cap": "Under the bridge at Milsons Point",
+    "full": "albums/p-milsons-point/01.jpg",
+    "src": "assets/thumbs/p-milsons-point/01.jpg",
+    "cap": "Milsons Point and the ferry",
     "exif": "f/8 · 1/250s · ISO 500 · 20mm"
    },
    {
-    "full": "albums/harbour/34.jpg",
-    "src": "assets/thumbs/harbour/34.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/35.jpg",
-    "src": "assets/thumbs/harbour/35.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/36.jpg",
-    "src": "assets/thumbs/harbour/36.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/37.jpg",
-    "src": "assets/thumbs/harbour/37.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2 · 1/640s · ISO 500 · 75mm"
-   },
-   {
-    "full": "albums/harbour/38.jpg",
-    "src": "assets/thumbs/harbour/38.jpg",
-    "cap": "Under the bridge at Milsons Point",
-    "exif": "f/8 · 1/250s · ISO 500 · 21.3mm"
-   },
-   {
-    "full": "albums/harbour/39.jpg",
-    "src": "assets/thumbs/harbour/39.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/40.jpg",
-    "src": "assets/thumbs/harbour/40.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/41.jpg",
-    "src": "assets/thumbs/harbour/41.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/42.jpg",
-    "src": "assets/thumbs/harbour/42.jpg",
-    "cap": "Curls and harbour light",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/43.jpg",
-    "src": "assets/thumbs/harbour/43.jpg",
-    "cap": "On the ferry across the harbour",
-    "exif": "f/8 · 1/160s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/harbour/44.jpg",
-    "src": "assets/thumbs/harbour/44.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/45.jpg",
-    "src": "assets/thumbs/harbour/45.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/46.jpg",
-    "src": "assets/thumbs/harbour/46.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/47.jpg",
-    "src": "assets/thumbs/harbour/47.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2.8 · 1/640s · ISO 500 · 28.3mm"
-   },
-   {
-    "full": "albums/harbour/48.jpg",
-    "src": "assets/thumbs/harbour/48.jpg",
-    "cap": "Under the bridge at Milsons Point",
-    "exif": "f/8 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/harbour/49.jpg",
-    "src": "assets/thumbs/harbour/49.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/50.jpg",
-    "src": "assets/thumbs/harbour/50.jpg",
-    "cap": "Kirribilli, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/harbour/51.jpg",
-    "src": "assets/thumbs/harbour/51.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/52.jpg",
-    "src": "assets/thumbs/harbour/52.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2 · 1/640s · ISO 500 · 75mm"
-   },
-   {
-    "full": "albums/harbour/53.jpg",
-    "src": "assets/thumbs/harbour/53.jpg",
-    "cap": "Under the bridge at Milsons Point",
-    "exif": "f/16 · 1/100s · ISO 500 · 45.5mm"
-   },
-   {
-    "full": "albums/harbour/54.jpg",
-    "src": "assets/thumbs/harbour/54.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/55.jpg",
-    "src": "assets/thumbs/harbour/55.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/harbour/56.jpg",
-    "src": "assets/thumbs/harbour/56.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2 · 1/1000s · ISO 500 · 75mm"
-   },
-   {
-    "full": "albums/harbour/57.jpg",
-    "src": "assets/thumbs/harbour/57.jpg",
-    "cap": "Under the bridge at Milsons Point",
+    "full": "albums/p-milsons-point/02.jpg",
+    "src": "assets/thumbs/p-milsons-point/02.jpg",
+    "cap": "Milsons Point and the ferry",
     "exif": "f/20 · 1/100s · ISO 500 · 55mm"
    },
    {
-    "full": "albums/harbour/58.jpg",
-    "src": "assets/thumbs/harbour/58.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/03.jpg",
+    "src": "assets/thumbs/p-milsons-point/03.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/20 · 1/100s · ISO 500 · 45.5mm"
    },
    {
-    "full": "albums/harbour/59.jpg",
-    "src": "assets/thumbs/harbour/59.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/04.jpg",
+    "src": "assets/thumbs/p-milsons-point/04.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/20 · 1/100s · ISO 500 · 45.5mm"
    },
    {
-    "full": "albums/harbour/60.jpg",
-    "src": "assets/thumbs/harbour/60.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2.8 · 1/640s · ISO 500 · 23.4mm"
+    "full": "albums/p-milsons-point/05.jpg",
+    "src": "assets/thumbs/p-milsons-point/05.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/16 · 1/100s · ISO 500 · 35.3mm"
    },
    {
-    "full": "albums/harbour/61.jpg",
-    "src": "assets/thumbs/harbour/61.jpg",
-    "cap": "Under the bridge at Milsons Point",
+    "full": "albums/p-milsons-point/06.jpg",
+    "src": "assets/thumbs/p-milsons-point/06.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/16 · 1/100s · ISO 500 · 45.5mm"
+   },
+   {
+    "full": "albums/p-milsons-point/07.jpg",
+    "src": "assets/thumbs/p-milsons-point/07.jpg",
+    "cap": "Milsons Point and the ferry",
     "exif": "f/20 · 1/100s · ISO 500 · 44.1mm"
    },
    {
-    "full": "albums/harbour/62.jpg",
-    "src": "assets/thumbs/harbour/62.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/08.jpg",
+    "src": "assets/thumbs/p-milsons-point/08.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/250s · ISO 500 · 20.6mm"
    },
    {
-    "full": "albums/harbour/63.jpg",
-    "src": "assets/thumbs/harbour/63.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/09.jpg",
+    "src": "assets/thumbs/p-milsons-point/09.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/160s · ISO 500 · 16mm"
    },
    {
-    "full": "albums/harbour/64.jpg",
-    "src": "assets/thumbs/harbour/64.jpg",
-    "cap": "Curls and harbour light",
-    "exif": "f/2 · 1/1000s · ISO 500 · 75mm"
+    "full": "albums/p-milsons-point/10.jpg",
+    "src": "assets/thumbs/p-milsons-point/10.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/250s · ISO 500 · 20.6mm"
    },
    {
-    "full": "albums/harbour/65.jpg",
-    "src": "assets/thumbs/harbour/65.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/11.jpg",
+    "src": "assets/thumbs/p-milsons-point/11.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/125s · ISO 500 · 16mm"
    },
    {
-    "full": "albums/harbour/66.jpg",
-    "src": "assets/thumbs/harbour/66.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/12.jpg",
+    "src": "assets/thumbs/p-milsons-point/12.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/250s · ISO 500 · 20.6mm"
    },
    {
-    "full": "albums/harbour/67.jpg",
-    "src": "assets/thumbs/harbour/67.jpg",
-    "cap": "Looking across from McMahons Point",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/13.jpg",
+    "src": "assets/thumbs/p-milsons-point/13.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/250s · ISO 500 · 20.6mm"
    },
    {
-    "full": "albums/harbour/68.jpg",
-    "src": "assets/thumbs/harbour/68.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/14.jpg",
+    "src": "assets/thumbs/p-milsons-point/14.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/13 · 1/250s · ISO 500 · 19.4mm"
    },
    {
-    "full": "albums/harbour/69.jpg",
-    "src": "assets/thumbs/harbour/69.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/15.jpg",
+    "src": "assets/thumbs/p-milsons-point/15.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/250s · ISO 500 · 21.3mm"
    },
    {
-    "full": "albums/harbour/70.jpg",
-    "src": "assets/thumbs/harbour/70.jpg",
-    "cap": "Harbour light",
-    "exif": "Shot on film"
+    "full": "albums/p-milsons-point/16.jpg",
+    "src": "assets/thumbs/p-milsons-point/16.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/250s · ISO 500 · 21.3mm"
+   },
+   {
+    "full": "albums/p-milsons-point/17.jpg",
+    "src": "assets/thumbs/p-milsons-point/17.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/250s · ISO 500 · 20.6mm"
+   },
+   {
+    "full": "albums/p-milsons-point/18.jpg",
+    "src": "assets/thumbs/p-milsons-point/18.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/160s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-milsons-point/19.jpg",
+    "src": "assets/thumbs/p-milsons-point/19.jpg",
+    "cap": "Milsons Point and the ferry",
+    "exif": "f/8 · 1/160s · ISO 500 · 16.5mm"
    }
   ]
  },
  {
-  "slug": "opera-house",
+  "slug": "p-mcmahons",
   "section": "PORTRAITS",
-  "title": "The sails",
-  "em": "at golden hour",
-  "sub": "Sydney Opera House · Barangaroo",
-  "note": "The Opera House turns warm in the last half hour before sunset. That's when we go.",
+  "group": "harbour",
+  "title": "Along",
+  "em": "Henry Lawson Avenue",
+  "sub": "McMahons Point · Blues Point",
+  "note": "The little pavilions, the benches and the whole city across the water.",
   "photos": [
    {
-    "full": "albums/opera-house/01.jpg",
-    "src": "assets/thumbs/opera-house/01.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/9 · 1/125s · ISO 500 · 53.3mm"
+    "full": "albums/p-mcmahons/01.jpg",
+    "src": "assets/thumbs/p-mcmahons/01.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/02.jpg",
-    "src": "assets/thumbs/opera-house/02.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+    "full": "albums/p-mcmahons/02.jpg",
+    "src": "assets/thumbs/p-mcmahons/02.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/03.jpg",
-    "src": "assets/thumbs/opera-house/03.jpg",
-    "cap": "Last light at Barangaroo",
-    "exif": "f/16 · 1/100s · ISO 800 · 55mm"
+    "full": "albums/p-mcmahons/03.jpg",
+    "src": "assets/thumbs/p-mcmahons/03.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/04.jpg",
-    "src": "assets/thumbs/opera-house/04.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+    "full": "albums/p-mcmahons/04.jpg",
+    "src": "assets/thumbs/p-mcmahons/04.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/05.jpg",
-    "src": "assets/thumbs/opera-house/05.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/9 · 1/125s · ISO 500 · 22mm"
+    "full": "albums/p-mcmahons/05.jpg",
+    "src": "assets/thumbs/p-mcmahons/05.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/06.jpg",
-    "src": "assets/thumbs/opera-house/06.jpg",
-    "cap": "Last light at Barangaroo",
-    "exif": "f/16 · 1/100s · ISO 800 · 29.2mm"
+    "full": "albums/p-mcmahons/06.jpg",
+    "src": "assets/thumbs/p-mcmahons/06.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/07.jpg",
-    "src": "assets/thumbs/opera-house/07.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+    "full": "albums/p-mcmahons/07.jpg",
+    "src": "assets/thumbs/p-mcmahons/07.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/08.jpg",
-    "src": "assets/thumbs/opera-house/08.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/7.1 · 1/125s · ISO 500 · 19.4mm"
+    "full": "albums/p-mcmahons/08.jpg",
+    "src": "assets/thumbs/p-mcmahons/08.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/09.jpg",
-    "src": "assets/thumbs/opera-house/09.jpg",
-    "cap": "Last light at Barangaroo",
-    "exif": "f/16 · 1/100s · ISO 800 · 35.3mm"
+    "full": "albums/p-mcmahons/09.jpg",
+    "src": "assets/thumbs/p-mcmahons/09.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/10.jpg",
-    "src": "assets/thumbs/opera-house/10.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+    "full": "albums/p-mcmahons/10.jpg",
+    "src": "assets/thumbs/p-mcmahons/10.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/11.jpg",
-    "src": "assets/thumbs/opera-house/11.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/9 · 1/125s · ISO 500 · 18.2mm"
+    "full": "albums/p-mcmahons/11.jpg",
+    "src": "assets/thumbs/p-mcmahons/11.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/12.jpg",
-    "src": "assets/thumbs/opera-house/12.jpg",
-    "cap": "Last light at Barangaroo",
-    "exif": "f/16 · 1/100s · ISO 800 · 55mm"
+    "full": "albums/p-mcmahons/12.jpg",
+    "src": "assets/thumbs/p-mcmahons/12.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/13.jpg",
-    "src": "assets/thumbs/opera-house/13.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+    "full": "albums/p-mcmahons/13.jpg",
+    "src": "assets/thumbs/p-mcmahons/13.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/14.jpg",
-    "src": "assets/thumbs/opera-house/14.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/7.1 · 1/125s · ISO 500 · 18.7mm"
+    "full": "albums/p-mcmahons/14.jpg",
+    "src": "assets/thumbs/p-mcmahons/14.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/15.jpg",
-    "src": "assets/thumbs/opera-house/15.jpg",
-    "cap": "Last light at Barangaroo",
-    "exif": "f/16 · 1/100s · ISO 800 · 38.8mm"
+    "full": "albums/p-mcmahons/15.jpg",
+    "src": "assets/thumbs/p-mcmahons/15.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/16.jpg",
-    "src": "assets/thumbs/opera-house/16.jpg",
-    "cap": "The sails at golden hour",
-    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+    "full": "albums/p-mcmahons/16.jpg",
+    "src": "assets/thumbs/p-mcmahons/16.jpg",
+    "cap": "Along Henry Lawson Avenue",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-kirribilli",
+  "section": "PORTRAITS",
+  "group": "harbour",
+  "title": "Kirribilli",
+  "em": "on film",
+  "sub": "Kirribilli · on the ferry",
+  "note": "Green lanes, a lawn by the water and a ride on the ferry, all on film.",
+  "photos": [
+   {
+    "full": "albums/p-kirribilli/01.jpg",
+    "src": "assets/thumbs/p-kirribilli/01.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
    },
    {
-    "full": "albums/opera-house/17.jpg",
-    "src": "assets/thumbs/opera-house/17.jpg",
-    "cap": "The sails at golden hour",
+    "full": "albums/p-kirribilli/02.jpg",
+    "src": "assets/thumbs/p-kirribilli/02.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/03.jpg",
+    "src": "assets/thumbs/p-kirribilli/03.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/04.jpg",
+    "src": "assets/thumbs/p-kirribilli/04.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/05.jpg",
+    "src": "assets/thumbs/p-kirribilli/05.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/06.jpg",
+    "src": "assets/thumbs/p-kirribilli/06.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/07.jpg",
+    "src": "assets/thumbs/p-kirribilli/07.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/08.jpg",
+    "src": "assets/thumbs/p-kirribilli/08.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/09.jpg",
+    "src": "assets/thumbs/p-kirribilli/09.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/10.jpg",
+    "src": "assets/thumbs/p-kirribilli/10.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/11.jpg",
+    "src": "assets/thumbs/p-kirribilli/11.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/12.jpg",
+    "src": "assets/thumbs/p-kirribilli/12.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/13.jpg",
+    "src": "assets/thumbs/p-kirribilli/13.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-kirribilli/14.jpg",
+    "src": "assets/thumbs/p-kirribilli/14.jpg",
+    "cap": "Kirribilli on film",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-circular-quay",
+  "section": "PORTRAITS",
+  "group": "harbour",
+  "title": "After dark",
+  "em": "at Circular Quay",
+  "sub": "Campbell's Cove, under the bridge",
+  "note": "The bridge lit up behind, right where the harbour meets the city.",
+  "photos": [
+   {
+    "full": "albums/p-circular-quay/01.jpg",
+    "src": "assets/thumbs/p-circular-quay/01.jpg",
+    "cap": "After dark at Circular Quay",
+    "exif": "f/2.8 · 1/100s · ISO 1600 · 18.7mm"
+   },
+   {
+    "full": "albums/p-circular-quay/02.jpg",
+    "src": "assets/thumbs/p-circular-quay/02.jpg",
+    "cap": "After dark at Circular Quay",
+    "exif": "f/2.8 · 1/100s · ISO 1000 · 16mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-redleaf",
+  "section": "PORTRAITS",
+  "group": "harbour",
+  "title": "Redleaf",
+  "em": "on film",
+  "sub": "Redleaf Pool, Woollahra",
+  "note": "A jetty, sparkling water and a garden full of colour on the eastern side of the harbour.",
+  "photos": [
+   {
+    "full": "albums/p-redleaf/01.jpg",
+    "src": "assets/thumbs/p-redleaf/01.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/02.jpg",
+    "src": "assets/thumbs/p-redleaf/02.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/03.jpg",
+    "src": "assets/thumbs/p-redleaf/03.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/04.jpg",
+    "src": "assets/thumbs/p-redleaf/04.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/05.jpg",
+    "src": "assets/thumbs/p-redleaf/05.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/06.jpg",
+    "src": "assets/thumbs/p-redleaf/06.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/07.jpg",
+    "src": "assets/thumbs/p-redleaf/07.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/08.jpg",
+    "src": "assets/thumbs/p-redleaf/08.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/09.jpg",
+    "src": "assets/thumbs/p-redleaf/09.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/10.jpg",
+    "src": "assets/thumbs/p-redleaf/10.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/11.jpg",
+    "src": "assets/thumbs/p-redleaf/11.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/12.jpg",
+    "src": "assets/thumbs/p-redleaf/12.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/13.jpg",
+    "src": "assets/thumbs/p-redleaf/13.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/14.jpg",
+    "src": "assets/thumbs/p-redleaf/14.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/15.jpg",
+    "src": "assets/thumbs/p-redleaf/15.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/16.jpg",
+    "src": "assets/thumbs/p-redleaf/16.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/17.jpg",
+    "src": "assets/thumbs/p-redleaf/17.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/18.jpg",
+    "src": "assets/thumbs/p-redleaf/18.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-redleaf/19.jpg",
+    "src": "assets/thumbs/p-redleaf/19.jpg",
+    "cap": "Redleaf on film",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-pirrama",
+  "section": "PORTRAITS",
+  "group": "harbour",
+  "title": "Pirrama Park",
+  "em": "by the Anzac Bridge",
+  "sub": "Pyrmont",
+  "note": "Railings, old wharf posts and the Anzac Bridge behind.",
+  "photos": [
+   {
+    "full": "albums/p-pirrama/01.jpg",
+    "src": "assets/thumbs/p-pirrama/01.jpg",
+    "cap": "Pirrama Park by the Anzac Bridge",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-pirrama/02.jpg",
+    "src": "assets/thumbs/p-pirrama/02.jpg",
+    "cap": "Pirrama Park by the Anzac Bridge",
+    "exif": "f/9 · 1/100s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-pirrama/03.jpg",
+    "src": "assets/thumbs/p-pirrama/03.jpg",
+    "cap": "Pirrama Park by the Anzac Bridge",
+    "exif": "f/10 · 1/100s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-pirrama/04.jpg",
+    "src": "assets/thumbs/p-pirrama/04.jpg",
+    "cap": "Pirrama Park by the Anzac Bridge",
+    "exif": "f/9 · 1/100s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-pirrama/05.jpg",
+    "src": "assets/thumbs/p-pirrama/05.jpg",
+    "cap": "Pirrama Park by the Anzac Bridge",
+    "exif": "f/9 · 1/100s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-pirrama/06.jpg",
+    "src": "assets/thumbs/p-pirrama/06.jpg",
+    "cap": "Pirrama Park by the Anzac Bridge",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-pirrama/07.jpg",
+    "src": "assets/thumbs/p-pirrama/07.jpg",
+    "cap": "Pirrama Park by the Anzac Bridge",
+    "exif": "f/9 · 1/100s · ISO 640 · 23mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-opera-soft",
+  "section": "PORTRAITS",
+  "group": "opera",
+  "title": "The sails",
+  "em": "in soft light",
+  "sub": "Sydney Opera House",
+  "note": "White on white: the sails, the bridge and an easy morning by the water.",
+  "photos": [
+   {
+    "full": "albums/p-opera-soft/01.jpg",
+    "src": "assets/thumbs/p-opera-soft/01.jpg",
+    "cap": "The sails in soft light",
     "exif": "f/10 · 1/125s · ISO 500 · 35.3mm"
    },
    {
-    "full": "albums/opera-house/18.jpg",
-    "src": "assets/thumbs/opera-house/18.jpg",
-    "cap": "Last light at Barangaroo",
-    "exif": "f/16 · 1/100s · ISO 800 · 38.8mm"
+    "full": "albums/p-opera-soft/02.jpg",
+    "src": "assets/thumbs/p-opera-soft/02.jpg",
+    "cap": "The sails in soft light",
+    "exif": "f/9 · 1/125s · ISO 500 · 22mm"
    },
    {
-    "full": "albums/opera-house/19.jpg",
-    "src": "assets/thumbs/opera-house/19.jpg",
+    "full": "albums/p-opera-soft/03.jpg",
+    "src": "assets/thumbs/p-opera-soft/03.jpg",
+    "cap": "The sails in soft light",
+    "exif": "f/9 · 1/125s · ISO 500 · 22.7mm"
+   },
+   {
+    "full": "albums/p-opera-soft/04.jpg",
+    "src": "assets/thumbs/p-opera-soft/04.jpg",
+    "cap": "The sails in soft light",
+    "exif": "f/9 · 1/125s · ISO 500 · 18.2mm"
+   },
+   {
+    "full": "albums/p-opera-soft/05.jpg",
+    "src": "assets/thumbs/p-opera-soft/05.jpg",
+    "cap": "The sails in soft light",
+    "exif": "f/9 · 1/125s · ISO 500 · 53.3mm"
+   },
+   {
+    "full": "albums/p-opera-soft/06.jpg",
+    "src": "assets/thumbs/p-opera-soft/06.jpg",
+    "cap": "The sails in soft light",
+    "exif": "f/9 · 1/125s · ISO 500 · 42.7mm"
+   },
+   {
+    "full": "albums/p-opera-soft/07.jpg",
+    "src": "assets/thumbs/p-opera-soft/07.jpg",
+    "cap": "The sails in soft light",
+    "exif": "f/8 · 1/125s · ISO 500 · 37.6mm"
+   },
+   {
+    "full": "albums/p-opera-soft/08.jpg",
+    "src": "assets/thumbs/p-opera-soft/08.jpg",
+    "cap": "The sails in soft light",
+    "exif": "f/7.1 · 1/125s · ISO 500 · 24.9mm"
+   },
+   {
+    "full": "albums/p-opera-soft/09.jpg",
+    "src": "assets/thumbs/p-opera-soft/09.jpg",
+    "cap": "The sails in soft light",
+    "exif": "f/7.1 · 1/125s · ISO 500 · 19.4mm"
+   },
+   {
+    "full": "albums/p-opera-soft/10.jpg",
+    "src": "assets/thumbs/p-opera-soft/10.jpg",
+    "cap": "The sails in soft light",
+    "exif": "f/7.1 · 1/125s · ISO 500 · 18.7mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-opera-golden",
+  "section": "PORTRAITS",
+  "group": "opera",
+  "title": "The sails",
+  "em": "at golden hour",
+  "sub": "Sydney Opera House",
+  "note": "The steps turn warm in the last half hour before sunset. That's when we go.",
+  "photos": [
+   {
+    "full": "albums/p-opera-golden/01.jpg",
+    "src": "assets/thumbs/p-opera-golden/01.jpg",
+    "cap": "The sails at golden hour",
+    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+   },
+   {
+    "full": "albums/p-opera-golden/02.jpg",
+    "src": "assets/thumbs/p-opera-golden/02.jpg",
+    "cap": "The sails at golden hour",
+    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+   },
+   {
+    "full": "albums/p-opera-golden/03.jpg",
+    "src": "assets/thumbs/p-opera-golden/03.jpg",
+    "cap": "The sails at golden hour",
+    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+   },
+   {
+    "full": "albums/p-opera-golden/04.jpg",
+    "src": "assets/thumbs/p-opera-golden/04.jpg",
+    "cap": "The sails at golden hour",
+    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+   },
+   {
+    "full": "albums/p-opera-golden/05.jpg",
+    "src": "assets/thumbs/p-opera-golden/05.jpg",
+    "cap": "The sails at golden hour",
+    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+   },
+   {
+    "full": "albums/p-opera-golden/06.jpg",
+    "src": "assets/thumbs/p-opera-golden/06.jpg",
+    "cap": "The sails at golden hour",
+    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
+   },
+   {
+    "full": "albums/p-opera-golden/07.jpg",
+    "src": "assets/thumbs/p-opera-golden/07.jpg",
     "cap": "The sails at golden hour",
     "exif": "f/16 · 1/250s · ISO 800 · 23mm"
    },
    {
-    "full": "albums/opera-house/20.jpg",
-    "src": "assets/thumbs/opera-house/20.jpg",
+    "full": "albums/p-opera-golden/08.jpg",
+    "src": "assets/thumbs/p-opera-golden/08.jpg",
     "cap": "The sails at golden hour",
-    "exif": "f/7.1 · 1/125s · ISO 500 · 24.9mm"
+    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
    },
    {
-    "full": "albums/opera-house/21.jpg",
-    "src": "assets/thumbs/opera-house/21.jpg",
+    "full": "albums/p-opera-golden/09.jpg",
+    "src": "assets/thumbs/p-opera-golden/09.jpg",
     "cap": "The sails at golden hour",
-    "exif": "f/9 · 1/125s · ISO 500 · 42.7mm"
+    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
    },
    {
-    "full": "albums/opera-house/22.jpg",
-    "src": "assets/thumbs/opera-house/22.jpg",
+    "full": "albums/p-opera-golden/10.jpg",
+    "src": "assets/thumbs/p-opera-golden/10.jpg",
     "cap": "The sails at golden hour",
-    "exif": "f/8 · 1/125s · ISO 500 · 37.6mm"
+    "exif": "f/16 · 1/125s · ISO 800 · 23mm"
    }
   ]
  },
  {
-  "slug": "jacaranda",
+  "slug": "p-barangaroo",
   "section": "PORTRAITS",
+  "group": "opera",
+  "title": "Barangaroo",
+  "em": "at last light",
+  "sub": "Barangaroo Reserve",
+  "note": "Sandstone, the wharf and the water glittering just before the sun goes.",
+  "photos": [
+   {
+    "full": "albums/p-barangaroo/01.jpg",
+    "src": "assets/thumbs/p-barangaroo/01.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": "f/16 · 1/100s · ISO 800 · 55mm"
+   },
+   {
+    "full": "albums/p-barangaroo/02.jpg",
+    "src": "assets/thumbs/p-barangaroo/02.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": "f/16 · 1/100s · ISO 800 · 29.2mm"
+   },
+   {
+    "full": "albums/p-barangaroo/03.jpg",
+    "src": "assets/thumbs/p-barangaroo/03.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": "f/16 · 1/100s · ISO 800 · 29.2mm"
+   },
+   {
+    "full": "albums/p-barangaroo/04.jpg",
+    "src": "assets/thumbs/p-barangaroo/04.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": "f/16 · 1/100s · ISO 800 · 24.9mm"
+   },
+   {
+    "full": "albums/p-barangaroo/05.jpg",
+    "src": "assets/thumbs/p-barangaroo/05.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": "f/16 · 1/100s · ISO 800 · 55mm"
+   },
+   {
+    "full": "albums/p-barangaroo/06.jpg",
+    "src": "assets/thumbs/p-barangaroo/06.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": "f/16 · 1/100s · ISO 800 · 35.3mm"
+   },
+   {
+    "full": "albums/p-barangaroo/07.jpg",
+    "src": "assets/thumbs/p-barangaroo/07.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": "f/16 · 1/100s · ISO 800 · 38.8mm"
+   },
+   {
+    "full": "albums/p-barangaroo/08.jpg",
+    "src": "assets/thumbs/p-barangaroo/08.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": "f/16 · 1/100s · ISO 800 · 38.8mm"
+   },
+   {
+    "full": "albums/p-barangaroo/09.jpg",
+    "src": "assets/thumbs/p-barangaroo/09.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-barangaroo/10.jpg",
+    "src": "assets/thumbs/p-barangaroo/10.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-barangaroo/11.jpg",
+    "src": "assets/thumbs/p-barangaroo/11.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-barangaroo/12.jpg",
+    "src": "assets/thumbs/p-barangaroo/12.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-barangaroo/13.jpg",
+    "src": "assets/thumbs/p-barangaroo/13.jpg",
+    "cap": "Barangaroo at last light",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-jacaranda-kirribilli",
+  "section": "PORTRAITS",
+  "group": "season",
   "title": "Jacaranda",
-  "em": "season",
-  "sub": "Sydney in spring",
-  "note": "For a few weeks each spring the streets go purple. You have to be quick.",
-  "photos": [
-   {
-    "full": "albums/jacaranda/01.jpg",
-    "src": "assets/thumbs/jacaranda/01.jpg",
-    "cap": "Under the jacarandas",
-    "exif": ""
-   },
-   {
-    "full": "albums/jacaranda/02.jpg",
-    "src": "assets/thumbs/jacaranda/02.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/5.6 · 1/200s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/03.jpg",
-    "src": "assets/thumbs/jacaranda/03.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/14 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/04.jpg",
-    "src": "assets/thumbs/jacaranda/04.jpg",
-    "cap": "Under the jacarandas",
-    "exif": ""
-   },
-   {
-    "full": "albums/jacaranda/05.jpg",
-    "src": "assets/thumbs/jacaranda/05.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/06.jpg",
-    "src": "assets/thumbs/jacaranda/06.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/14 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/07.jpg",
-    "src": "assets/thumbs/jacaranda/07.jpg",
-    "cap": "Under the jacarandas",
-    "exif": ""
-   },
-   {
-    "full": "albums/jacaranda/08.jpg",
-    "src": "assets/thumbs/jacaranda/08.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/09.jpg",
-    "src": "assets/thumbs/jacaranda/09.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/5 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/10.jpg",
-    "src": "assets/thumbs/jacaranda/10.jpg",
-    "cap": "Under the jacarandas",
-    "exif": ""
-   },
-   {
-    "full": "albums/jacaranda/11.jpg",
-    "src": "assets/thumbs/jacaranda/11.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/12.jpg",
-    "src": "assets/thumbs/jacaranda/12.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/5.6 · 1/200s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/13.jpg",
-    "src": "assets/thumbs/jacaranda/13.jpg",
-    "cap": "Under the jacarandas",
-    "exif": ""
-   },
-   {
-    "full": "albums/jacaranda/14.jpg",
-    "src": "assets/thumbs/jacaranda/14.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/15.jpg",
-    "src": "assets/thumbs/jacaranda/15.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/5 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/16.jpg",
-    "src": "assets/thumbs/jacaranda/16.jpg",
-    "cap": "Under the jacarandas",
-    "exif": ""
-   },
-   {
-    "full": "albums/jacaranda/17.jpg",
-    "src": "assets/thumbs/jacaranda/17.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/18.jpg",
-    "src": "assets/thumbs/jacaranda/18.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/5 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/19.jpg",
-    "src": "assets/thumbs/jacaranda/19.jpg",
-    "cap": "Under the jacarandas",
-    "exif": ""
-   },
-   {
-    "full": "albums/jacaranda/20.jpg",
-    "src": "assets/thumbs/jacaranda/20.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/jacaranda/21.jpg",
-    "src": "assets/thumbs/jacaranda/21.jpg",
-    "cap": "Under the jacarandas",
-    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
-   }
-  ]
- },
- {
-  "slug": "parks",
-  "section": "PORTRAITS",
-  "title": "Parks",
-  "em": "& gardens",
-  "sub": "Hyde Park · Royal Botanic Garden · Government House",
-  "note": "Old trees, soft shade and room to wander. A lot of my favourite portraits happen somewhere between the paths.",
-  "photos": [
-   {
-    "full": "albums/parks/01.jpg",
-    "src": "assets/thumbs/parks/01.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/11 · 1/125s · ISO 800 · 55mm"
-   },
-   {
-    "full": "albums/parks/02.jpg",
-    "src": "assets/thumbs/parks/02.jpg",
-    "cap": "Between the paths at the Botanic Garden",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/03.jpg",
-    "src": "assets/thumbs/parks/03.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/04.jpg",
-    "src": "assets/thumbs/parks/04.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/13 · 1/160s · ISO 800 · 30.2mm"
-   },
-   {
-    "full": "albums/parks/05.jpg",
-    "src": "assets/thumbs/parks/05.jpg",
-    "cap": "Between the paths at the Botanic Garden",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/06.jpg",
-    "src": "assets/thumbs/parks/06.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/07.jpg",
-    "src": "assets/thumbs/parks/07.jpg",
-    "cap": "Under the autumn leaves",
-    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/parks/08.jpg",
-    "src": "assets/thumbs/parks/08.jpg",
-    "cap": "Pirrama Park, by the water",
-    "exif": "f/9 · 1/100s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/parks/09.jpg",
-    "src": "assets/thumbs/parks/09.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/10.jpg",
-    "src": "assets/thumbs/parks/10.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/13 · 1/100s · ISO 800 · 27.4mm"
-   },
-   {
-    "full": "albums/parks/11.jpg",
-    "src": "assets/thumbs/parks/11.jpg",
-    "cap": "Between the paths at the Botanic Garden",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/12.jpg",
-    "src": "assets/thumbs/parks/12.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/13.jpg",
-    "src": "assets/thumbs/parks/13.jpg",
-    "cap": "Under the autumn leaves",
-    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/parks/14.jpg",
-    "src": "assets/thumbs/parks/14.jpg",
-    "cap": "Pirrama Park, by the water",
-    "exif": "f/9 · 1/100s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/parks/15.jpg",
-    "src": "assets/thumbs/parks/15.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/16.jpg",
-    "src": "assets/thumbs/parks/16.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/18 · 1/160s · ISO 800 · 16mm"
-   },
-   {
-    "full": "albums/parks/17.jpg",
-    "src": "assets/thumbs/parks/17.jpg",
-    "cap": "Between the paths at the Botanic Garden",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/18.jpg",
-    "src": "assets/thumbs/parks/18.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/7.1 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/parks/19.jpg",
-    "src": "assets/thumbs/parks/19.jpg",
-    "cap": "Under the autumn leaves",
-    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/parks/20.jpg",
-    "src": "assets/thumbs/parks/20.jpg",
-    "cap": "Pirrama Park, by the water",
-    "exif": "f/9 · 1/100s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/parks/21.jpg",
-    "src": "assets/thumbs/parks/21.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/22.jpg",
-    "src": "assets/thumbs/parks/22.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/13 · 1/100s · ISO 800 · 18.2mm"
-   },
-   {
-    "full": "albums/parks/23.jpg",
-    "src": "assets/thumbs/parks/23.jpg",
-    "cap": "Between the paths at the Botanic Garden",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/24.jpg",
-    "src": "assets/thumbs/parks/24.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/25.jpg",
-    "src": "assets/thumbs/parks/25.jpg",
-    "cap": "Under the autumn leaves",
-    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/parks/26.jpg",
-    "src": "assets/thumbs/parks/26.jpg",
-    "cap": "Pirrama Park, by the water",
-    "exif": "f/10 · 1/100s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/parks/27.jpg",
-    "src": "assets/thumbs/parks/27.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/28.jpg",
-    "src": "assets/thumbs/parks/28.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/14 · 1/100s · ISO 800 · 44.1mm"
-   },
-   {
-    "full": "albums/parks/29.jpg",
-    "src": "assets/thumbs/parks/29.jpg",
-    "cap": "Between the paths at the Botanic Garden",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/30.jpg",
-    "src": "assets/thumbs/parks/30.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/7.1 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/parks/31.jpg",
-    "src": "assets/thumbs/parks/31.jpg",
-    "cap": "Under the autumn leaves",
-    "exif": "f/10 · 1/100s · ISO 500 · 20.6mm"
-   },
-   {
-    "full": "albums/parks/32.jpg",
-    "src": "assets/thumbs/parks/32.jpg",
-    "cap": "Pirrama Park, by the water",
-    "exif": "f/9 · 1/100s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/parks/33.jpg",
-    "src": "assets/thumbs/parks/33.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/34.jpg",
-    "src": "assets/thumbs/parks/34.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/14 · 1/100s · ISO 800 · 31.1mm"
-   },
-   {
-    "full": "albums/parks/35.jpg",
-    "src": "assets/thumbs/parks/35.jpg",
-    "cap": "Between the paths at the Botanic Garden",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/36.jpg",
-    "src": "assets/thumbs/parks/36.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/37.jpg",
-    "src": "assets/thumbs/parks/37.jpg",
-    "cap": "Under the autumn leaves",
-    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/parks/38.jpg",
-    "src": "assets/thumbs/parks/38.jpg",
-    "cap": "Pirrama Park, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/parks/39.jpg",
-    "src": "assets/thumbs/parks/39.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/9 · 1/160s · ISO 800 · 19.4mm"
-   },
-   {
-    "full": "albums/parks/40.jpg",
-    "src": "assets/thumbs/parks/40.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/14 · 1/100s · ISO 800 · 26.6mm"
-   },
-   {
-    "full": "albums/parks/41.jpg",
-    "src": "assets/thumbs/parks/41.jpg",
-    "cap": "Between the paths at the Botanic Garden",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/42.jpg",
-    "src": "assets/thumbs/parks/42.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/43.jpg",
-    "src": "assets/thumbs/parks/43.jpg",
-    "cap": "Under the autumn leaves",
-    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/parks/44.jpg",
-    "src": "assets/thumbs/parks/44.jpg",
-    "cap": "Pirrama Park, by the water",
-    "exif": ""
-   },
-   {
-    "full": "albums/parks/45.jpg",
-    "src": "assets/thumbs/parks/45.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/10 · 1/125s · ISO 800 · 25.7mm"
-   },
-   {
-    "full": "albums/parks/46.jpg",
-    "src": "assets/thumbs/parks/46.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/16 · 1/160s · ISO 800 · 16mm"
-   },
-   {
-    "full": "albums/parks/47.jpg",
-    "src": "assets/thumbs/parks/47.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/7.1 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/parks/48.jpg",
-    "src": "assets/thumbs/parks/48.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/10 · 1/125s · ISO 800 · 30.2mm"
-   },
-   {
-    "full": "albums/parks/49.jpg",
-    "src": "assets/thumbs/parks/49.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/18 · 1/100s · ISO 800 · 34.2mm"
-   },
-   {
-    "full": "albums/parks/50.jpg",
-    "src": "assets/thumbs/parks/50.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/51.jpg",
-    "src": "assets/thumbs/parks/51.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/10 · 1/125s · ISO 800 · 25.7mm"
-   },
-   {
-    "full": "albums/parks/52.jpg",
-    "src": "assets/thumbs/parks/52.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/16 · 1/160s · ISO 800 · 16mm"
-   },
-   {
-    "full": "albums/parks/53.jpg",
-    "src": "assets/thumbs/parks/53.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/6.4 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/parks/54.jpg",
-    "src": "assets/thumbs/parks/54.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/11 · 1/160s · ISO 800 · 33.2mm"
-   },
-   {
-    "full": "albums/parks/55.jpg",
-    "src": "assets/thumbs/parks/55.jpg",
-    "cap": "Sandstone and gardens at Government House",
-    "exif": "f/16 · 1/160s · ISO 800 · 16.5mm"
-   },
-   {
-    "full": "albums/parks/56.jpg",
-    "src": "assets/thumbs/parks/56.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/11 · 1/160s · ISO 800 · 33.2mm"
-   },
-   {
-    "full": "albums/parks/57.jpg",
-    "src": "assets/thumbs/parks/57.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/58.jpg",
-    "src": "assets/thumbs/parks/58.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/9 · 1/125s · ISO 800 · 16mm"
-   },
-   {
-    "full": "albums/parks/59.jpg",
-    "src": "assets/thumbs/parks/59.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/60.jpg",
-    "src": "assets/thumbs/parks/60.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/61.jpg",
-    "src": "assets/thumbs/parks/61.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/62.jpg",
-    "src": "assets/thumbs/parks/62.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/9 · 1/160s · ISO 800 · 26.6mm"
-   },
-   {
-    "full": "albums/parks/63.jpg",
-    "src": "assets/thumbs/parks/63.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/9 · 1/160s · ISO 800 · 26.6mm"
-   },
-   {
-    "full": "albums/parks/64.jpg",
-    "src": "assets/thumbs/parks/64.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "Shot on film"
-   },
-   {
-    "full": "albums/parks/65.jpg",
-    "src": "assets/thumbs/parks/65.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/9 · 1/160s · ISO 800 · 24.9mm"
-   },
-   {
-    "full": "albums/parks/66.jpg",
-    "src": "assets/thumbs/parks/66.jpg",
-    "cap": "An afternoon in Hyde Park",
-    "exif": "f/11 · 1/125s · ISO 800 · 55mm"
-   }
-  ]
- },
- {
-  "slug": "ao-dai",
-  "section": "PORTRAITS",
-  "title": "Áo dài",
-  "em": "in Sydney",
-  "sub": "Chinese Garden of Friendship · Sydney",
-  "note": "A little piece of home, a long way from it. Silk, slow movement and soft light.",
-  "photos": [
-   {
-    "full": "albums/ao-dai/01.jpg",
-    "src": "assets/thumbs/ao-dai/01.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": ""
-   },
-   {
-    "full": "albums/ao-dai/02.jpg",
-    "src": "assets/thumbs/ao-dai/02.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": ""
-   },
-   {
-    "full": "albums/ao-dai/03.jpg",
-    "src": "assets/thumbs/ao-dai/03.jpg",
-    "cap": "Áo dài in the Chinese Garden of Friendship",
-    "exif": "f/9 · 1/160s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/ao-dai/04.jpg",
-    "src": "assets/thumbs/ao-dai/04.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": "f/11 · 1/125s · ISO 500 · 17mm"
-   },
-   {
-    "full": "albums/ao-dai/05.jpg",
-    "src": "assets/thumbs/ao-dai/05.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": ""
-   },
-   {
-    "full": "albums/ao-dai/06.jpg",
-    "src": "assets/thumbs/ao-dai/06.jpg",
-    "cap": "Áo dài in the Chinese Garden of Friendship",
-    "exif": "f/11 · 1/160s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/ao-dai/07.jpg",
-    "src": "assets/thumbs/ao-dai/07.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": "f/11 · 1/125s · ISO 500 · 20mm"
-   },
-   {
-    "full": "albums/ao-dai/08.jpg",
-    "src": "assets/thumbs/ao-dai/08.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": ""
-   },
-   {
-    "full": "albums/ao-dai/09.jpg",
-    "src": "assets/thumbs/ao-dai/09.jpg",
-    "cap": "Áo dài in the Chinese Garden of Friendship",
-    "exif": "f/11 · 1/125s · ISO 500 · 37.6mm"
-   },
-   {
-    "full": "albums/ao-dai/10.jpg",
-    "src": "assets/thumbs/ao-dai/10.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": "f/11 · 1/125s · ISO 500 · 28.3mm"
-   },
-   {
-    "full": "albums/ao-dai/11.jpg",
-    "src": "assets/thumbs/ao-dai/11.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": ""
-   },
-   {
-    "full": "albums/ao-dai/12.jpg",
-    "src": "assets/thumbs/ao-dai/12.jpg",
-    "cap": "Áo dài in the Chinese Garden of Friendship",
-    "exif": "f/11 · 1/125s · ISO 500 · 37.6mm"
-   },
-   {
-    "full": "albums/ao-dai/13.jpg",
-    "src": "assets/thumbs/ao-dai/13.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": "f/11 · 1/125s · ISO 500 · 28.3mm"
-   },
-   {
-    "full": "albums/ao-dai/14.jpg",
-    "src": "assets/thumbs/ao-dai/14.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": ""
-   },
-   {
-    "full": "albums/ao-dai/15.jpg",
-    "src": "assets/thumbs/ao-dai/15.jpg",
-    "cap": "Áo dài in the Chinese Garden of Friendship",
-    "exif": "f/11 · 1/125s · ISO 500 · 18.7mm"
-   },
-   {
-    "full": "albums/ao-dai/16.jpg",
-    "src": "assets/thumbs/ao-dai/16.jpg",
-    "cap": "Áo dài, a little piece of home",
-    "exif": ""
-   },
-   {
-    "full": "albums/ao-dai/17.jpg",
-    "src": "assets/thumbs/ao-dai/17.jpg",
-    "cap": "Áo dài in the Chinese Garden of Friendship",
-    "exif": "f/11 · 1/125s · ISO 500 · 37.6mm"
-   },
-   {
-    "full": "albums/ao-dai/18.jpg",
-    "src": "assets/thumbs/ao-dai/18.jpg",
-    "cap": "Áo dài in the Chinese Garden of Friendship",
-    "exif": "f/18 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/ao-dai/19.jpg",
-    "src": "assets/thumbs/ao-dai/19.jpg",
-    "cap": "Áo dài in the Chinese Garden of Friendship",
-    "exif": "f/11 · 1/125s · ISO 500 · 37.6mm"
-   }
-  ]
- },
- {
-  "slug": "bougainvillea",
-  "section": "PORTRAITS",
-  "title": "Bougainvillea",
-  "em": "walls",
+  "em": "in Kirribilli",
   "sub": "Kirribilli",
-  "note": "Magenta flowers spilling over old Kirribilli walls. The colour does half the work.",
+  "note": "Purple streets in spring, between the terraces and the green hedges.",
   "photos": [
    {
-    "full": "albums/bougainvillea/01.jpg",
-    "src": "assets/thumbs/bougainvillea/01.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/13 · 1/125s · ISO 640 · 23mm"
+    "full": "albums/p-jacaranda-kirribilli/01.jpg",
+    "src": "assets/thumbs/p-jacaranda-kirribilli/01.jpg",
+    "cap": "Jacaranda in Kirribilli",
+    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/02.jpg",
-    "src": "assets/thumbs/bougainvillea/02.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/8 · 1/160s · ISO 640 · 23mm"
+    "full": "albums/p-jacaranda-kirribilli/02.jpg",
+    "src": "assets/thumbs/p-jacaranda-kirribilli/02.jpg",
+    "cap": "Jacaranda in Kirribilli",
+    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/03.jpg",
-    "src": "assets/thumbs/bougainvillea/03.jpg",
-    "cap": "Bougainvillea over a Kirribilli wall",
-    "exif": "f/4 · 1/200s · ISO 640 · 23mm"
+    "full": "albums/p-jacaranda-kirribilli/03.jpg",
+    "src": "assets/thumbs/p-jacaranda-kirribilli/03.jpg",
+    "cap": "Jacaranda in Kirribilli",
+    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/04.jpg",
-    "src": "assets/thumbs/bougainvillea/04.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+    "full": "albums/p-jacaranda-kirribilli/04.jpg",
+    "src": "assets/thumbs/p-jacaranda-kirribilli/04.jpg",
+    "cap": "Jacaranda in Kirribilli",
+    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/05.jpg",
-    "src": "assets/thumbs/bougainvillea/05.jpg",
-    "cap": "Bougainvillea over a Kirribilli wall",
-    "exif": "f/2.5 · 1/125s · ISO 640 · 23mm"
+    "full": "albums/p-jacaranda-kirribilli/05.jpg",
+    "src": "assets/thumbs/p-jacaranda-kirribilli/05.jpg",
+    "cap": "Jacaranda in Kirribilli",
+    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/06.jpg",
-    "src": "assets/thumbs/bougainvillea/06.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+    "full": "albums/p-jacaranda-kirribilli/06.jpg",
+    "src": "assets/thumbs/p-jacaranda-kirribilli/06.jpg",
+    "cap": "Jacaranda in Kirribilli",
+    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/07.jpg",
-    "src": "assets/thumbs/bougainvillea/07.jpg",
-    "cap": "Bougainvillea over a Kirribilli wall",
+    "full": "albums/p-jacaranda-kirribilli/07.jpg",
+    "src": "assets/thumbs/p-jacaranda-kirribilli/07.jpg",
+    "cap": "Jacaranda in Kirribilli",
+    "exif": "f/2 · 1/125s · ISO 640 · 23mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-jacaranda-propeller",
+  "section": "PORTRAITS",
+  "group": "season",
+  "title": "Jacaranda",
+  "em": "at Propeller Park",
+  "sub": "Propeller Park, Balmain East",
+  "note": "The jacaranda row right on the water, at its fullest.",
+  "photos": [
+   {
+    "full": "albums/p-jacaranda-propeller/01.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller/01.jpg",
+    "cap": "Jacaranda at Propeller Park",
+    "exif": "f/5.6 · 1/200s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller/02.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller/02.jpg",
+    "cap": "Jacaranda at Propeller Park",
+    "exif": "f/14 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller/03.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller/03.jpg",
+    "cap": "Jacaranda at Propeller Park",
+    "exif": "f/14 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller/04.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller/04.jpg",
+    "cap": "Jacaranda at Propeller Park",
+    "exif": "f/5 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller/05.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller/05.jpg",
+    "cap": "Jacaranda at Propeller Park",
+    "exif": "f/5.6 · 1/200s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller/06.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller/06.jpg",
+    "cap": "Jacaranda at Propeller Park",
+    "exif": "f/5 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller/07.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller/07.jpg",
+    "cap": "Jacaranda at Propeller Park",
+    "exif": "f/5 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller/08.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller/08.jpg",
+    "cap": "Jacaranda at Propeller Park",
+    "exif": "f/5 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller/09.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller/09.jpg",
+    "cap": "Jacaranda at Propeller Park",
+    "exif": "f/5 · 1/125s · ISO 640 · 23mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-jacaranda-propeller-2",
+  "section": "PORTRAITS",
+  "group": "season",
+  "title": "Under",
+  "em": "the jacarandas",
+  "sub": "Propeller Park, Balmain East",
+  "note": "Long hair, a soft dress and a carpet of purple by the harbour.",
+  "photos": [
+   {
+    "full": "albums/p-jacaranda-propeller-2/01.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/01.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/02.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/02.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/03.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/03.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/04.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/04.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/05.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/05.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/06.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/06.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/07.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/07.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/08.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/08.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/09.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/09.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/10.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/10.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/11.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/11.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   },
+   {
+    "full": "albums/p-jacaranda-propeller-2/12.jpg",
+    "src": "assets/thumbs/p-jacaranda-propeller-2/12.jpg",
+    "cap": "Under the jacarandas",
+    "exif": "f/2 · 2.00132s · ISO 640 · 2mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-bougainvillea-kirribilli",
+  "section": "PORTRAITS",
+  "group": "season",
+  "title": "Bougainvillea",
+  "em": "in Kirribilli",
+  "sub": "Kirribilli",
+  "note": "Magenta flowers spilling over old Kirribilli walls.",
+  "photos": [
+   {
+    "full": "albums/p-bougainvillea-kirribilli/01.jpg",
+    "src": "assets/thumbs/p-bougainvillea-kirribilli/01.jpg",
+    "cap": "Bougainvillea in Kirribilli",
     "exif": "f/2.8 · 1/200s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/08.jpg",
-    "src": "assets/thumbs/bougainvillea/08.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+    "full": "albums/p-bougainvillea-kirribilli/02.jpg",
+    "src": "assets/thumbs/p-bougainvillea-kirribilli/02.jpg",
+    "cap": "Bougainvillea in Kirribilli",
+    "exif": "f/2.5 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/09.jpg",
-    "src": "assets/thumbs/bougainvillea/09.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/13 · 1/125s · ISO 640 · 23mm"
+    "full": "albums/p-bougainvillea-kirribilli/03.jpg",
+    "src": "assets/thumbs/p-bougainvillea-kirribilli/03.jpg",
+    "cap": "Bougainvillea in Kirribilli",
+    "exif": "f/2.5 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/10.jpg",
-    "src": "assets/thumbs/bougainvillea/10.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/8 · 1/160s · ISO 640 · 23mm"
-   },
+    "full": "albums/p-bougainvillea-kirribilli/04.jpg",
+    "src": "assets/thumbs/p-bougainvillea-kirribilli/04.jpg",
+    "cap": "Bougainvillea in Kirribilli",
+    "exif": "f/4 · 1/200s · ISO 640 · 23mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-bougainvillea-usyd",
+  "section": "PORTRAITS",
+  "group": "season",
+  "title": "Bougainvillea",
+  "em": "walls",
+  "sub": "Camperdown, by USYD",
+  "note": "A whole wall in bloom on a quiet street by the university.",
+  "photos": [
    {
-    "full": "albums/bougainvillea/11.jpg",
-    "src": "assets/thumbs/bougainvillea/11.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/6.4 · 1/160s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/bougainvillea/12.jpg",
-    "src": "assets/thumbs/bougainvillea/12.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/bougainvillea/13.jpg",
-    "src": "assets/thumbs/bougainvillea/13.jpg",
-    "cap": "Bougainvillea in full bloom",
+    "full": "albums/p-bougainvillea-usyd/01.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/01.jpg",
+    "cap": "Bougainvillea walls",
     "exif": "f/9 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/14.jpg",
-    "src": "assets/thumbs/bougainvillea/14.jpg",
-    "cap": "Bougainvillea in full bloom",
-    "exif": "f/8 · 1/125s · ISO 640 · 23mm"
-   },
-   {
-    "full": "albums/bougainvillea/15.jpg",
-    "src": "assets/thumbs/bougainvillea/15.jpg",
-    "cap": "Bougainvillea in full bloom",
+    "full": "albums/p-bougainvillea-usyd/02.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/02.jpg",
+    "cap": "Bougainvillea walls",
     "exif": "f/9 · 1/125s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/16.jpg",
-    "src": "assets/thumbs/bougainvillea/16.jpg",
-    "cap": "Bougainvillea in full bloom",
+    "full": "albums/p-bougainvillea-usyd/03.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/03.jpg",
+    "cap": "Bougainvillea walls",
     "exif": "f/9 · 1/200s · ISO 640 · 23mm"
    },
    {
-    "full": "albums/bougainvillea/17.jpg",
-    "src": "assets/thumbs/bougainvillea/17.jpg",
-    "cap": "Bougainvillea in full bloom",
+    "full": "albums/p-bougainvillea-usyd/04.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/04.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/05.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/05.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/13 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/06.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/06.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/13 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/07.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/07.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/8 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/08.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/08.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/09.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/09.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/10.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/10.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/11.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/11.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/8 · 1/160s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/12.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/12.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/8 · 1/160s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/13.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/13.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/5.6 · 1/160s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/14.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/14.jpg",
+    "cap": "Bougainvillea walls",
     "exif": "f/9 · 1/160s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/15.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/15.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/9 · 1/160s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/16.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/16.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/9 · 1/160s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/17.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/17.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/9 · 1/160s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-bougainvillea-usyd/18.jpg",
+    "src": "assets/thumbs/p-bougainvillea-usyd/18.jpg",
+    "cap": "Bougainvillea walls",
+    "exif": "f/6.4 · 1/160s · ISO 640 · 23mm"
    }
   ]
  },
  {
-  "slug": "street",
+  "slug": "p-magnolia-usyd",
   "section": "PORTRAITS",
-  "title": "Out on",
-  "em": "the street",
-  "sub": "Haymarket",
-  "note": "Crossings, shop signs and laneways around Haymarket. Quick, loose and a bit chaotic, which is the fun of it.",
+  "group": "season",
+  "title": "Magnolias",
+  "em": "at USYD",
+  "sub": "The University of Sydney",
+  "note": "Pink magnolias over the sandstone steps.",
   "photos": [
    {
-    "full": "albums/street/01.jpg",
-    "src": "assets/thumbs/street/01.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "f/20 · 1/160s · ISO 500 · 17mm"
-   },
-   {
-    "full": "albums/street/02.jpg",
-    "src": "assets/thumbs/street/02.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "1/160s · ISO 500 · 21mm"
-   },
-   {
-    "full": "albums/street/03.jpg",
-    "src": "assets/thumbs/street/03.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "f/11 · 1/160s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/street/04.jpg",
-    "src": "assets/thumbs/street/04.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "f/11 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/street/05.jpg",
-    "src": "assets/thumbs/street/05.jpg",
-    "cap": "Out on the streets of Haymarket",
+    "full": "albums/p-magnolia-usyd/01.jpg",
+    "src": "assets/thumbs/p-magnolia-usyd/01.jpg",
+    "cap": "Magnolias at USYD",
     "exif": ""
    },
    {
-    "full": "albums/street/06.jpg",
-    "src": "assets/thumbs/street/06.jpg",
-    "cap": "Out on the streets of Haymarket",
+    "full": "albums/p-magnolia-usyd/02.jpg",
+    "src": "assets/thumbs/p-magnolia-usyd/02.jpg",
+    "cap": "Magnolias at USYD",
     "exif": ""
    },
    {
-    "full": "albums/street/07.jpg",
-    "src": "assets/thumbs/street/07.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "f/11 · 1/160s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/street/08.jpg",
-    "src": "assets/thumbs/street/08.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/street/09.jpg",
-    "src": "assets/thumbs/street/09.jpg",
-    "cap": "Out on the streets of Haymarket",
+    "full": "albums/p-magnolia-usyd/03.jpg",
+    "src": "assets/thumbs/p-magnolia-usyd/03.jpg",
+    "cap": "Magnolias at USYD",
     "exif": ""
    },
    {
-    "full": "albums/street/10.jpg",
-    "src": "assets/thumbs/street/10.jpg",
-    "cap": "Out on the streets of Haymarket",
+    "full": "albums/p-magnolia-usyd/04.jpg",
+    "src": "assets/thumbs/p-magnolia-usyd/04.jpg",
+    "cap": "Magnolias at USYD",
     "exif": ""
    },
    {
-    "full": "albums/street/11.jpg",
-    "src": "assets/thumbs/street/11.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "1/100s · ISO 500 · 21mm"
-   },
-   {
-    "full": "albums/street/12.jpg",
-    "src": "assets/thumbs/street/12.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "1/100s · ISO 500 · 21mm"
-   },
-   {
-    "full": "albums/street/13.jpg",
-    "src": "assets/thumbs/street/13.jpg",
-    "cap": "Out on the streets of Haymarket",
+    "full": "albums/p-magnolia-usyd/05.jpg",
+    "src": "assets/thumbs/p-magnolia-usyd/05.jpg",
+    "cap": "Magnolias at USYD",
     "exif": ""
    },
    {
-    "full": "albums/street/14.jpg",
-    "src": "assets/thumbs/street/14.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "f/11 · 1/125s · ISO 500 · 16mm"
-   },
-   {
-    "full": "albums/street/15.jpg",
-    "src": "assets/thumbs/street/15.jpg",
-    "cap": "Out on the streets of Haymarket",
+    "full": "albums/p-magnolia-usyd/06.jpg",
+    "src": "assets/thumbs/p-magnolia-usyd/06.jpg",
+    "cap": "Magnolias at USYD",
     "exif": ""
    },
    {
-    "full": "albums/street/16.jpg",
-    "src": "assets/thumbs/street/16.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "f/11 · 1/125s · ISO 500 · 55mm"
-   },
-   {
-    "full": "albums/street/17.jpg",
-    "src": "assets/thumbs/street/17.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "f/14 · 1/160s · ISO 500 · 21.3mm"
-   },
-   {
-    "full": "albums/street/18.jpg",
-    "src": "assets/thumbs/street/18.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "1/100s · ISO 500 · 21mm"
-   },
-   {
-    "full": "albums/street/19.jpg",
-    "src": "assets/thumbs/street/19.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "1/160s · ISO 500 · 21mm"
-   },
-   {
-    "full": "albums/street/20.jpg",
-    "src": "assets/thumbs/street/20.jpg",
-    "cap": "Out on the streets of Haymarket",
+    "full": "albums/p-magnolia-usyd/07.jpg",
+    "src": "assets/thumbs/p-magnolia-usyd/07.jpg",
+    "cap": "Magnolias at USYD",
     "exif": ""
    },
    {
-    "full": "albums/street/21.jpg",
-    "src": "assets/thumbs/street/21.jpg",
-    "cap": "Out on the streets of Haymarket",
+    "full": "albums/p-magnolia-usyd/08.jpg",
+    "src": "assets/thumbs/p-magnolia-usyd/08.jpg",
+    "cap": "Magnolias at USYD",
     "exif": ""
-   },
-   {
-    "full": "albums/street/22.jpg",
-    "src": "assets/thumbs/street/22.jpg",
-    "cap": "Out on the streets of Haymarket",
-    "exif": "f/9 · 1/125s · ISO 500 · 16mm"
    }
   ]
  },
  {
-  "slug": "concepts",
+  "slug": "p-maple-mq",
   "section": "PORTRAITS",
-  "title": "Concept",
-  "em": "shoots",
-  "sub": "Idol cover · yacht · train",
-  "note": "The shoots we plan from scratch: an idol-style cover in the city, a day out on a yacht and a story on the train.",
+  "group": "season",
+  "title": "Red maples",
+  "em": "at Macquarie",
+  "sub": "Macquarie University",
+  "note": "A tree on fire with red leaves, and more of them underfoot.",
   "photos": [
    {
-    "full": "albums/concepts/01.jpg",
-    "src": "assets/thumbs/concepts/01.jpg",
-    "cap": "Train concept, somewhere between stops",
+    "full": "albums/p-maple-mq/01.jpg",
+    "src": "assets/thumbs/p-maple-mq/01.jpg",
+    "cap": "Red maples at Macquarie",
+    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-maple-mq/02.jpg",
+    "src": "assets/thumbs/p-maple-mq/02.jpg",
+    "cap": "Red maples at Macquarie",
+    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-maple-mq/03.jpg",
+    "src": "assets/thumbs/p-maple-mq/03.jpg",
+    "cap": "Red maples at Macquarie",
+    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-maple-mq/04.jpg",
+    "src": "assets/thumbs/p-maple-mq/04.jpg",
+    "cap": "Red maples at Macquarie",
+    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-maple-mq/05.jpg",
+    "src": "assets/thumbs/p-maple-mq/05.jpg",
+    "cap": "Red maples at Macquarie",
+    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-maple-mq/06.jpg",
+    "src": "assets/thumbs/p-maple-mq/06.jpg",
+    "cap": "Red maples at Macquarie",
+    "exif": "f/10 · 1/100s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-maple-mq/07.jpg",
+    "src": "assets/thumbs/p-maple-mq/07.jpg",
+    "cap": "Red maples at Macquarie",
+    "exif": "f/10 · 1/100s · ISO 500 · 20.6mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-hyde-park",
+  "section": "PORTRAITS",
+  "group": "parks",
+  "title": "Hyde Park",
+  "em": "on film",
+  "sub": "Hyde Park",
+  "note": "White daisies, long shadows and the avenue of trees, on film.",
+  "photos": [
+   {
+    "full": "albums/p-hyde-park/01.jpg",
+    "src": "assets/thumbs/p-hyde-park/01.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/11 · 1/160s · ISO 800 · 33.2mm"
+   },
+   {
+    "full": "albums/p-hyde-park/02.jpg",
+    "src": "assets/thumbs/p-hyde-park/02.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/02.jpg",
-    "src": "assets/thumbs/concepts/02.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-hyde-park/03.jpg",
+    "src": "assets/thumbs/p-hyde-park/03.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/9 · 1/160s · ISO 800 · 24.9mm"
+   },
+   {
+    "full": "albums/p-hyde-park/04.jpg",
+    "src": "assets/thumbs/p-hyde-park/04.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/9 · 1/160s · ISO 800 · 19.4mm"
+   },
+   {
+    "full": "albums/p-hyde-park/05.jpg",
+    "src": "assets/thumbs/p-hyde-park/05.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/9 · 1/125s · ISO 800 · 16mm"
+   },
+   {
+    "full": "albums/p-hyde-park/06.jpg",
+    "src": "assets/thumbs/p-hyde-park/06.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/11 · 1/125s · ISO 800 · 55mm"
+   },
+   {
+    "full": "albums/p-hyde-park/07.jpg",
+    "src": "assets/thumbs/p-hyde-park/07.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/10 · 1/125s · ISO 800 · 25.7mm"
+   },
+   {
+    "full": "albums/p-hyde-park/08.jpg",
+    "src": "assets/thumbs/p-hyde-park/08.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/10 · 1/125s · ISO 800 · 25.7mm"
+   },
+   {
+    "full": "albums/p-hyde-park/09.jpg",
+    "src": "assets/thumbs/p-hyde-park/09.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/9 · 1/160s · ISO 800 · 26.6mm"
+   },
+   {
+    "full": "albums/p-hyde-park/10.jpg",
+    "src": "assets/thumbs/p-hyde-park/10.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/9 · 1/160s · ISO 800 · 26.6mm"
+   },
+   {
+    "full": "albums/p-hyde-park/11.jpg",
+    "src": "assets/thumbs/p-hyde-park/11.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/11 · 1/160s · ISO 800 · 33.2mm"
+   },
+   {
+    "full": "albums/p-hyde-park/12.jpg",
+    "src": "assets/thumbs/p-hyde-park/12.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/10 · 1/125s · ISO 800 · 30.2mm"
+   },
+   {
+    "full": "albums/p-hyde-park/13.jpg",
+    "src": "assets/thumbs/p-hyde-park/13.jpg",
+    "cap": "Hyde Park on film",
+    "exif": "f/11 · 1/125s · ISO 800 · 55mm"
+   },
+   {
+    "full": "albums/p-hyde-park/14.jpg",
+    "src": "assets/thumbs/p-hyde-park/14.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/03.jpg",
-    "src": "assets/thumbs/concepts/03.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-hyde-park/15.jpg",
+    "src": "assets/thumbs/p-hyde-park/15.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/04.jpg",
-    "src": "assets/thumbs/concepts/04.jpg",
-    "cap": "Train concept, somewhere between stops",
+    "full": "albums/p-hyde-park/16.jpg",
+    "src": "assets/thumbs/p-hyde-park/16.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/05.jpg",
-    "src": "assets/thumbs/concepts/05.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-hyde-park/17.jpg",
+    "src": "assets/thumbs/p-hyde-park/17.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/06.jpg",
-    "src": "assets/thumbs/concepts/06.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-hyde-park/18.jpg",
+    "src": "assets/thumbs/p-hyde-park/18.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/07.jpg",
-    "src": "assets/thumbs/concepts/07.jpg",
-    "cap": "Train concept, somewhere between stops",
-    "exif": "f/2.8 · 1/200s · ISO 500 · 23mm"
-   },
-   {
-    "full": "albums/concepts/08.jpg",
-    "src": "assets/thumbs/concepts/08.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-hyde-park/19.jpg",
+    "src": "assets/thumbs/p-hyde-park/19.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/09.jpg",
-    "src": "assets/thumbs/concepts/09.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-hyde-park/20.jpg",
+    "src": "assets/thumbs/p-hyde-park/20.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/10.jpg",
-    "src": "assets/thumbs/concepts/10.jpg",
-    "cap": "Train concept, somewhere between stops",
+    "full": "albums/p-hyde-park/21.jpg",
+    "src": "assets/thumbs/p-hyde-park/21.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/11.jpg",
-    "src": "assets/thumbs/concepts/11.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-hyde-park/22.jpg",
+    "src": "assets/thumbs/p-hyde-park/22.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/12.jpg",
-    "src": "assets/thumbs/concepts/12.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-hyde-park/23.jpg",
+    "src": "assets/thumbs/p-hyde-park/23.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/13.jpg",
-    "src": "assets/thumbs/concepts/13.jpg",
-    "cap": "Train concept, somewhere between stops",
-    "exif": "f/2.8 · 1/200s · ISO 500 · 23mm"
-   },
-   {
-    "full": "albums/concepts/14.jpg",
-    "src": "assets/thumbs/concepts/14.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-hyde-park/24.jpg",
+    "src": "assets/thumbs/p-hyde-park/24.jpg",
+    "cap": "Hyde Park on film",
     "exif": ""
    },
    {
-    "full": "albums/concepts/15.jpg",
-    "src": "assets/thumbs/concepts/15.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-hyde-park/25.jpg",
+    "src": "assets/thumbs/p-hyde-park/25.jpg",
+    "cap": "Hyde Park on film",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-hyde-park-2",
+  "section": "PORTRAITS",
+  "group": "parks",
+  "title": "Hyde Park",
+  "em": "in the late sun",
+  "sub": "Hyde Park",
+  "note": "Hedges glowing in low light and the city just behind the trees.",
+  "photos": [
+   {
+    "full": "albums/p-hyde-park-2/01.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/01.jpg",
+    "cap": "Hyde Park in the late sun",
+    "exif": "f/6.4 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-hyde-park-2/02.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/02.jpg",
+    "cap": "Hyde Park in the late sun",
     "exif": ""
    },
    {
-    "full": "albums/concepts/16.jpg",
-    "src": "assets/thumbs/concepts/16.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-hyde-park-2/03.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/03.jpg",
+    "cap": "Hyde Park in the late sun",
     "exif": ""
    },
    {
-    "full": "albums/concepts/17.jpg",
-    "src": "assets/thumbs/concepts/17.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-hyde-park-2/04.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/04.jpg",
+    "cap": "Hyde Park in the late sun",
     "exif": ""
    },
    {
-    "full": "albums/concepts/18.jpg",
-    "src": "assets/thumbs/concepts/18.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-hyde-park-2/05.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/05.jpg",
+    "cap": "Hyde Park in the late sun",
     "exif": ""
    },
    {
-    "full": "albums/concepts/19.jpg",
-    "src": "assets/thumbs/concepts/19.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-hyde-park-2/06.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/06.jpg",
+    "cap": "Hyde Park in the late sun",
     "exif": ""
    },
    {
-    "full": "albums/concepts/20.jpg",
-    "src": "assets/thumbs/concepts/20.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-hyde-park-2/07.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/07.jpg",
+    "cap": "Hyde Park in the late sun",
     "exif": ""
    },
    {
-    "full": "albums/concepts/21.jpg",
-    "src": "assets/thumbs/concepts/21.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-hyde-park-2/08.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/08.jpg",
+    "cap": "Hyde Park in the late sun",
+    "exif": "f/7.1 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-hyde-park-2/09.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/09.jpg",
+    "cap": "Hyde Park in the late sun",
+    "exif": "f/7.1 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-hyde-park-2/10.jpg",
+    "src": "assets/thumbs/p-hyde-park-2/10.jpg",
+    "cap": "Hyde Park in the late sun",
+    "exif": "f/7.1 · 1/125s · ISO 640 · 23mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-government-house",
+  "section": "PORTRAITS",
+  "group": "parks",
+  "title": "Government House",
+  "em": "and its fountain",
+  "sub": "Government House · Royal Botanic Garden",
+  "note": "Sandstone arches, the round fountain and a pink top against the green.",
+  "photos": [
+   {
+    "full": "albums/p-government-house/01.jpg",
+    "src": "assets/thumbs/p-government-house/01.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/18 · 1/100s · ISO 800 · 34.2mm"
+   },
+   {
+    "full": "albums/p-government-house/02.jpg",
+    "src": "assets/thumbs/p-government-house/02.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/13 · 1/100s · ISO 800 · 27.4mm"
+   },
+   {
+    "full": "albums/p-government-house/03.jpg",
+    "src": "assets/thumbs/p-government-house/03.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/13 · 1/160s · ISO 800 · 30.2mm"
+   },
+   {
+    "full": "albums/p-government-house/04.jpg",
+    "src": "assets/thumbs/p-government-house/04.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/16 · 1/160s · ISO 800 · 16mm"
+   },
+   {
+    "full": "albums/p-government-house/05.jpg",
+    "src": "assets/thumbs/p-government-house/05.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/16 · 1/160s · ISO 800 · 16mm"
+   },
+   {
+    "full": "albums/p-government-house/06.jpg",
+    "src": "assets/thumbs/p-government-house/06.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/18 · 1/160s · ISO 800 · 16mm"
+   },
+   {
+    "full": "albums/p-government-house/07.jpg",
+    "src": "assets/thumbs/p-government-house/07.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/16 · 1/160s · ISO 800 · 16.5mm"
+   },
+   {
+    "full": "albums/p-government-house/08.jpg",
+    "src": "assets/thumbs/p-government-house/08.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/18 · 1/100s · ISO 800 · 27.4mm"
+   },
+   {
+    "full": "albums/p-government-house/09.jpg",
+    "src": "assets/thumbs/p-government-house/09.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/14 · 1/100s · ISO 800 · 44.1mm"
+   },
+   {
+    "full": "albums/p-government-house/10.jpg",
+    "src": "assets/thumbs/p-government-house/10.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/13 · 1/100s · ISO 800 · 18.2mm"
+   },
+   {
+    "full": "albums/p-government-house/11.jpg",
+    "src": "assets/thumbs/p-government-house/11.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/14 · 1/100s · ISO 800 · 26.6mm"
+   },
+   {
+    "full": "albums/p-government-house/12.jpg",
+    "src": "assets/thumbs/p-government-house/12.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/14 · 1/100s · ISO 800 · 31.1mm"
+   },
+   {
+    "full": "albums/p-government-house/13.jpg",
+    "src": "assets/thumbs/p-government-house/13.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/14 · 1/100s · ISO 800 · 24.2mm"
+   },
+   {
+    "full": "albums/p-government-house/14.jpg",
+    "src": "assets/thumbs/p-government-house/14.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/16 · 1/160s · ISO 800 · 16mm"
+   },
+   {
+    "full": "albums/p-government-house/15.jpg",
+    "src": "assets/thumbs/p-government-house/15.jpg",
+    "cap": "Government House and its fountain",
+    "exif": "f/16 · 1/160s · ISO 800 · 16mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-botanic",
+  "section": "PORTRAITS",
+  "group": "parks",
+  "title": "The Botanic Garden",
+  "em": "by the sails",
+  "sub": "Royal Botanic Garden",
+  "note": "Big trees and lawns with the Opera House peeking through.",
+  "photos": [
+   {
+    "full": "albums/p-botanic/01.jpg",
+    "src": "assets/thumbs/p-botanic/01.jpg",
+    "cap": "The Botanic Garden by the sails",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-botanic/02.jpg",
+    "src": "assets/thumbs/p-botanic/02.jpg",
+    "cap": "The Botanic Garden by the sails",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-botanic/03.jpg",
+    "src": "assets/thumbs/p-botanic/03.jpg",
+    "cap": "The Botanic Garden by the sails",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-botanic/04.jpg",
+    "src": "assets/thumbs/p-botanic/04.jpg",
+    "cap": "The Botanic Garden by the sails",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-botanic/05.jpg",
+    "src": "assets/thumbs/p-botanic/05.jpg",
+    "cap": "The Botanic Garden by the sails",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-botanic/06.jpg",
+    "src": "assets/thumbs/p-botanic/06.jpg",
+    "cap": "The Botanic Garden by the sails",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-botanic/07.jpg",
+    "src": "assets/thumbs/p-botanic/07.jpg",
+    "cap": "The Botanic Garden by the sails",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-botanic/08.jpg",
+    "src": "assets/thumbs/p-botanic/08.jpg",
+    "cap": "The Botanic Garden by the sails",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-further",
+  "section": "PORTRAITS",
+  "group": "parks",
+  "title": "Out of",
+  "em": "the city",
+  "sub": "Central Gardens, Merrylands · Bowral",
+  "note": "A waterfall in Merrylands and an autumn day in Bowral.",
+  "photos": [
+   {
+    "full": "albums/p-further/01.jpg",
+    "src": "assets/thumbs/p-further/01.jpg",
+    "cap": "Out of the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-further/02.jpg",
+    "src": "assets/thumbs/p-further/02.jpg",
+    "cap": "Out of the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-further/03.jpg",
+    "src": "assets/thumbs/p-further/03.jpg",
+    "cap": "Out of the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-further/04.jpg",
+    "src": "assets/thumbs/p-further/04.jpg",
+    "cap": "Out of the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-further/05.jpg",
+    "src": "assets/thumbs/p-further/05.jpg",
+    "cap": "Out of the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-further/06.jpg",
+    "src": "assets/thumbs/p-further/06.jpg",
+    "cap": "Out of the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-further/07.jpg",
+    "src": "assets/thumbs/p-further/07.jpg",
+    "cap": "Out of the city",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-idol-qvb",
+  "section": "PORTRAITS",
+  "group": "city",
+  "title": "Idol cover",
+  "em": "in the city",
+  "sub": "QVB · Circular Quay",
+  "note": "An idol-style cover shoot: street corners, phone booths and the crowds of the quay.",
+  "photos": [
+   {
+    "full": "albums/p-idol-qvb/01.jpg",
+    "src": "assets/thumbs/p-idol-qvb/01.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/02.jpg",
+    "src": "assets/thumbs/p-idol-qvb/02.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/03.jpg",
+    "src": "assets/thumbs/p-idol-qvb/03.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/04.jpg",
+    "src": "assets/thumbs/p-idol-qvb/04.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/05.jpg",
+    "src": "assets/thumbs/p-idol-qvb/05.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/06.jpg",
+    "src": "assets/thumbs/p-idol-qvb/06.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/07.jpg",
+    "src": "assets/thumbs/p-idol-qvb/07.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/08.jpg",
+    "src": "assets/thumbs/p-idol-qvb/08.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/09.jpg",
+    "src": "assets/thumbs/p-idol-qvb/09.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/10.jpg",
+    "src": "assets/thumbs/p-idol-qvb/10.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/11.jpg",
+    "src": "assets/thumbs/p-idol-qvb/11.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/12.jpg",
+    "src": "assets/thumbs/p-idol-qvb/12.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/13.jpg",
+    "src": "assets/thumbs/p-idol-qvb/13.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/14.jpg",
+    "src": "assets/thumbs/p-idol-qvb/14.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/15.jpg",
+    "src": "assets/thumbs/p-idol-qvb/15.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/16.jpg",
+    "src": "assets/thumbs/p-idol-qvb/16.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/17.jpg",
+    "src": "assets/thumbs/p-idol-qvb/17.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/18.jpg",
+    "src": "assets/thumbs/p-idol-qvb/18.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/19.jpg",
+    "src": "assets/thumbs/p-idol-qvb/19.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/20.jpg",
+    "src": "assets/thumbs/p-idol-qvb/20.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/21.jpg",
+    "src": "assets/thumbs/p-idol-qvb/21.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/22.jpg",
+    "src": "assets/thumbs/p-idol-qvb/22.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/23.jpg",
+    "src": "assets/thumbs/p-idol-qvb/23.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/24.jpg",
+    "src": "assets/thumbs/p-idol-qvb/24.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/25.jpg",
+    "src": "assets/thumbs/p-idol-qvb/25.jpg",
+    "cap": "Idol cover in the city",
+    "exif": "f/4.8 · 1/400s · ISO 500 · 200mm"
+   },
+   {
+    "full": "albums/p-idol-qvb/26.jpg",
+    "src": "assets/thumbs/p-idol-qvb/26.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-idol-qvb/27.jpg",
+    "src": "assets/thumbs/p-idol-qvb/27.jpg",
+    "cap": "Idol cover in the city",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-qvb",
+  "section": "PORTRAITS",
+  "group": "city",
+  "title": "The QVB",
+  "em": "on film",
+  "sub": "Queen Victoria Building",
+  "note": "The arches of the QVB and the shopfronts at dusk, on film.",
+  "photos": [
+   {
+    "full": "albums/p-qvb/01.jpg",
+    "src": "assets/thumbs/p-qvb/01.jpg",
+    "cap": "The QVB on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-qvb/02.jpg",
+    "src": "assets/thumbs/p-qvb/02.jpg",
+    "cap": "The QVB on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-qvb/03.jpg",
+    "src": "assets/thumbs/p-qvb/03.jpg",
+    "cap": "The QVB on film",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-qvb/04.jpg",
+    "src": "assets/thumbs/p-qvb/04.jpg",
+    "cap": "The QVB on film",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-yacht",
+  "section": "PORTRAITS",
+  "group": "city",
+  "title": "A day out",
+  "em": "on a yacht",
+  "sub": "Taronga Zoo Wharf · Sydney Harbour",
+  "note": "Wind, sun and the harbour from the deck of a yacht.",
+  "photos": [
+   {
+    "full": "albums/p-yacht/01.jpg",
+    "src": "assets/thumbs/p-yacht/01.jpg",
+    "cap": "A day out on a yacht",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-yacht/02.jpg",
+    "src": "assets/thumbs/p-yacht/02.jpg",
+    "cap": "A day out on a yacht",
+    "exif": "f/9 · 1/250s · ISO 500 · 18.7mm"
+   },
+   {
+    "full": "albums/p-yacht/03.jpg",
+    "src": "assets/thumbs/p-yacht/03.jpg",
+    "cap": "A day out on a yacht",
+    "exif": "f/7.1 · 1/250s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-yacht/04.jpg",
+    "src": "assets/thumbs/p-yacht/04.jpg",
+    "cap": "A day out on a yacht",
     "exif": "f/5.6 · 1/250s · ISO 500 · 17.6mm"
    },
    {
-    "full": "albums/concepts/22.jpg",
-    "src": "assets/thumbs/concepts/22.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-yacht/05.jpg",
+    "src": "assets/thumbs/p-yacht/05.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/23.jpg",
-    "src": "assets/thumbs/concepts/23.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-yacht/06.jpg",
+    "src": "assets/thumbs/p-yacht/06.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/24.jpg",
-    "src": "assets/thumbs/concepts/24.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-yacht/07.jpg",
+    "src": "assets/thumbs/p-yacht/07.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/25.jpg",
-    "src": "assets/thumbs/concepts/25.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-yacht/08.jpg",
+    "src": "assets/thumbs/p-yacht/08.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/26.jpg",
-    "src": "assets/thumbs/concepts/26.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-yacht/09.jpg",
+    "src": "assets/thumbs/p-yacht/09.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/27.jpg",
-    "src": "assets/thumbs/concepts/27.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-yacht/10.jpg",
+    "src": "assets/thumbs/p-yacht/10.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/28.jpg",
-    "src": "assets/thumbs/concepts/28.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-yacht/11.jpg",
+    "src": "assets/thumbs/p-yacht/11.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/29.jpg",
-    "src": "assets/thumbs/concepts/29.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-yacht/12.jpg",
+    "src": "assets/thumbs/p-yacht/12.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/30.jpg",
-    "src": "assets/thumbs/concepts/30.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-yacht/13.jpg",
+    "src": "assets/thumbs/p-yacht/13.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/31.jpg",
-    "src": "assets/thumbs/concepts/31.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-yacht/14.jpg",
+    "src": "assets/thumbs/p-yacht/14.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/32.jpg",
-    "src": "assets/thumbs/concepts/32.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-yacht/15.jpg",
+    "src": "assets/thumbs/p-yacht/15.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/33.jpg",
-    "src": "assets/thumbs/concepts/33.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-yacht/16.jpg",
+    "src": "assets/thumbs/p-yacht/16.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/34.jpg",
-    "src": "assets/thumbs/concepts/34.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-yacht/17.jpg",
+    "src": "assets/thumbs/p-yacht/17.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/35.jpg",
-    "src": "assets/thumbs/concepts/35.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-yacht/18.jpg",
+    "src": "assets/thumbs/p-yacht/18.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/36.jpg",
-    "src": "assets/thumbs/concepts/36.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-yacht/19.jpg",
+    "src": "assets/thumbs/p-yacht/19.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/37.jpg",
-    "src": "assets/thumbs/concepts/37.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-yacht/20.jpg",
+    "src": "assets/thumbs/p-yacht/20.jpg",
+    "cap": "A day out on a yacht",
     "exif": ""
    },
    {
-    "full": "albums/concepts/38.jpg",
-    "src": "assets/thumbs/concepts/38.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-yacht/21.jpg",
+    "src": "assets/thumbs/p-yacht/21.jpg",
+    "cap": "A day out on a yacht",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-train",
+  "section": "PORTRAITS",
+  "group": "city",
+  "title": "Train",
+  "em": "concept",
+  "sub": "Central Station",
+  "note": "Window light in an empty carriage, somewhere between stops.",
+  "photos": [
+   {
+    "full": "albums/p-train/01.jpg",
+    "src": "assets/thumbs/p-train/01.jpg",
+    "cap": "Train concept",
+    "exif": "f/2.8 · 1/200s · ISO 500 · 23mm"
+   },
+   {
+    "full": "albums/p-train/02.jpg",
+    "src": "assets/thumbs/p-train/02.jpg",
+    "cap": "Train concept",
+    "exif": "f/2.8 · 1/200s · ISO 500 · 23mm"
+   },
+   {
+    "full": "albums/p-train/03.jpg",
+    "src": "assets/thumbs/p-train/03.jpg",
+    "cap": "Train concept",
     "exif": ""
    },
    {
-    "full": "albums/concepts/39.jpg",
-    "src": "assets/thumbs/concepts/39.jpg",
-    "cap": "A day out on the harbour, yacht concept",
+    "full": "albums/p-train/04.jpg",
+    "src": "assets/thumbs/p-train/04.jpg",
+    "cap": "Train concept",
     "exif": ""
    },
    {
-    "full": "albums/concepts/40.jpg",
-    "src": "assets/thumbs/concepts/40.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-train/05.jpg",
+    "src": "assets/thumbs/p-train/05.jpg",
+    "cap": "Train concept",
     "exif": ""
    },
    {
-    "full": "albums/concepts/41.jpg",
-    "src": "assets/thumbs/concepts/41.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-train/06.jpg",
+    "src": "assets/thumbs/p-train/06.jpg",
+    "cap": "Train concept",
+    "exif": "f/2.8 · 1/200s · ISO 500 · 23mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-street",
+  "section": "PORTRAITS",
+  "group": "city",
+  "title": "Out on",
+  "em": "the street",
+  "sub": "Haymarket",
+  "note": "Crossings, shop signs and fisheye frames around Haymarket. Quick, loose and a bit chaotic.",
+  "photos": [
+   {
+    "full": "albums/p-street/01.jpg",
+    "src": "assets/thumbs/p-street/01.jpg",
+    "cap": "Out on the street",
     "exif": ""
    },
    {
-    "full": "albums/concepts/42.jpg",
-    "src": "assets/thumbs/concepts/42.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-street/02.jpg",
+    "src": "assets/thumbs/p-street/02.jpg",
+    "cap": "Out on the street",
     "exif": ""
    },
    {
-    "full": "albums/concepts/43.jpg",
-    "src": "assets/thumbs/concepts/43.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-street/03.jpg",
+    "src": "assets/thumbs/p-street/03.jpg",
+    "cap": "Out on the street",
     "exif": ""
    },
    {
-    "full": "albums/concepts/44.jpg",
-    "src": "assets/thumbs/concepts/44.jpg",
-    "cap": "Idol cover concept in the city",
+    "full": "albums/p-street/04.jpg",
+    "src": "assets/thumbs/p-street/04.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/05.jpg",
+    "src": "assets/thumbs/p-street/05.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/06.jpg",
+    "src": "assets/thumbs/p-street/06.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/07.jpg",
+    "src": "assets/thumbs/p-street/07.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/08.jpg",
+    "src": "assets/thumbs/p-street/08.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/09.jpg",
+    "src": "assets/thumbs/p-street/09.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/10.jpg",
+    "src": "assets/thumbs/p-street/10.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/11.jpg",
+    "src": "assets/thumbs/p-street/11.jpg",
+    "cap": "Out on the street",
+    "exif": "f/14 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-street/12.jpg",
+    "src": "assets/thumbs/p-street/12.jpg",
+    "cap": "Out on the street",
+    "exif": "f/20 · 1/160s · ISO 500 · 17mm"
+   },
+   {
+    "full": "albums/p-street/13.jpg",
+    "src": "assets/thumbs/p-street/13.jpg",
+    "cap": "Out on the street",
+    "exif": "f/14 · 1/160s · ISO 500 · 21.3mm"
+   },
+   {
+    "full": "albums/p-street/14.jpg",
+    "src": "assets/thumbs/p-street/14.jpg",
+    "cap": "Out on the street",
+    "exif": "f/14 · 1/160s · ISO 500 · 21.3mm"
+   },
+   {
+    "full": "albums/p-street/15.jpg",
+    "src": "assets/thumbs/p-street/15.jpg",
+    "cap": "Out on the street",
+    "exif": "f/11 · 1/125s · ISO 500 · 27.4mm"
+   },
+   {
+    "full": "albums/p-street/16.jpg",
+    "src": "assets/thumbs/p-street/16.jpg",
+    "cap": "Out on the street",
+    "exif": "f/11 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-street/17.jpg",
+    "src": "assets/thumbs/p-street/17.jpg",
+    "cap": "Out on the street",
+    "exif": "f/11 · 1/125s · ISO 500 · 55mm"
+   },
+   {
+    "full": "albums/p-street/18.jpg",
+    "src": "assets/thumbs/p-street/18.jpg",
+    "cap": "Out on the street",
+    "exif": "f/11 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-street/19.jpg",
+    "src": "assets/thumbs/p-street/19.jpg",
+    "cap": "Out on the street",
+    "exif": "f/9 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-street/20.jpg",
+    "src": "assets/thumbs/p-street/20.jpg",
+    "cap": "Out on the street",
+    "exif": "f/11 · 1/160s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-street/21.jpg",
+    "src": "assets/thumbs/p-street/21.jpg",
+    "cap": "Out on the street",
+    "exif": "f/11 · 1/160s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/p-street/22.jpg",
+    "src": "assets/thumbs/p-street/22.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/23.jpg",
+    "src": "assets/thumbs/p-street/23.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/24.jpg",
+    "src": "assets/thumbs/p-street/24.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-street/25.jpg",
+    "src": "assets/thumbs/p-street/25.jpg",
+    "cap": "Out on the street",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-st-marys",
+  "section": "PORTRAITS",
+  "group": "city",
+  "title": "St Mary's",
+  "em": "Cathedral",
+  "sub": "St Mary's Cathedral",
+  "note": "A white dress against the sandstone spires and the reflecting pool.",
+  "photos": [
+   {
+    "full": "albums/p-st-marys/01.jpg",
+    "src": "assets/thumbs/p-st-marys/01.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/02.jpg",
+    "src": "assets/thumbs/p-st-marys/02.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/03.jpg",
+    "src": "assets/thumbs/p-st-marys/03.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/04.jpg",
+    "src": "assets/thumbs/p-st-marys/04.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/05.jpg",
+    "src": "assets/thumbs/p-st-marys/05.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/06.jpg",
+    "src": "assets/thumbs/p-st-marys/06.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/07.jpg",
+    "src": "assets/thumbs/p-st-marys/07.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/08.jpg",
+    "src": "assets/thumbs/p-st-marys/08.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/09.jpg",
+    "src": "assets/thumbs/p-st-marys/09.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/10.jpg",
+    "src": "assets/thumbs/p-st-marys/10.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/11.jpg",
+    "src": "assets/thumbs/p-st-marys/11.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/12.jpg",
+    "src": "assets/thumbs/p-st-marys/12.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-st-marys/13.jpg",
+    "src": "assets/thumbs/p-st-marys/13.jpg",
+    "cap": "St Mary's Cathedral",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "p-couple",
+  "section": "PORTRAITS",
+  "group": "city",
+  "title": "Couples,",
+  "em": "here and there",
+  "sub": "Blues Point Reserve · Kirribilli · by USYD",
+  "note": "Jacarandas in Kirribilli, the bridge from Blues Point and red flowers by the university.",
+  "photos": [
+   {
+    "full": "albums/p-couple/01.jpg",
+    "src": "assets/thumbs/p-couple/01.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/10 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/02.jpg",
+    "src": "assets/thumbs/p-couple/02.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/03.jpg",
+    "src": "assets/thumbs/p-couple/03.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/16 · 1/160s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/04.jpg",
+    "src": "assets/thumbs/p-couple/04.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/13 · 1/200s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/05.jpg",
+    "src": "assets/thumbs/p-couple/05.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/06.jpg",
+    "src": "assets/thumbs/p-couple/06.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/14 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/07.jpg",
+    "src": "assets/thumbs/p-couple/07.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/13 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/08.jpg",
+    "src": "assets/thumbs/p-couple/08.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/13 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/09.jpg",
+    "src": "assets/thumbs/p-couple/09.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/13 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/10.jpg",
+    "src": "assets/thumbs/p-couple/10.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/10 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/11.jpg",
+    "src": "assets/thumbs/p-couple/11.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/10 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/12.jpg",
+    "src": "assets/thumbs/p-couple/12.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+   },
+   {
+    "full": "albums/p-couple/13.jpg",
+    "src": "assets/thumbs/p-couple/13.jpg",
+    "cap": "Couples here and there",
+    "exif": "f/11 · 1/125s · ISO 640 · 23mm"
+   }
+  ]
+ },
+ {
+  "slug": "p-curls",
+  "section": "PORTRAITS",
+  "group": "city",
+  "title": "Curls",
+  "em": "by the lake",
+  "sub": "Vietnam",
+  "note": "Denim, curls and a lake back home in Vietnam.",
+  "photos": [
+   {
+    "full": "albums/p-curls/01.jpg",
+    "src": "assets/thumbs/p-curls/01.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2 · 1/640s · ISO 500 · 75mm"
+   },
+   {
+    "full": "albums/p-curls/02.jpg",
+    "src": "assets/thumbs/p-curls/02.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2.8 · 1/640s · ISO 500 · 28.3mm"
+   },
+   {
+    "full": "albums/p-curls/03.jpg",
+    "src": "assets/thumbs/p-curls/03.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2 · 1/1000s · ISO 500 · 75mm"
+   },
+   {
+    "full": "albums/p-curls/04.jpg",
+    "src": "assets/thumbs/p-curls/04.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2 · 1/1000s · ISO 500 · 75mm"
+   },
+   {
+    "full": "albums/p-curls/05.jpg",
+    "src": "assets/thumbs/p-curls/05.jpg",
+    "cap": "Curls by the lake",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-curls/06.jpg",
+    "src": "assets/thumbs/p-curls/06.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2.8 · 1/640s · ISO 500 · 23.4mm"
+   },
+   {
+    "full": "albums/p-curls/07.jpg",
+    "src": "assets/thumbs/p-curls/07.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2 · 1/1000s · ISO 500 · 75mm"
+   },
+   {
+    "full": "albums/p-curls/08.jpg",
+    "src": "assets/thumbs/p-curls/08.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2 · 1/640s · ISO 500 · 75mm"
+   },
+   {
+    "full": "albums/p-curls/09.jpg",
+    "src": "assets/thumbs/p-curls/09.jpg",
+    "cap": "Curls by the lake",
+    "exif": ""
+   },
+   {
+    "full": "albums/p-curls/10.jpg",
+    "src": "assets/thumbs/p-curls/10.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2 · 1/1000s · ISO 500 · 75mm"
+   },
+   {
+    "full": "albums/p-curls/11.jpg",
+    "src": "assets/thumbs/p-curls/11.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2 · 1/1000s · ISO 500 · 75mm"
+   },
+   {
+    "full": "albums/p-curls/12.jpg",
+    "src": "assets/thumbs/p-curls/12.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/1.2 · 1/3200s · ISO 500 · 75mm"
+   },
+   {
+    "full": "albums/p-curls/13.jpg",
+    "src": "assets/thumbs/p-curls/13.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2 · 1/640s · ISO 500 · 75mm"
+   },
+   {
+    "full": "albums/p-curls/14.jpg",
+    "src": "assets/thumbs/p-curls/14.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2.8 · 1/640s · ISO 500 · 40.1mm"
+   },
+   {
+    "full": "albums/p-curls/15.jpg",
+    "src": "assets/thumbs/p-curls/15.jpg",
+    "cap": "Curls by the lake",
+    "exif": "f/2 · 1/800s · ISO 500 · 75mm"
+   }
+  ]
+ },
+ {
+  "slug": "ao-chinese-garden",
+  "section": "PORTRAITS",
+  "group": "aodai",
+  "title": "Áo dài",
+  "em": "in the Chinese Garden",
+  "sub": "Chinese Garden of Friendship, Darling Harbour",
+  "note": "White silk among the willows, pavilions and the lotus pond.",
+  "photos": [
+   {
+    "full": "albums/ao-chinese-garden/01.jpg",
+    "src": "assets/thumbs/ao-chinese-garden/01.jpg",
+    "cap": "Áo dài in the Chinese Garden",
+    "exif": "f/18 · 1/125s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/ao-chinese-garden/02.jpg",
+    "src": "assets/thumbs/ao-chinese-garden/02.jpg",
+    "cap": "Áo dài in the Chinese Garden",
+    "exif": "f/9 · 1/160s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/ao-chinese-garden/03.jpg",
+    "src": "assets/thumbs/ao-chinese-garden/03.jpg",
+    "cap": "Áo dài in the Chinese Garden",
+    "exif": "f/11 · 1/160s · ISO 500 · 16mm"
+   },
+   {
+    "full": "albums/ao-chinese-garden/04.jpg",
+    "src": "assets/thumbs/ao-chinese-garden/04.jpg",
+    "cap": "Áo dài in the Chinese Garden",
+    "exif": "f/11 · 1/125s · ISO 500 · 18.7mm"
+   },
+   {
+    "full": "albums/ao-chinese-garden/05.jpg",
+    "src": "assets/thumbs/ao-chinese-garden/05.jpg",
+    "cap": "Áo dài in the Chinese Garden",
+    "exif": "f/11 · 1/125s · ISO 500 · 37.6mm"
+   },
+   {
+    "full": "albums/ao-chinese-garden/06.jpg",
+    "src": "assets/thumbs/ao-chinese-garden/06.jpg",
+    "cap": "Áo dài in the Chinese Garden",
+    "exif": "f/11 · 1/125s · ISO 500 · 37.6mm"
+   },
+   {
+    "full": "albums/ao-chinese-garden/07.jpg",
+    "src": "assets/thumbs/ao-chinese-garden/07.jpg",
+    "cap": "Áo dài in the Chinese Garden",
+    "exif": "f/11 · 1/125s · ISO 500 · 37.6mm"
+   },
+   {
+    "full": "albums/ao-chinese-garden/08.jpg",
+    "src": "assets/thumbs/ao-chinese-garden/08.jpg",
+    "cap": "Áo dài in the Chinese Garden",
+    "exif": "f/11 · 1/125s · ISO 500 · 37.6mm"
+   }
+  ]
+ },
+ {
+  "slug": "ao-usyd",
+  "section": "PORTRAITS",
+  "group": "aodai",
+  "title": "Áo dài",
+  "em": "under the sandstone",
+  "sub": "The University of Sydney",
+  "note": "Gold áo dài in the arches of the Quadrangle.",
+  "photos": [
+   {
+    "full": "albums/ao-usyd/01.jpg",
+    "src": "assets/thumbs/ao-usyd/01.jpg",
+    "cap": "Áo dài under the sandstone",
+    "exif": "f/11 · 1/125s · ISO 500 · 28.3mm"
+   },
+   {
+    "full": "albums/ao-usyd/02.jpg",
+    "src": "assets/thumbs/ao-usyd/02.jpg",
+    "cap": "Áo dài under the sandstone",
+    "exif": "f/11 · 1/125s · ISO 500 · 20mm"
+   },
+   {
+    "full": "albums/ao-usyd/03.jpg",
+    "src": "assets/thumbs/ao-usyd/03.jpg",
+    "cap": "Áo dài under the sandstone",
+    "exif": "f/11 · 1/125s · ISO 500 · 17mm"
+   },
+   {
+    "full": "albums/ao-usyd/04.jpg",
+    "src": "assets/thumbs/ao-usyd/04.jpg",
+    "cap": "Áo dài under the sandstone",
+    "exif": "f/11 · 1/125s · ISO 500 · 28.3mm"
+   },
+   {
+    "full": "albums/ao-usyd/05.jpg",
+    "src": "assets/thumbs/ao-usyd/05.jpg",
+    "cap": "Áo dài under the sandstone",
+    "exif": "f/11 · 1/125s · ISO 500 · 17mm"
+   },
+   {
+    "full": "albums/ao-usyd/06.jpg",
+    "src": "assets/thumbs/ao-usyd/06.jpg",
+    "cap": "Áo dài under the sandstone",
+    "exif": "f/11 · 1/125s · ISO 500 · 28.3mm"
+   }
+  ]
+ },
+ {
+  "slug": "ao-vietnam",
+  "section": "PORTRAITS",
+  "group": "aodai",
+  "title": "Áo dài",
+  "em": "back home",
+  "sub": "Vietnam",
+  "note": "Pink silk, lilies and lanterns, back home in Vietnam.",
+  "photos": [
+   {
+    "full": "albums/ao-vietnam/01.jpg",
+    "src": "assets/thumbs/ao-vietnam/01.jpg",
+    "cap": "Áo dài back home",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-vietnam/02.jpg",
+    "src": "assets/thumbs/ao-vietnam/02.jpg",
+    "cap": "Áo dài back home",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-vietnam/03.jpg",
+    "src": "assets/thumbs/ao-vietnam/03.jpg",
+    "cap": "Áo dài back home",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-vietnam/04.jpg",
+    "src": "assets/thumbs/ao-vietnam/04.jpg",
+    "cap": "Áo dài back home",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-vietnam/05.jpg",
+    "src": "assets/thumbs/ao-vietnam/05.jpg",
+    "cap": "Áo dài back home",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-vietnam/06.jpg",
+    "src": "assets/thumbs/ao-vietnam/06.jpg",
+    "cap": "Áo dài back home",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-vietnam/07.jpg",
+    "src": "assets/thumbs/ao-vietnam/07.jpg",
+    "cap": "Áo dài back home",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-vietnam/08.jpg",
+    "src": "assets/thumbs/ao-vietnam/08.jpg",
+    "cap": "Áo dài back home",
+    "exif": ""
+   }
+  ]
+ },
+ {
+  "slug": "ao-dalat",
+  "section": "PORTRAITS",
+  "group": "aodai",
+  "title": "Áo dài",
+  "em": "in Đà Lạt",
+  "sub": "Đà Lạt, Vietnam",
+  "note": "Lilies, old arches and the hills of Đà Lạt, on film.",
+  "photos": [
+   {
+    "full": "albums/ao-dalat/01.jpg",
+    "src": "assets/thumbs/ao-dalat/01.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/02.jpg",
+    "src": "assets/thumbs/ao-dalat/02.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/03.jpg",
+    "src": "assets/thumbs/ao-dalat/03.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/04.jpg",
+    "src": "assets/thumbs/ao-dalat/04.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/05.jpg",
+    "src": "assets/thumbs/ao-dalat/05.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/06.jpg",
+    "src": "assets/thumbs/ao-dalat/06.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/07.jpg",
+    "src": "assets/thumbs/ao-dalat/07.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/08.jpg",
+    "src": "assets/thumbs/ao-dalat/08.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/09.jpg",
+    "src": "assets/thumbs/ao-dalat/09.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/10.jpg",
+    "src": "assets/thumbs/ao-dalat/10.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/11.jpg",
+    "src": "assets/thumbs/ao-dalat/11.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/12.jpg",
+    "src": "assets/thumbs/ao-dalat/12.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/13.jpg",
+    "src": "assets/thumbs/ao-dalat/13.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/14.jpg",
+    "src": "assets/thumbs/ao-dalat/14.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/15.jpg",
+    "src": "assets/thumbs/ao-dalat/15.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/16.jpg",
+    "src": "assets/thumbs/ao-dalat/16.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/17.jpg",
+    "src": "assets/thumbs/ao-dalat/17.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/18.jpg",
+    "src": "assets/thumbs/ao-dalat/18.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/19.jpg",
+    "src": "assets/thumbs/ao-dalat/19.jpg",
+    "cap": "Áo dài in Đà Lạt",
+    "exif": ""
+   },
+   {
+    "full": "albums/ao-dalat/20.jpg",
+    "src": "assets/thumbs/ao-dalat/20.jpg",
+    "cap": "Áo dài in Đà Lạt",
     "exif": ""
    }
   ]
@@ -2588,7 +3621,8 @@
     "cap": "In character",
     "exif": "f/1.6 · 1/250s · ISO 500 · 75mm"
    }
-  ]
+  ],
+  "group": "city"
  },
  {
   "slug": "wedding-film",

@@ -9,16 +9,28 @@ import html, json
 
 # key, name, area line, (x, y) of the pin, album slugs, effect, label side
 SPOTS = [
-    ("opera", "Sydney Opera House", "Bennelong Point", (612, 374), ["opera-house"], "golden", "r"),
-    ("milsons", "Milsons Point", "Under the bridge", (666, 326), ["harbour"], "ferry", "t"),
-    ("mcmahons", "McMahons Point", "Looking across at the bridge", (568, 312), ["harbour"], "ferry", "l"),
-    ("kirribilli", "Kirribilli", "Lanes, walls and the water", (768, 334), ["bougainvillea", "harbour"], "bougain", "r"),
-    ("barangaroo", "Barangaroo", "Last light on the west side", (462, 430), ["opera-house"], "sunset", "l"),
-    ("balmain", "Propeller Park", "Balmain East", (254, 418), ["jacaranda"], "jacaranda", "l"),
-    ("chinese", "Chinese Garden of Friendship", "Darling Harbour", (420, 634), ["ao-dai"], "lantern", "l"),
-    ("haymarket", "Haymarket", "Chinatown and the city streets", (496, 684), ["street", "concepts"], "neon", "r"),
-    ("hyde", "Hyde Park", "The avenue of figs", (614, 600), ["parks"], "leaves", "r"),
-    ("botanic", "Royal Botanic Garden", "And Government House", (676, 484), ["parks"], "leaves", "r"),
+    ("opera", "Sydney Opera House", "Bennelong Point", (612, 374), ["p-opera-soft", "p-opera-golden"], "golden", "r"),
+    ("milsons", "Milsons Point", "Under the bridge", (666, 326), ["p-milsons-point"], "ferry", "t"),
+    ("mcmahons", "McMahons Point", "Henry Lawson Avenue · Blues Point", (568, 312), ["p-mcmahons", "p-couple"], "ferry", "l"),
+    ("kirribilli", "Kirribilli", "Lanes, walls and the water", (768, 334), ["p-kirribilli", "p-jacaranda-kirribilli", "p-bougainvillea-kirribilli", "p-couple"], "bougain", "r"),
+    ("barangaroo", "Barangaroo", "Last light on the west side", (462, 430), ["p-barangaroo"], "sunset", "l"),
+    ("balmain", "Propeller Park", "Balmain East", (254, 418), ["p-jacaranda-propeller", "p-jacaranda-propeller-2"], "jacaranda", "l"),
+    ("pirrama", "Pirrama Park", "Pyrmont", (356, 446), ["p-pirrama"], "leaves", "b"),
+    ("circularquay", "Circular Quay", "Campbell's Cove, under the bridge", (548, 428), ["p-circular-quay"], "ferry", "r"),
+    ("chinese", "Chinese Garden of Friendship", "Darling Harbour", (420, 634), ["ao-chinese-garden"], "lantern", "l"),
+    ("qvb", "Queen Victoria Building", "George Street", (510, 574), ["p-qvb", "p-idol-qvb"], "sparkle", "l"),
+    ("haymarket", "Haymarket", "Chinatown and the city streets", (496, 684), ["p-street"], "neon", "r"),
+    ("central", "Central Station", "Platforms and carriages", (584, 706), ["p-train"], "train", "r"),
+    ("hyde", "Hyde Park", "The avenue of figs", (614, 600), ["p-hyde-park", "p-hyde-park-2"], "leaves", "r"),
+    ("stmarys", "St Mary's Cathedral", "College Street", (654, 556), ["p-st-marys"], "sparkle", "r"),
+    ("botanic", "Royal Botanic Garden", "And Government House", (676, 484), ["p-botanic", "p-government-house"], "leaves", "r"),
+    ("taronga", "Taronga Zoo Wharf", "Across the harbour", (1016, 290), ["p-yacht"], "ferry", "t"),
+    ("redleaf", "Redleaf Pool", "Woollahra", (1040, 450), ["p-redleaf"], "ferry", "t"),
+    ("usyd", "The University of Sydney", "Camperdown", (128, 676), ["ao-usyd", "p-magnolia-usyd", "p-bougainvillea-usyd", "p-couple"], "bougain", "r"),
+    # further afield: drawn in the inset box in the top-left corner
+    ("mq", "Macquarie University", "Macquarie Park", (44, 70), ["p-maple-mq"], "maple", "r"),
+    ("outer", "Merrylands · Bowral", "Out of the city", (44, 100), ["p-further"], "leaves", "r"),
+    ("vietnam", "Vietnam", "Back home", (44, 130), ["ao-vietnam", "ao-dalat", "p-curls"], "lantern", "r"),
 ]
 
 INK, LINE, CREAM, TAN, SAGE, SAGE2, TRUNK = "#5d6a76", "#7d8b98", "#fbf7ef", "#eadfcd", "#8fae90", "#5d7a62", "#5b4638"
@@ -75,7 +87,7 @@ def art():
                        (470, 610, 22, 48), (524, 600, 20, 60), (660, 580, 22, 60), (690, 560, 18, 46), (700, 640, 22, 50), (560, 640, 20, 46), (650, 690, 22, 40)]:
         out.append(block(x, y, w, h))
     out.append(f'<g class="m-tower"><path d="M534 590V454" stroke="{LINE}" stroke-width="2.2"/><path d="M526 462h16l-3 -14h-10z" fill="{TAN}" stroke="{LINE}" stroke-width=".9"/>'
-               f'<path d="M534 448v-20" stroke="{LINE}" stroke-width="1.2"/><text x="542" y="436" class="m-lab m-lab--sm">SYDNEY TOWER</text></g>')
+               f'<path d="M534 448v-20" stroke="{LINE}" stroke-width="1.2"/></g>')
     hangers = "".join(f'<path d="M{x} {-4 - 30 * (1 - ((x - 79) / 70) ** 2):.1f}V-4"/>' for x in range(18, 141, 10))
     out.append(f'<g class="m-bridge" transform="translate(516 394) rotate(-23)" fill="none" stroke="{LINE}">'
                f'<path d="M-6 -4H164" stroke-width="2.2"/><path d="M10 -4Q79 -66 148 -4" stroke-width="2.4"/><path d="M10 -4Q79 -48 148 -4" stroke-width="1.2"/>'
@@ -107,6 +119,9 @@ def art():
                     (840, 372, "SYDNEY HARBOUR"), (360, 690, "ULTIMO"), (190, 620, "GLEBE"), (1000, 160, "MOSMAN"), (700, 704, "SURRY HILLS"), (812, 262, "NEUTRAL BAY")]:
         out.append(f'<text x="{x}" y="{y}" class="m-lab m-lab--area">{t}</text>')
     out.append('<text x="1158" y="300" class="m-lab m-lab--area" transform="rotate(90 1158 300)">TASMAN SEA</text>')
+    # further afield: places off the edge of this map
+    out.append(f'<g class="m-inset"><rect x="18" y="20" width="232" height="128" rx="10" fill="{CREAM}" stroke="{LINE}" stroke-dasharray="4 3"/>'
+               f'<text x="34" y="44" class="m-lab">FURTHER AFIELD</text><path d="M34 52h200" stroke="#e2d8c6"/></g>')
     out.append(f'<g class="m-compass" transform="translate(1040 650)"><circle r="24" fill="{CREAM}" stroke="{LINE}"/><path d="M0 -18L6 0L0 18L-6 0Z" fill="{TAN}" stroke="{LINE}" stroke-width=".8"/>'
                f'<path d="M0 -18L6 0H-6Z" fill="#b9554a"/><text y="-28" class="m-lab m-lab--sm" text-anchor="middle">N</text></g>')
     return "".join(out)
@@ -154,6 +169,19 @@ def effect(kind, x, y):
             f'<rect class="mfx-sign" x="{x + nx}" y="{y + ny}" width="{w}" height="5" rx="2" fill="{c}" style="--d:{d}s"/>'
             for nx, ny, w, c, d in [(-30, -40, 16, "#ff5fa2", 0), (-10, -48, 12, "#4fd1e8", .3), (8, -38, 18, "#ffd25f", .6), (-24, -28, 10, "#4fd1e8", .9), (14, -26, 12, "#ff5fa2", 1.2)])
             + '</g>')
+    if kind == "sparkle":
+        return ('<g class="mfx mfx--sparkle">' + f'<circle cx="{x}" cy="{y - 10}" r="40" fill="url(#m-glow)"/>' + "".join(
+            f'<path class="mfx-spark" d="M{x + sx} {y + sy - 6}l2 4l4 2l-4 2l-2 4l-2 -4l-4 -2l4 -2z" fill="#f2c27a" style="--d:{d}s"/>'
+            for sx, sy, d in [(-24, -20, 0), (-6, -36, .3), (16, -28, .6), (26, -10, .9), (-18, -4, 1.2), (6, -14, .45)]) + '</g>')
+    if kind == "train":
+        car = ('<rect width="26" height="10" rx="3" fill="#f3ead5" stroke="#5d6a76" stroke-width=".8"/><rect x="3" y="2" width="5" height="4" fill="#8fb3c7"/>'
+               '<rect x="11" y="2" width="5" height="4" fill="#8fb3c7"/><rect x="19" y="2" width="4" height="4" fill="#8fb3c7"/><path d="M0 7h26" stroke="#e0b862" stroke-width="1.4"/>')
+        return (f'<g class="mfx mfx--train"><path d="M{x - 70} {y + 18}h140" stroke="#5d6a76" stroke-width="1.2" stroke-dasharray="3 3"/>'
+                f'<g class="mfx-boat" style="--x0:{x - 80}px;--x1:{x + 30}px;--y:{y + 6}px">{car}<g transform="translate(28 0)">{car}</g></g></g>')
+    if kind == "maple":
+        leaves = "".join(f'<path class="mfx-leaf" d="M{x + lx} {y - 30}l3 -6l3 6l5 -2l-3 5l4 3l-6 1l1 5l-4 -3l-4 3l1 -5l-6 -1l4 -3l-3 -5z" fill="{c}" style="--d:{d}s;--dx:{lx // 2}px"/>'
+                         for lx, c, d in [(-20, "#c8402b", 0), (-4, "#e2703a", .5), (12, "#b5321f", 1), (26, "#e89a3c", 1.5), (-30, "#c8402b", 2)])
+        return f'<g class="mfx mfx--maple">{leaves}</g>'
     if kind == "leaves":
         birds = "".join(f'<path class="mfx-bird" d="M{x + bx} {y + by}q4 -4 8 0q4 -4 8 0" stroke="{INK}" stroke-width="1.2" fill="none" style="--d:{d}s"/>' for bx, by, d in [(-30, -50, 0), (-6, -62, .4), (16, -52, .8)])
         leaves = "".join(f'<ellipse class="mfx-leaf" cx="{x + lx}" cy="{y - 30}" rx="3" ry="1.8" fill="{c}" style="--d:{d}s;--dx:{lx // 2}px"/>' for lx, c, d in [(-20, SAGE, 0), (-4, "#c9a85c", .5), (12, SAGE2, 1), (26, "#c9a85c", 1.5), (-30, SAGE2, 2)])
@@ -168,7 +196,7 @@ def render(albums):
         sets = [by_slug[s] for s in slugs if s in by_slug]
         if not sets:
             continue
-        lx, ly, anchor = {"r": (x + 14, y + 4, "start"), "l": (x - 14, y + 4, "end"), "t": (x, y - 14, "middle")}[side]
+        lx, ly, anchor = {"r": (x + 14, y + 4, "start"), "l": (x - 14, y + 4, "end"), "t": (x, y - 14, "middle"), "b": (x, y + 20, "middle")}[side]
         k = {"jacaranda": 1.9, "golden": 1.3}.get(kind, 1.5)          # scenes are drawn small and scaled up around the pin
         effects.append(f'<g transform="translate({x} {y}) scale({k}) translate({-x} {-y})">'
                        + effect(kind, x, y).replace('class="mfx ', f'data-fx="{key}" class="mfx ') + '</g>')

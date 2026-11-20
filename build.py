@@ -195,6 +195,36 @@ def grad_rows():
     return "\n".join(rows)
 
 
+# Portraits: the gallery is split into groups of related shoots; Áo dài has its own block below them
+PORTRAIT_GROUPS = [("harbour", "By the harbour"), ("opera", "The Opera House & Barangaroo"), ("season", "Flowers in season"),
+                   ("parks", "Parks & gardens"), ("city", "City, concepts & couples")]
+
+
+def first_number(a):
+    return 1 + sum(len(b["photos"]) for b in ALBUMS[:ALBUMS.index(a)])
+
+
+def portrait_groups():
+    out = []
+    for key, name in PORTRAIT_GROUPS:
+        mine = [a for a in ALBUMS if a["section"] == "PORTRAITS" and a.get("group") == key]
+        if not mine:
+            continue
+        cards = "\n".join(album_card(a, False, first_number(a)) for a in mine)
+        out.append(f"""        <div class="pgroup" id="portraits-{key}">
+          <h3 class="pgroup__t">{html.escape(name)}<span>{len(mine)} {'shoot' if len(mine) == 1 else 'shoots'}</span></h3>
+          <div class="albums albums--pol albums--compact" aria-label="{html.escape(name)}">
+{cards}
+          </div>
+        </div>""")
+    return "\n".join(out)
+
+
+def aodai_cards():
+    mine = [a for a in ALBUMS if a.get("group") == "aodai"]
+    return "\n".join(album_card(a, False, first_number(a)) for a in mine)
+
+
 def frames(names):
     out = []
     for n in names:
@@ -207,7 +237,8 @@ def frames(names):
 out = (ROOT / "template.html").read_text()
 out = out.replace("{{ALBUMS_GRADUATION}}", grad_rows())
 out = out.replace("{{PORTRAIT_MAP}}", sydney_map.render(ALBUMS))
-for key in ("WEDDINGS", "PORTRAITS", "EVENTS"):   # one placeholder per section in template.html
+out = out.replace("{{ALBUMS_PORTRAITS}}", portrait_groups()).replace("{{ALBUMS_AODAI}}", aodai_cards())
+for key in ("WEDDINGS", "EVENTS"):   # one placeholder per section in template.html
     out = out.replace(f"{{{{ALBUMS_{key}}}}}", album_grid(key))
 album_data = {a["slug"]: {"title": a["title"], "em": a["em"], "sub": a["sub"], "note": a["note"],
                           "photos": [[p["src"], p["full"], p["w"], p["h"], p["cap"], p["exif"]] for p in a["photos"]]} for a in ALBUMS}
