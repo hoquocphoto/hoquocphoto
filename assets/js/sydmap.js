@@ -1,10 +1,9 @@
-// Ho Quoc: the illustrated Sydney map in the Portraits section.
+// Ho Quoc: the illustrated Sydney map (Places on the home page, and Portraits). Each copy runs on its own.
 // Hover (or tap, or focus) a spot: its little scene plays and a card lists the albums shot there.
 // Picking an album opens it exactly as the gallery below does, by clicking that album's card.
-(() => {
-  const root = document.querySelector('[data-sydmap]');
-  const json = document.getElementById('sydmap-data');
-  if (!root || !json) return;
+document.querySelectorAll('[data-sydmap]').forEach((root) => {
+  const json = root.querySelector('script[type="application/json"]');
+  if (!json) return;
   const spots = JSON.parse(json.textContent);
   const stage = root.querySelector('.sydmap__stage');
   const plane = root.querySelector('.sydmap__plane');
@@ -92,4 +91,4 @@
     });
     stage.addEventListener('mouseleave', () => { plane.style.removeProperty('--ry'); plane.style.removeProperty('--rx'); });
   }
-})();
+});

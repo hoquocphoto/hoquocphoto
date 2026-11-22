@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>A bit about me · Ho Quoc Photography</title>
+      <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+      <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..800;1,62..125,300..800&family=JetBrains+Mono:wght@300;400;500&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=Yellowtail&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="assets/css/site.css"><link rel="stylesheet" href="assets/css/hq.css">
+      <style>
+        body { background: #121110; }
+        .paper .about { min-height: 100vh; display: flex; align-items: center; }
+        .back { position: fixed; top: 22px; left: 22px; z-index: 10; display: inline-flex; gap: 10px; align-items: center; padding: 12px 18px; border-radius: 999px; background: #f1ece3; color: #1f2326; text-decoration: none; font: 400 11px/1 "JetBrains Mono", monospace; letter-spacing: .14em; text-transform: uppercase; transition: background .25s; }
+        .back:hover { background: #fff; }
+      </style>
+    </head>
+    <body>
+      <a class="back" href="index.html">← Back to home</a>
+      <main class="paper">
+    <section class="about" id="about" aria-labelledby="about-t">
+      <div class="wrap about__grid">
+        <figure class="about__photo"><div class="about__soon"><span>photo of me<br>coming soon</span></div><figcaption>Quốc, Sydney</figcaption></figure>
+        <div class="about__body">
+          <p class="eyebrow">About</p>
+          <h2 class="about__t" id="about-t">A bit <em>about me</em></h2>
+          <p class="about__intro">I'm Anh Quoc Ho, a photographer and videographer from Vinh City, Vietnam, now based in Sydney. I freelance across weddings, graduations, portraits, events and tours.</p>
+          <div class="about__cv">
+            <section class="about__col" aria-labelledby="cv-work">
+              <h3 id="cv-work">Work experience</h3>
+              <ul>
+                <li><b>Freelance photographer &amp; videographer</b><span>Sydney · weddings, graduations, portraits, events, tours</span></li>
+                <li><b>Brands &amp; studios</b><span>Fujifilm House of Photography · Porsche Centre Willoughby · G Class Hire · Shein Australia</span></li>
+                <li><b>Back home in Vietnam</b><span>Yearbooks, dance shows and weddings</span></li>
+              </ul>
+            </section>
+            <section class="about__col" aria-labelledby="cv-study">
+              <h3 id="cv-study">Education &amp; qualifications</h3>
+              <ul>
+                <li><b>Master of Creative Industries</b><span>Macquarie University · currently studying</span></li>
+                <li><b>Master of Media and Communications</b><span>Macquarie University · currently studying</span></li>
+                <li><b>Bachelor of Communication and Media (Honours)</b><span>University of Wollongong · major in Screen Media Production</span></li>
+              </ul>
+            </section>
+          </div>
+          <dl class="about__facts">
+            <div><dt>Based in</dt><dd>Sydney</dd></div>
+            <div><dt>From</dt><dd>Vinh City, Vietnam</dd></div>
+            <div><dt>Shoots on</dt><dd>Digital (Fujifilm) &amp; film</dd></div>
+            <div><dt>Speaks</dt><dd>English &amp; tiếng Việt</dd></div>
+          </dl>
+          <p class="sig sig--hq">Quốc</p>
+          <p class="about__links"><a class="more" href="https://www.instagram.com/hoquocphoto/" target="_blank" rel="noopener">More on Instagram ↗</a></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="recent recent--hq" aria-label="Places I've worked with">
+      <div class="recent__track">
+        <span class="recent__k">Worked with</span>
+        <span>Fujifilm House of Photography</span><span>Porsche Centre Willoughby</span><span>G Class Hire</span><span>Pixel Media AU</span><span>Shein Australia</span><span>Moonlight Wedding Studio</span><span>QA Productions</span>
+      </div>
+    </div>
+    
+      </main>
+      <script>document.querySelectorAll('[data-year]').forEach(function (e) { e.textContent = new Date().getFullYear(); });</script>
+    </body>
+    </html>
+    

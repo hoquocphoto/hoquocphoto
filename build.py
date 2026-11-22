@@ -289,5 +289,7 @@ out = out.replace("{{SCENE_DATA}}", data.replace("</", "<\\/"))
 out = out.replace("{{FEATURE_DATA}}", json.dumps(frames(FEATURE), ensure_ascii=False).replace("</", "<\\/"))
 out = out.replace("{{FILMCAM_DATA}}", json.dumps(frames(FILMCAM), ensure_ascii=False).replace("</", "<\\/"))
 assert not re.search(r"\{\{\w+\}\}", out), "unfilled placeholder"
+import homepage   # the drawn front page on top of the portfolio, plus about.html
+out = homepage.apply(out)
 (ROOT / "index.html").write_text(out)
 print("index.html built:", {a["slug"]: len(a["photos"]) for a in ALBUMS}, "| roll:", len(ROLL), "| hero:", len(HERO))

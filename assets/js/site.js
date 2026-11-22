@@ -38,7 +38,7 @@
     .set(shutter, { autoAlpha: 0 });
 
   // ---------- pinned hero (lens) and roll (film) ----------
-  const gl = !root.classList.contains('no-gl');
+  const gl = !root.classList.contains('no-gl') && !!document.querySelector('.hero');
   if (gl) {
     ScrollTrigger.create({ trigger: '.hero', pin: '.hero__pin', start: 'top top', end: '+=160%', onUpdate: (s) => { NB.heroP = s.progress; } });
     const copy = gsap.timeline({ scrollTrigger: { trigger: '.hero', start: 'top top', end: '+=160%', scrub: true } });

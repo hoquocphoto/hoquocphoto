@@ -6,7 +6,7 @@ name: Add photos and publish
 on:
   push:
     branches: [main]
-    paths: ["albums/**", "albums.json", "template.html", "build.py", "tools/**"]
+    paths: ["albums/**", "albums.json", "template.html", "build.py", "tools/**", "home/**"]
   workflow_dispatch:
 
 permissions:
