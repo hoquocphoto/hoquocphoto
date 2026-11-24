@@ -301,3 +301,48 @@
 @keyframes nDogQ { 0%, 45%, 100% { opacity: 0; transform: translateY(6px) scale(.6); } 55%, 75% { opacity: 1; transform: none; } }
 @keyframes nDogPrint { 0% { opacity: 0; } 4% { opacity: .22; } 40% { opacity: 0; } 100% { opacity: 0; } }
 .no-motion .n-dog *, .no-motion .n-fab * { animation: none !important; }
+
+/* ---------- phones: same pieces, laid out for a narrow screen ---------- */
+@media (max-width: 640px) {
+  :root { --n-gut: 18px; }
+  .n-bar { flex-wrap: wrap; gap: 10px 12px; padding: 12px var(--n-gut) 0; }
+  .n-bar__mark { gap: 10px; } .n-bar__mark b { white-space: nowrap; font-size: 14px; } .n-bar__mark .n-mono { display: none; }
+  .n-bar .n-btn { padding: 10px 14px; font-size: 10px; white-space: nowrap; }
+  .n-bar nav { display: flex; order: 3; width: calc(100% + 2 * var(--n-gut)); margin: 0 calc(-1 * var(--n-gut)); padding: 10px var(--n-gut) 12px; gap: 22px; overflow-x: auto; scrollbar-width: none; -webkit-mask: linear-gradient(90deg, #000 85%, transparent); mask: linear-gradient(90deg, #000 85%, transparent); }
+  .n-bar nav::-webkit-scrollbar { display: none; }
+  .n-bar nav a { white-space: nowrap; font-size: 10.5px; }
+  .n-hero h1 { font-size: clamp(46px, 14vw, 64px); }
+  .n-hero__facts { gap: 18px 14px; }
+  .n-hero__facts > span:last-child { grid-column: 1 / -1; }
+  /* trending: photo and drawing side by side, details under */
+  .n-row { gap: 18px; }
+  .n-row__pair { grid-template-columns: 40% 1fr; gap: 14px; align-items: center; }
+  .n-pol { max-width: none; padding: 6px 6px 30px; }
+  .n-pol figcaption { font-size: 14px; left: 8px; right: 8px; bottom: 7px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .n-pol::before { width: 46px; height: 14px; margin-left: -23px; top: -8px; }
+  .n-row .n-art { aspect-ratio: 4 / 5; }
+  .n-row__meta h3 { font-size: 26px; }
+  .n-row__meta dl div { padding: 7px 0; }
+  /* map: swipe sideways at a readable size */
+  .n-places .sydmap__stage { overflow-x: auto; margin: 0 calc(-1 * var(--n-gut)); padding: 0 var(--n-gut) 10px; scrollbar-width: none; }
+  .n-places .sydmap__stage::-webkit-scrollbar { display: none; }
+  .n-places .sydmap__plane { width: 760px; --rx: 0deg !important; transform: none !important; }
+  .n-places .sydmap__head::after { content: "← swipe the map →"; font: 400 10px/1 var(--n-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--n-ink-2); margin-top: 6px; }
+  /* recent and index */
+  .n-recent { gap: 22px 14px; }
+  .n-shot__cap b { font-size: 14px; }
+  .n-index a { grid-template-columns: 44px 1fr auto; gap: 12px; padding: 16px 0; }
+  .n-index svg { width: 40px; height: 40px; }
+  /* booking */
+  .n-steps li { grid-template-columns: 44px 1fr; padding: 18px 0; }
+  .n-liko { grid-template-columns: 96px 1fr; gap: 16px; align-items: start; padding: 22px; }
+  .n-liko__badge { width: 96px; }
+  .n-liko > div:last-child { grid-column: 1 / -1; }
+  .n-liko h3 { font-size: 26px; }
+  .n-foot h2 { font-size: clamp(40px, 12vw, 56px); }
+  /* the exposure readout sits under the quick buttons on a phone */
+  .hud { display: none !important; }
+  .n-fab { right: 14px; bottom: 14px; }
+  .n-dog { width: 92vw; height: 150px; } .n-dog__walk { width: 170px; margin-left: -85px; }
+  @keyframes nDogPath { 0% { transform: translateX(-90px); } 44% { transform: translateX(90px); } 50% { transform: translateX(90px) scaleX(-1); } 94% { transform: translateX(-90px) scaleX(-1); } 100% { transform: translateX(-90px); } }
+}
